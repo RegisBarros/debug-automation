@@ -46,7 +46,6 @@ CREATE TABLE IF NOT EXISTS Episode (
     Active TINYINT(1) NOT NULL DEFAULT 1, 
     Number INT NOT NULL DEFAULT 0,
     CategoryId INT NOT NULL,
-    DurationInSeconds INT NULL DEFAULT 0,
     `View` INT NOT NULL DEFAULT 0,
     `Like` INT NOT NULL DEFAULT 0,
     CreatedBy VARCHAR(50) NULL,
