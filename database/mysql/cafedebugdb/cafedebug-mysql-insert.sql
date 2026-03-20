@@ -115,7 +115,7 @@ VALUES('Jhon Snow', 'j.snow@example.com', 'Mensagem de contato', NOW(), NOW());
 
 
 -- Insert Episode
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#1 Entrevista Macoratti', 
     '<p>Entrevista com Jos&eacute; Carlos Macoratti um dos mais influentes desenvolvedor, educador e MVP da &aacute;rea .Net Framework. Com milhares de artigos criados, v&iacute;deos-ulas e tutoriais sobre a tecnologia .Net<br /><br /><strong>Participantes</strong></p>
@@ -124,9 +124,9 @@ VALUES(
     'Nossa primeira gravação tivemos o prazer de bater um papo com José Carlos Macoratti. Um dos maiores influentes e criador de conteúdo .NET.', 
     'https://omny.fm/shows/cafe-de-bug/1-entrevista-macoratti', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/100b9475-c241-4e36-b4c5-244dfdc795f7entrevista-macoratti.jpg', 
-    '2017-03-14 01:00:00', 1, 1, 12, 3125, 1197, '2017-03-14 15:10:00', null);
+    '2017-03-14 01:00:00', null, 1, 1, 12, 3125, 1197, '2017-03-14 15:10:00', null);
 
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#2 Entrevista com  Carla  De Bona', 
     '<p>Entrevistamos a Carla De Bona pra falar pra gente um pouquinho mais sobre UX.</p>
@@ -157,7 +157,7 @@ VALUES(
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/74421341-bdb8-4cae-8d17-9cd97b5faa0eentravista-carla-de-bona.jpg', 
     '2017-03-21 20:10:51', 1, 2, 12, 2972, 1182, '2017-03-21 20:10:51', null);
 
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#3 QA e Testes com Carol Abdo', 
     '<p>Entrevista sobre a &aacute;rea de qualidade com a Carol Abdo e vamos falar um pouco sobre QA</p>
@@ -175,9 +175,9 @@ VALUES(
     'E hoje vamos falar sobre testes e a importância do papel do QA desenvolvimento de software.',
     'https://omny.fm/shows/cafe-de-bug/3-qa-e-testes-com-carol-abdo', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/5850950f-ea9a-479a-a718-5ffcc5d10344qa-testes.jpg', 
-    '2017-04-03 12:30:01', 1, 3, 25, 2770, 1211, '2017-03-14 15:10:00', null);
+    '2017-04-03 12:30:01', null, 1, 3, 25, 2770, 1211, '2017-03-14 15:10:00', null);
 
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#4 Mulheres no TI e Comunidades Digitais', 
     '<p>&Eacute; com muito prazer que trouxemos duas grandes guerreiras para falar sobre seus trabalhos, comunidades, influ&ecirc;ncias e empoderamento feminino na &aacute;rea de tecnologia e como continua crescendo cada vez mais. Estamos hoje com, Vanessa Tonini e Carine Ross organizadoras do MariaLab.</p>
@@ -198,9 +198,9 @@ VALUES(
     'Fizemos um bate papo com a Vanessa Tonini e Carine Ross e falar sobre carreiras e mulheres na tecnologia, sobre desafios, experiências e comunidades e claro conhecer um pouco do projeto MariaLab', 
     'https://omny.fm/shows/cafe-de-bug/4-mulheres-no-ti-e-comunidades-digitais', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/334559c6-2494-4d81-8742-a8ef410079c0mulheres-ti.jpg', 
-    '2017-05-10 21:15:55', 1, 4, 22, 2755, 1170, '2017-05-10 21:15:55', null);
+    '2017-05-10 21:15:55', null, 1, 4, 22, 2755, 1170, '2017-05-10 21:15:55', null);
 
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#7 Entrevista com Filipe Dornelas Data Analitycs', 
     '<p>Entrevista com Angelo Belchior desenvolvedor h&aacute; 15 anos com larga experi&ecirc;ncia em projetos Desktop, Web, Mobile utilizando Xamarin e agora se aventura no mundo de Servi&ccedil;os Cognitivos e Bots, . <br />&Eacute;?Microsoft MVP em Visual Studio and Technologies, MCPD?em Web e &eacute; Lead Software Developer na ESX <br /><br /><strong>Links:</strong></p>
@@ -224,9 +224,9 @@ VALUES(
     'Neste programa conversamos sobre desenvolvimento mobile com a plataforma Xamarin mantida pela Microsoft, que permite a criação de aplicativos móveis nativos para iOS, Android e Windows Phone utilizando como base a linguagem C# com o framework .NET', 
     'https://omny.fm/shows/cafe-de-bug/5-aplica-es-multiplataforma-xamarin-com-angelo-bel', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/31f55613-2734-4797-b0f3-b4cc25233b6daplicacoes-xamarin.jpg', 
-    '2017-04-23 00:00:00', 1, 5, 20, 2813, 1171, '2017-04-23 00:00:00', null);
+    '2017-04-23 00:00:00', null, 1, 5, 20, 2813, 1171, '2017-04-23 00:00:00', null);
 
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#6 Por trás da linguagem Python com Regis Santos e Eduardo Mendes', 
     '<p>Neste programa vamos falar sobre a linguagem Python e suas principais caracter&iacute;stias, vantagens e desvantagens.<br /><br /><strong>Links:</strong></p>
@@ -247,9 +247,9 @@ VALUES(
     'Você conhece a linguagem Python? Vamos entender um pouco por trás dessa linguagem sensacional e uma das linguagens mais preferidas por engenheiros e cientistas de dados.', 
     'https://omny.fm/shows/cafe-de-bug/6-por-tr-s-da-linguagem-python-com-regis-santos-e', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/590b31fc-d7e2-4564-a167-54989c2fec6epython.jpg', 
-    '2017-06-18 00:00:00', 1, 6, 17, 2776, 1195, '2017-06-18 00:00:00', null);
+    '2017-06-18 00:00:00', null, 1, 6, 17, 2776, 1195, '2017-06-18 00:00:00', null);
 
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#7 Entrevista com Filipe Dornelas Data Analitycs', 
     '<p>Hoje a grava&ccedil;&atilde;o foi no est&uacute;dio da Lambda3 e entrevistamos Giovanni Bassi que abriu as portas da empresa e nos contou, como pessoas que s&atilde;o apaixonadas por inova&ccedil;&atilde;o realizam grandes mudan&ccedil;as, trazendo suas melhores id&eacute;ias e colocando em pr&aacute;tica. Acompanhem e compartilhem!!</p>
@@ -273,9 +273,9 @@ VALUES(
     'Análises de dados é a atividade de transformar um conjunto de dados com o objetivo de poder verificá-los melhor dando-lhes ao mesmo tempo uma razão de ser e uma análise racional.', 
     'https://omny.fm/shows/cafe-de-bug/7-entrevista-com-filipe-dornelas-data-analitycs', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/f7d8016c-8534-4229-bf66-38d51ec81b10data-analytics.jpg', 
-    '2017-07-27 00:00:00', 1, 7, 12, 2825, 1211, '2017-07-27 00:00:00', null);
+    '2017-07-27 00:00:00', null, 1, 7, 12, 2825, 1211, '2017-07-27 00:00:00', null);
 
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#8 Desenvolvimento de Software, Métodos Ágeis e cultura Lambda3', 
     '<p>Hoje a grava&ccedil;&atilde;o foi no est&uacute;dio da Lambda3 e entrevistamos Giovanni Bassi que abriu as portas da empresa e nos contou, como pessoas que s&atilde;o apaixonadas por inova&ccedil;&atilde;o realizam grandes mudan&ccedil;as, trazendo suas melhores id&eacute;ias e colocando em pr&aacute;tica. Acompanhem e compartilhem!!</p>
@@ -299,9 +299,9 @@ VALUES(
     'Nesta gravação vamos conhecer um pouco da cultura da empresa Lambda3 e entender as metodologias, e o modo de construir softwares que essa consultoria faz. Vem com a gente!', 
     'https://omny.fm/shows/cafe-de-bug/8-desenvolvimento-de-software-m-todos-geis-e-cultu', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/65c2dd5d-0626-45e5-a381-192659f9884ccultura-lambda3.jpg', 
-    '2017-08-06 00:00:00', 1, 8, 1, 2666, 1102, '2017-08-06 00:00:00', null);
+    '2017-08-06 00:00:00', null, 1, 8, 1, 2666, 1102, '2017-08-06 00:00:00', null);
 
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#9 Entrevista Sérgio Gama ChatBots e Watson', 
     '<p>Engenheiro de automa&ccedil;&atilde;o com mais de 25 anos de experi&ecirc;ncia em TI como desenvolvedor, analista de sistemas, consultoria, arquiteto de solu&ccedil;&otilde;es, gerente de projetos e gerente de opera&ccedil;&otilde;es. 15 anos no setor financeiro, como arquiteto de solu&ccedil;&otilde;es, especialista em EDM, BPM, aplica&ccedil;&otilde;es distribu&iacute;das e solu&ccedil;&otilde;es backoffice para bancos. 8 anos como arquiteto de solu&ccedil;&otilde;es, gerente de projetos e gerente de opera&ccedil;&otilde;es de seguros e solu&ccedil;&otilde;es de pens&otilde;es privadas, com solu&ccedil;&otilde;es implantadas no Brasil, China e &Iacute;ndia, respons&aacute;veis ??pela arquitetura, desenvolvimento, entrega e suporte</p>
@@ -317,9 +317,9 @@ VALUES(
     'Entrevistamos Sérgio Gama pra contar pra gente um pouco mais sobre a sobre chatbots e contar um pouco pra gente sobre a inteligência cognitiva do Watson.', 
     'https://omny.fm/shows/cafe-de-bug/9-entrevista-s-rgio-gama-chatbots-e-watson', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/0162351f-4572-4f10-85d7-d25f913c7b48chatbot-watson.jpg', 
-    '2017-08-15 00:00:00', 1, 9, 12, 2661, 1102, '2017-05-10 21:15:55', null);
+    '2017-08-15 00:00:00', null, 1, 9, 12, 2661, 1102, '2017-05-10 21:15:55', null);
 
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#10 Hackaton - entrevista Márcia Golfieri', 
     '<p>O assunto de hoje &eacute; Hackaton com Marcia Golfieri, acompanhe. Compartilhe conhecimento!<br /><br /><br />J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="Linkedln J&eacute;ssica">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br />Github: <a href="https://github.com/JessicaNathany" target="_blank" rel="noopener" title="Github J&eacute;ssica">https://github.com/JessicaNathany</a><br />Medium: <a href="https://medium.com/@JessicaNathanyF" target="_blank" rel="noopener" title="Medium J&eacute;ssica">https://medium.com/@JessicaNathanyF</a></p>
@@ -328,9 +328,9 @@ VALUES(
     'Estivemos dentro da IBM gravando pra entender e conhecer por trás dos bastidores como funciona o Hackaton.', 
     'https://omny.fm/shows/cafe-de-bug/10-hackaton-entrevista-m-rcia-golfieri', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/83ce185f-faf4-428a-aab6-3a121c28e332blue-hack.jpg', 
-    '2017-08-22 00:00:00', 1, 10, 12, 2719, 1168, '2017-08-22 00:00:00', null);
+    '2017-08-22 00:00:00', null, 1, 10, 12, 2719, 1168, '2017-08-22 00:00:00', null);
 
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#11 Inovação e Mídias Digitais com Tatti Maeda', 
     '<p>Hoje vamos falar sobre Social Media e o porder por tr&aacute;s das m&iacute;das para seu neg&oacute;cio e seus projetos.</p>
@@ -351,9 +351,9 @@ VALUES(
     'Vamos falar um pouco nessa gravação sobre Mídias Digitais e o que isso tem haver com a mudança de comportamento, negócios e social.', 
     'https://omny.fm/shows/cafe-de-bug/11-inova-o-e-m-dias-digitais-com-tatti-maeda', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/b0db1908-0c38-4e2a-8b08-466d41800266midias-digitais.jpg', 
-    '2017-09-12 00:00:00', 1, 11, 22, 2686, 1175, '2017-09-12 00:00:00', null);
+    '2017-09-12 00:00:00', null, 1, 11, 22, 2686, 1175, '2017-09-12 00:00:00', null);
 
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#12 Design de Chatbot com Carla De Bona', 
     '<p>Entrevista de hoje &eacute; com a Carla De Bona e vamos falar sobre UX.</p>
@@ -374,18 +374,18 @@ VALUES(
     'E como "um bom filho a casa torna" Carla De Bona está de volta pra falar desta vez o que é design de chatbot, e contar alguns casos de uso.', 
     'https://omny.fm/shows/cafe-de-bug/12-design-de-chatbot-com-carla-de-bona', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/4d706ce3-52c3-4ed3-a180-cba2eafd7c34design-chatbot.jpg', 
-    '2017-03-21 20:10:51', 1, 12, 26, 2722, 1148, '2017-03-21 20:10:51', null);
+    '2017-03-21 20:10:51', null, 1, 12, 26, 2722, 1148, '2017-03-21 20:10:51', null);
 
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#13 - Streaming', 
     '<p>Quais são os serviços Streaming ? Streaming vídeo (Netflix, Amazon Prime Video, HBOGo e Youtube)? Streaming música (Spotify, Deezer, GrooveShark, Rara, Rdio e Soundcloud)? Streaming cursos online (Alura, Udemy, Udacity etc)? Infraestrutura e custos para empresa Lei sobre Imposto Sobre imposto Serviço para straming  Links: aws.amazon.com/pt/streaming-data/ ttp://sao-paulo.estadao.com.br/noticias/ger…,70002009054</p', 
     'O tema hoje é não técnico, vamos falar sobre streaming e o que mudou em nosso comportamento.', 
     'https://omny.fm/shows/cafe-de-bug/13-streaming', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/8793dcfa-2f7b-41cf-a802-725a2349889bstreaming.jpg', 
-    '2017-10-17 00:00:00', 1, 13, 22, 2745, 1174, '2017-05-10 21:15:55', null);
+    '2017-10-17 00:00:00', null, 1, 13, 22, 2745, 1174, '2017-05-10 21:15:55', null);
 
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#14 - Games e desenvolvimento - Zelda não é Tibia!', 
     '<p>Nesta grava&ccedil;&atilde;o vamos tratar de um assunto muito divertido e viciante, games. Vamos fazer um bate papo sobre games antigos, games atuais, consoles, novidades do mercado e muito mais. Entrevistamos Anderson Ara&uacute;jo que explica como &eacute; o mercado de trabalho de um desenvolvedor de games.<br /><br /><strong>Assuntos abordado</strong></p>
@@ -410,7 +410,7 @@ VALUES(
     'Hoje nesta gravação vamos falar sobre desenvolvimento de games, entender um pouco o mercado, linguagens, libs etc com o Anderson Araújo.', 
     'https://omny.fm/shows/cafe-de-bug/14-games-e-desenvolvimento-zelda-n-o-tibia', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/a729ad5e-5e0c-44a4-8992-5058344798c3games.jpg', 
-    '2017-10-07 00:00:00', 1, 15, 22, 2750, 1188, '2017-10-07 00:00:00', null);
+    '2017-10-07 00:00:00', null, 1, 15, 22, 2750, 1188, '2017-10-07 00:00:00', null);
 
 -- Team ---
 INSERT INTO Team (Name, UrlGitHub, UrlInstagram, UrlLinkedin, UrlImage, Job)
