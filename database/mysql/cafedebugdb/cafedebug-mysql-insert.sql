@@ -121,6 +121,9 @@ VALUES('Softwares e Ferramentas', NOW(), NOW()); -- 30
 INSERT INTO Category (Name, CreatedAt, UpdatedAt)
 VALUES('Conceitos e Metodologias', NOW(), NOW()); -- 31
 
+INSERT INTO Category (Name, CreatedAt, UpdatedAt)
+VALUES('Outros', NOW(), NOW()); -- 32
+
 -- Insert Contact
 INSERT INTO Contact (Name, Email, Message, MessageDate, CreatedAt) 
 VALUES('Walter White', 'w.white@example.com', 'Mensagem de contato', NOW(), NOW());
@@ -1666,49 +1669,623 @@ VALUES(
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#101', 
-    '', 
-    '', 
-    'https://omny.fm/shows/cafe-de-bug/40-design-patterns-boas-pr-ticas-e-bom-senso', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/0782a2af-72b3-4ea7-97a7-0e35dd2f0b7cdesigner-patterns.jpg', 
-    '2020-04-18 21:15:00', '["design patterns", "arquitetura de software"]', 1, 101, 1, 2750, 1188, '2020-04-18 21:15:00', null);
+    '#101 Mobile DevOps', 
+    '<p>Neste programa falamos sobre Mobile DevOps, conversamos com a Letticia Nicoli e que nos explicou o processo de CICD nos app para mobile e como funciona o processo CICD de forma harm&ocirc;nica entre os times.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Como funciona o processo CICD para aplica&ccedil;&otilde;es mobile? E como o time de DevOps contribui com isso?</li>
+    <li aria-level="1">H&aacute; alguma diferen&ccedil;a em processos com rela&ccedil;&atilde;o a aplica&ccedil;&otilde;es web e mobile no DevOps?</li>
+    <li aria-level="1">Est&aacute;gios (Requerimentos, Design, Implementa&ccedil;&atilde;o, Testes, Deploy e Ambiente)</li>
+    <li aria-level="1">Build autom&aacute;tico para as lojas de app&rsquo;s</li>
+    <li aria-level="1">Ferramentas s&atilde;o as mesmas usadas na web</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech - <a href="https://site-mentoria-tech.vercel.app/"><strong>https://site-mentoria-tech.vercel.app/</strong></a></li>
+    <li aria-level="1">Microsoft<strong> </strong><a href="https://www.youtube.com/watch?v=BEj-gKAuw9I" target="_blank" rel="noopener" title="microsoft youtube">https://www.youtube.com/watch?v=BEj-gKAuw9I</a></li>
+    <li aria-level="1"><a href="https://blog.codemagic.io/what-is-mobile-devops-and-why-should-you-care/" target="_blank" rel="noopener" title="artigo code magic mobile devops">https://blog.codemagic.io/what-is-mobile-devops-and-why-should-you-care/</a></li>
+    <li aria-level="1"><a href="https://www.youtube.com/watch?v=GIkWJ6aDT6w" target="_blank" rel="noopener" title="deep testing mobile tests part1">Deep Testing - Mobile tests: From mocks to device farm - Part 1</a></li>
+    <li aria-level="1"><a href="https://www.youtube.com/watch?v=VCfURsTXXx0" target="_blank" rel="noopener" title="deep testing mobile tests part2">Deep Testing: From mocks to device farm - Part 2</a></li>
+    <li aria-level="1"><a href="https://www.mobileatscale.com/" target="_blank" rel="noopener" title="Building Mobile Apps">Building Mobile Apps at Scale: 39 Engineering Challenges&nbsp;</a></li>
+    <li aria-level="1"><a href="https://pt.slideshare.net/LetticiaNicoli/developer-experience-no-nubank-238301623" target="_blank" rel="noopener" title="Developer Experience no Nubank">Developer Experience no Nubank</a></li>
+    <li aria-level="1"><a href="https://pt.slideshare.net/LetticiaNicoli/mobile-devops-o-caminho-do-sucesso-para-desenvolvimento-de-aplicativos-156665575" target="_blank" rel="noopener" title="Mobile Devops: o caminho do sucesso de desenvolvimento de aplicativos">Mobile DevOps: O caminho do sucesso para desenvolvimento de aplicativos</a></li>
+    <li aria-level="1"><a href="https://blog.pragmaticengineer.com/author/gergely/" target="_blank" rel="noopener" title="Gergely Orosz Blog">Gergely Orosz Blog</a></li>
+    <li aria-level="1">High5Devs - <a href="https://twitter.com/high5devs" target="_blank" rel="noopener" title="high5devs">https://twitter.com/high5devs</a></li>
+    <li aria-level="1">Irmas da TI - <a href="https://www.instagram.com/irmasdati/" target="_blank" rel="noopener" title="irm&atilde;s de TI">https://www.instagram.com/irmasdati/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="linkedin da J&eacute;ssica">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="linkedin do Weslley">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Letticia Nicoli (Software Engineer at Nubank) <br />Linkedin: <a href="https://www.linkedin.com/in/letticia-nicoli/" target="_blank" rel="noopener" title="linkedin da Letticia">https://www.linkedin.com/in/letticia-nicoli/</a><br />Twitter: <a href="https://twitter.com/letticianicoli" target="_blank" rel="noopener" title="twitter da Letticia">https://twitter.com/letticianicoli</a><br />Github: <a href="https://github.com/LetticiaNicoli" target="_blank" rel="noopener" title="github da Lettica">https://github.com/LetticiaNicoli</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> http://www.cafedebug.com.br/<br /></a>d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</p>', 
+    'Neste programa falamos sobre Mobile DevOps, conversamos com a Letticia Nicoli e que nos explicou o processo de CICD nos app para mobile e como funciona o processo CICD de forma harmônica entre os times.', 
+    'https://omny.fm/shows/cafe-de-bug/101-devops-mobile', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/devops-mobile.jpg', 
+    '2022-07-04 00:00:00', '["mobile", "devops", "CICD"]', 1, 101, 11, 1859, 801, '2022-07-04 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#1 Devs e Empreendedores com André Baltieri', 
+    '<p><span style="font-weight: 400;">N&oacute;s come&ccedil;amos uma pequena s&eacute;rie sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu pr&oacute;prio neg&oacute;cio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?</span></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;<b>Assuntos abordados no tema</b></p>
+    <p>&nbsp;<span style="font-weight: 400;">Sobre convidado(a)</span></p>
+    <ul>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Entendo o tipo do neg&oacute;cio e como administra-lo</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Tecnologia e empreendedorismo</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Abri meu neg&oacute;cio. Continuo codando? Como gerenciar meu tempo para administrar meu neg&oacute;cio e continuar ainda escrevndo c&oacute;digos? Como manter a paix&atilde;o por escrever softwares e continuar os estudos sem desequilibrar os neg&oacute;cios?</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Desafios e como ser um bom gestor</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Desenvolvedores precisam empreender?</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Programador(a) vai sempre ser um programador(a) ou &eacute; natural ir para o caminho da gest&atilde;o?</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Quais os soft skills mais recomendados para quem deseja seguir para o lado do empre</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Gerenciamento de tempo</span></li>
+    </ul>
+    <p><b>Links &uacute;teis</b></p>
+    <ul>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Mentoria Tech - </span><a href="https://site-mentoria-tech.vercel.app/"><b>https://site-mentoria-tech.vercel.app/</b></a></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Plataforma de ensino Balta.io </span><a href="https://balta.io/"><span style="font-weight: 400;">https://balta.io/</span></a></li>
+    </ul>
+    <p>&nbsp;</p>
+    <p><b>Participantes</b></p>
+    <p><span style="font-weight: 400;">J&eacute;ssica Nathany (Programadora&nbsp; e&nbsp; host)<br /></span><span style="font-weight: 400;">LinkedIn: </span><a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/"><span style="font-weight: 400;">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</span><span style="font-weight: 400;"><br /></span></a><span style="font-weight: 400;"><br />Weslley Fratini (Software Developer e co-host)<br /></span><span style="font-weight: 400;">LinkedIn: </span><span style="font-weight: 400;"><a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/</a><br /><br /><a href="https://www.linkedin.com/in/weslley-fratini/"></a></span><span style="font-weight: 400;">Andr&eacute; Baltierii (Desenvolvedor Fulsstack e CEO do Balta.io) </span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Linkedin: </span><a href="https://www.linkedin.com/in/andrebaltieri/"><span style="font-weight: 400;">https://www.linkedin.com/in/andrebaltieri/</span></a></p>
+    <p>&nbsp;<br /><span style="font-weight: 400;">Anuncie em nosso site:</span> <span style="font-weight: 400;"><a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br</a><br /></span><span style="font-weight: 400;">Produtora AGO Filmes: </span><span style="font-weight: 400;"><a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/</a><br /><a href="https://thiagocarvalhofotografia.wordpress.com/"></a></span><span style="font-weight: 400;">d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</span></p>', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/1-devs-e-empreendedores-com-andr-baltieri', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/modelo-capa-episodios-dev-empreendedor.jpg', 
+    '2022-07-11 00:00:00', '["devs empreendedores", "André Baltieri"]', 1, 102, 9, 1811, 766, '2022-07-11 00:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
     '#102 O trabalho do Security Engineer - ataques, vírus e certificações', 
-    '', 
-    '', 
-    'https://omny.fm/shows/cafe-de-bug/40-design-patterns-boas-pr-ticas-e-bom-senso', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/0782a2af-72b3-4ea7-97a7-0e35dd2f0b7cdesigner-patterns.jpg', 
-    '2020-04-18 21:15:00', '["design patterns", "arquitetura de software"]', 1, 102, 1, 2750, 1188, '2020-04-18 21:15:00', null);
+    '<p>Voc&ecirc; sabe como &eacute; o trabalho de um Security Engineer? Fizemos uma entrevista com o Heitor Gouv&ecirc;a para entender melhor a &aacute;rea de seguran&ccedil;a, o trabalho e cases. Falamos sobre alguns cases de vazamento de dados, aplica&ccedil;&otilde;es seguras, ferramentas e &eacute;tica hacker e a diferen&ccedil;a entre o hacker e o cracker.</p>
+    <p><strong><br />Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Qual o papel do Security Engineer?</li>
+    <li aria-level="1">Quais conhecimentos s&atilde;o imprescind&iacute;veis para um Security Engineer?&nbsp;</li>
+    <li aria-level="1">Certifica&ccedil;&otilde;es</li>
+    <li aria-level="1">Ataques cibern&eacute;ticos: as invas&otilde;es ainda continuam. Vazamento de dados, resgate de dados e os motivos que levam a esses ataques</li>
+    <li aria-level="1">Tipos de ataques cibern&eacute;ticos (DeepFakes, Web Skimmers, Infostealer, Ransoware eQR Code)&nbsp;</li>
+    <li aria-level="1">Vulnerabilidade em aplica&ccedil;&otilde;es web - obtendo dicas de seguran&ccedil;a com o OWASP</li>
+    <li aria-level="1">Mercado de trabalho para &aacute;rea de seguran&ccedil;a</li>
+    <li aria-level="1">Dicas, seguran&ccedil;as e preven&ccedil;&atilde;o</li>
+    </ul>
+    <p><strong><br />Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech - <a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener" title="link mentoria"><strong>https://site-mentoria-tech.vercel.app/</strong></a></li>
+    <li aria-level="1">Blog do Heitor <a href="https://heitorgouvea.me/" target="_blank" rel="noopener" title="blog do Heitor">https://heitorgouvea.me/</a></li>
+    <li aria-level="1"><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html" target="_blank" rel="noopener" title="OWASP Top 10 2017">https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html</a></li>
+    <li aria-level="1">Certifica&ccedil;&otilde;es <a href="https://seginfo.com.br/certificacoes-em-seguranca-da-informacao/" target="_blank" rel="noopener" title="certifica&ccedil;&otilde;es ">https://seginfo.com.br/certificacoes-em-seguranca-da-informacao/</a></li>
+    <li aria-level="1"><a href="https://www.cisoadvisor.com.br/80-das-empresas-globais-estarao-sob-risco-de-ataque-em-2022/" target="_blank" rel="noopener" title="cisco empresas globais entraram em risco de ataques em 2022">https://www.cisoadvisor.com.br/80-das-empresas-globais-estarao-sob-risco-de-ataque-em-2022/</a> - Ciso Advisor mat&eacute;ria sobre ataques digitais nas empresas</li>
+    <li aria-level="1"><a href="https://imasters.com.br/dotnet/seguranca-em-aplicacoes-web-net-com-o-guia-owasp-top-10" target="_blank" rel="noopener" title="seguran&ccedil;a em aplica&ccedil;&otilde;es web artigo J&eacute;ssica Nathany">https://imasters.com.br/dotnet/seguranca-em-aplicacoes-web-net-com-o-guia-owasp-top-10</a> - artigo J&eacute;ssica Nathany IMaster seguran&ccedil;a em aplica&ccedil;&otilde;es web&nbsp;</li>
+    <li aria-level="1"><a href="https://www.hackmageddon.com/" target="_blank" rel="noopener" title="Hackmageddon - site com an&aacute;lise de vulnerabilidades e noticias">https://www.hackmageddon.com/ </a>- Hackmagedon m&eacute;tricas sobre invas&otilde;es e estat&iacute;sticas</li>
+    <li aria-level="1"><a href="https://forbes.com.br/forbes-tech/2022/02/os-principais-ataques-ciberneticos-previstos-para-2022/" target="_blank" rel="noopener" title="forbes - principais ataques cibern&eacute;ticos previstos para 2022">https://forbes.com.br/forbes-tech/2022/02/os-principais-ataques-ciberneticos-previstos-para-2022/</a> - Forbes tipos de ataques cibern&eacute;ticos previstos</li>
+    <li aria-level="1"><a href="https://acaditi.com.br/ccse-certified-cloud-security-engineer/" target="_blank" rel="noopener" title="cerfitifed security engineer ">https://acaditi.com.br/ccse-certified-cloud-security-engineer/</a> Certifica&ccedil;&otilde;es par security engineer</li>
+    <li aria-level="1">OWASP Top Ten&nbsp; <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener" title="owasp project top ten">https://owasp.org/www-project-top-ten/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora Backend e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="Linkedin da J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br /><br />Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Heitor Gouv&ecirc;a (Security Engineering Manager na Conviso) <br />Linkedin: <a href="https://www.linkedin.com/in/htrgouvea/" target="_blank" rel="noopener" title="linkedin do Heitor Gouvea">https://www.linkedin.com/in/htrgouvea/</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br</a><br />Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="site do AGO Filmes">https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou publicidade envie para: debugcafe@gmail.com</p>', 
+    'Você sabe como é o trabalho de um Security Engineer? Fizemos uma entrevista com o Heitor Gouvêa para entender melhor a área de segurança, o trabalho e cases. Falamos sobre alguns cases de vazamento de dados, aplicações seguras, ferramentas e ética hacker e a diferença entre o hacker e o cracker.', 
+    'https://omny.fm/shows/cafe-de-bug/cybersecurity', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/cybersecurity.jpg', 
+    '2022-07-25 01:00:00', '["cybersecurity", "segurança da informação"]', 1, 103, 7, 1880, 852, '2022-07-25 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#103', 
-    '', 
-    '', 
-    'https://omny.fm/shows/cafe-de-bug/40-design-patterns-boas-pr-ticas-e-bom-senso', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/0782a2af-72b3-4ea7-97a7-0e35dd2f0b7cdesigner-patterns.jpg', 
-    '2020-04-18 21:15:00', '["design patterns", "arquitetura de software"]', 1, 103, 1, 2750, 1188, '2020-04-18 21:15:00', null);
+    '#103 Open Bank e Open Finance', 
+    '<p>Nosso bate papo foi pra trazer o assunto sobre Open Bank, que significa Banco aberto, ou sistema banc&aacute;rio aberto ou partilhamento de dados banc&aacute;rios pessoais, &eacute; um termo da &aacute;rea de servi&ccedil;os financeiros, que &eacute; parte da tecnologia financeira, relativo a um conjunto de regras sobre o uso de compartilhamento de dados e informa&ccedil;&otilde;es financeiras entre institui&ccedil;&otilde;es, S&eacute;rio Gama pode nos explicar essa parte mais t&eacute;cnica.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">O que &eacute; Open Banking?</li>
+    <li aria-level="1">Vantagens do Open Banking</li>
+    <li aria-level="1">Como as APIs se relacionam no Open Banking?</li>
+    <li aria-level="1">Tratamento de dados</li>
+    <li aria-level="1">Qual a proposta do Open Banking veio pra resolver?</li>
+    <li aria-level="1">LGPD</li>
+    <li aria-level="1">Qual a diferen&ccedil;a entre Open Banking e Open Finance?</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech - <a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener" title="site da MentoriaTech">https://site-mentoria-tech.vercel.app/</a></li>
+    <li aria-level="1">APIS, Open Bank<strong> </strong><a href="https://blog.cedrotech.com/apis-e-open-banking" target="_blank" rel="noopener" title="blog apis e open banking">https://blog.cedrotech.com/apis-e-open-banking</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="linkedin da J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>S&eacute;rgio Gama (Director and Tech Advocacy at Dock) <br />Linkedin: <a href="https://www.linkedin.com/in/sergiogama/" target="_blank" rel="noopener" title="Linkedin Sergio Gama">https://www.linkedin.com/in/sergiogama/</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br" target="_blank" rel="noopener" title="site Caf&eacute; Debug">http://www.cafedebug.com.br</a><br />Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="site AGO FIlmes">https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</p>', 
+    'Nosso bate papo foi pra trazer o assunto sobre Open Bank, que significa Banco aberto, ou sistema bancário aberto ou partilhamento de dados bancários pessoais, é um termo da área de serviços financeiros, que é parte da tecnologia financeira, relativo a um conjunto de regras sobre o uso de compartilhamento de dados e informações financeiras entre instituições, Sério Gama pode nos explicar essa parte mais técnica.', 
+    'https://omny.fm/shows/cafe-de-bug/103-open-bank-e-open-finance', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/open-bank.jpg', 
+    '2022-08-01 00:00:00', '["open banking", "open finance"]', 1, 103, 32, 1748, 866, '2022-08-01 00:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#104', 
-    '', 
-    '', 
-    'https://omny.fm/shows/cafe-de-bug/40-design-patterns-boas-pr-ticas-e-bom-senso', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/0782a2af-72b3-4ea7-97a7-0e35dd2f0b7cdesigner-patterns.jpg', 
-    '2020-04-18 21:15:00', '["design patterns", "arquitetura de software"]', 1, 104, 1, 2750, 1188, '2020-04-18 21:15:00', null);
+    '#104 Vazamento de Dados - Ahirton Lopes', 
+    '<p>Neste programa conversamos com o Ahirton Lopes para falar sobre dados, mas n&atilde;o somente dados e sim o vazamento e a prote&ccedil;&atilde;o dos dados. Infelizmente, &eacute; muito comum vermos nos notici&aacute;rios mat&eacute;rias referente a vazamento de dados, por isso criamos esse programa pra dar mais &ecirc;nfase nos dados e como podemos nos proteger.&nbsp;</p>
+    <p><strong><br />Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">N&atilde;o existe almo&ccedil;o gr&aacute;tis, e pre&ccedil;o na internet s&atilde;o os seus dados;</li>
+    <li aria-level="1">Vazamento dos dados;</li>
+    <li aria-level="1">Como proteger nossos dados dicas, h&aacute;bitos e ferramentas;</li>
+    <li aria-level="1">Como as leis LGPD afetam os desenvolvedores e o que muda na rotina do trabalho?</li>
+    <li aria-level="1">&Eacute; de grande import&acirc;ncia os desenvolvedores terem consentimento na prote&ccedil;&atilde;o e uso dos dados;</li>
+    <li aria-level="1">Aplicativos que coletam dados;</li>
+    <li aria-level="1">Mas at&eacute; que ponto minha aplica&ccedil;&atilde;o ou meu site pode obter os dados do usu&aacute;rio?&nbsp;</li>
+    <li aria-level="1">Manipula&ccedil;&atilde;o dos dados para fins pol&iacute;ticos e fake news</li>
+    <li aria-level="1">Como as gigantes das redes sociais tratam a quest&atilde;o da privacidade dos dados?</li>
+    <li aria-level="1">Como identificar que empresas e produtos que consumimos est&atilde;o cumprindo seu papel com as leis do LGPD?</li>
+    <li aria-level="1">O que n&oacute;s desenvolvedores podemos fazer para melhorar essa prote&ccedil;&atilde;o aos dados?</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech -&nbsp;<a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener" title="mentoria tech"><strong>https://site-mentoria-tech.vercel.app/</strong></a></li>
+    <li aria-level="1"><a href="https://www.cnnbrasil.com.br/business/banco-central-anuncia-vazamento-de-mais-de-2-mil-chaves-pix-ligadas-a-logbank/" target="_blank" rel="noopener" title="CNN Brasil mat&eacute;ria sobre vazamento de dados">https://www.cnnbrasil.com.br/business/banco-central-anuncia-vazamento-de-mais-de-2-mil-chaves-pix-ligadas-a-logbank/</a> - Vazamento de mais de 2mil chaves do PIX</li>
+    <li aria-level="1"><a href="https://www.cjf.jus.br/publico/lgpd/index.html" target="_blank" rel="noopener" title="Lei LGPD">https://www.cjf.jus.br/publico/lgpd/index.html</a> Lei LGPD</li>
+    <li aria-level="1"><a href="https://www.youtube.com/watch?v=HfZMLpfef2o" target="_blank" rel="noopener" title="v&iacute;deo de programa&ccedil;&atilde;o privacidade e prote&ccedil;&atilde;o de dados">https://www.youtube.com/watch?v=HfZMLpfef2o</a> - video Programa&ccedil;&atilde;o Din&acirc;mica privacidade e prote&ccedil;&atilde;o dos dados</li>
+    <li aria-level="1"><a href="https://www.youtube.com/watch?v=3qQ2WdRYO3A" target="_blank" rel="noopener" title="v&iacute;deo Gabriel Pato dicas para prote&ccedil;&atilde;o de senhas">https://www.youtube.com/watch?v=3qQ2WdRYO3A</a> - v&iacute;deo Gabriel Pato dicas para prote&ccedil;&atilde;o de senhas</li>
+    <li aria-level="1">site que verifica se email foi vazado&nbsp; <a href="https://haveibeenpwned.com/" target="_blank" rel="noopener" title="site que valida se seu email foi vazado">https://haveibeenpwned.com/</a></li>
+    </ul>
+    <p><strong><br />Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="Linkedin da J&eacute;ssica ">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin Weslley ">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Ahirton Lopes (Chief Data Officer Lambda3)<br />Linkedin: <a href="https://www.linkedin.com/in/ahirton/" target="_blank" rel="noopener" title="Linkedin Ahirton ">https://www.linkedin.com/in/ahirton/</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> http://www.cafedebug.com.br/</a><br />d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> http://www.cafedebug.com.br/</a><br />d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</p>', 
+    'Neste programa conversamos com o Ahirton Lopes para falar sobre dados, mas não somente dados e sim o vazamento e a proteção dos dados. Infelizmente, é muito comum vermos nos noticiários matérias referente a vazamento de dados, por isso criamos esse programa pra dar mais ênfase nos dados e como podemos nos proteger. ', 
+    'https://omny.fm/shows/cafe-de-bug/104-vazamento-de-dados-ahirton-lopes', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/vazamento-dados.jpg', 
+    '2022-08-15 00:00:00', '["vazamento de dados", "data leak"]', 1, 105, 32, 1867, 827, '2022-08-15 00:00:00', null);
+
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#105', 
-    '', 
-    '', 
-    'https://omny.fm/shows/cafe-de-bug/40-design-patterns-boas-pr-ticas-e-bom-senso', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/0782a2af-72b3-4ea7-97a7-0e35dd2f0b7cdesigner-patterns.jpg', 
-    '2020-04-18 21:15:00', '["design patterns", "arquitetura de software"]', 1, 105, 1, 2750, 1188, '2020-04-18 21:15:00', null);
+    '#105 Projetos Open Source - Italo José', 
+    '<p>Quando um projeto &eacute; open source, significa que qualquer pessoa pode ver, modificar e distribuir, ou seja, contribuir. E quando o projeto se torna open source ele ganha for&ccedil;a nas comunidades e pode resultar em projetos grandes onde toda comunidade contribui com um pouquinho. Mas, quais s&atilde;o os ganhos em se ter um projeto open source? &Eacute; nisso que discutimos vantagens e o que isso agrega a quem est&aacute; contribuindo.</p>
+    <p><strong><br />Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Primeiro de tudo, o que &eacute; open source?</li>
+    <li aria-level="1">Qual a import&acirc;ncia do open source na sua carreira de dev?&nbsp;</li>
+    <li aria-level="1">Preciso ser s&ecirc;nior para contribuir com projetos open source?</li>
+    <li aria-level="1">Como iniciar meu primeiro projeto open source? Um pouco sobre o projeto Herbs</li>
+    <li aria-level="1">Existem regras e como cri&aacute;-las? Como n&atilde;o tornar meu projeto uma bagun&ccedil;a</li>
+    <li aria-level="1">Exemplos de softwares open source: Linux, TensorFlow, Kubernetes, Firefox,&nbsp;</li>
+    <li aria-level="1">VSCode, etc.</li>
+    <li aria-level="1">Projeto open source faz dinheiro?&nbsp;</li>
+    <li aria-level="1">https://opensource.guide/</li>
+    </ul>
+    <p>&nbsp;<strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech - <a href="https://site-mentoria-tech.vercel.app/"><strong>https://site-mentoria-tech.vercel.app/</strong></a></li>
+    <li aria-level="1"><a href="https://www.redhat.com/pt-br/topics/open-source/what-is-open-source" target="_blank" rel="noopener" title="Link Red Hat open source">https://www.redhat.com/pt-br/topics/open-source/what-is-open-source</a> - Open Source</li>
+    <li aria-level="1"><a href="https://github.com/backend-br/opensource-br" target="_blank" rel="noopener" title="Github open source">https://github.com/backend-br/opensource-br</a> - Projetos open source pra voc&ecirc; contribuir</li>
+    <li aria-level="1"><a href="https://datahackers.com.br/newsletter/descubra-os-top-20-projetos-open-source-para-data-science-em-python-data-hackers" target="_blank" rel="noopener" title="datahackers newsletter">https://datahackers.com.br/newsletter/descubra-os-top-20-projetos-open-source-para-data-science-em-python-data-hackers</a> - 20 projetos open source data science</li>
+    <li aria-level="1"><a href="https://herbsjs.org/" target="_blank" rel="noopener" title="Herbsjs.org - Herbs projeto Open Source">https://herbsjs.org/</a>&nbsp; - Herbs projeto Open Source</li>
+    </ul>
+    <p><strong><br />Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora Backend&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="Linkedin J&eacute;ssica">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin Weslley">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>ItaloJos&eacute; (MVP Microsoft e Software Engineer na Q4 inc) <br />Linkedin: <a href="https://www.linkedin.com/in/italojs/" title="Linkedin Italo " target="_blank" rel="noopener">https://www.linkedin.com/in/italojs/</a><br />Github: <a href="https://github.com/italojs" target="_blank" rel="noopener" title="Github Italo Jose">https://github.com/italojs</a></p>
+    <p>Produtora AGO Filmes:<a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="site AGO Filmes"> https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou publicidade envie para: debugcafe@gmail.com</p>', 
+    'Quando um projeto é open source, significa que qualquer pessoa pode ver, modificar e distribuir, ou seja, contribuir. E quando o projeto se torna open source ele ganha força nas comunidades e pode resultar em projetos grandes onde toda comunidade contribui com um pouquinho. Mas, quais são os ganhos em se ter um projeto open source? É nisso que discutimos vantagens e o que isso agrega a quem está contribuindo.', 
+    'https://omny.fm/shows/cafe-de-bug/105-projetos-open-source-italo-jos', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/projetos-open-source.jpg', 
+    '2022-08-23 00:00:00', '["open source"]', 1, 106, 21, 1979, 854, '2022-08-23 00:00:00', null);
 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#106 Entrevista com Rodrigo Branas', 
+    '<p>Entrevistamos o Rodrigo Branas, que &eacute; Arquiteto de Software, Professor e Criador de Conte&uacute;do em seu canal. Nosso papo trouxe um pouco sobre a trajet&oacute;ria do Rodrigo Branas e abordamos assuntos como carreiras e entrevistas de algumas refer&ecirc;ncias techs.</p>
+    <p></p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Um pouco sobre o Rodrigo Branas</li>
+    <li aria-level="1">Como come&ccedil;ou a ideia de criar o canal e criar conte&uacute;dos?&nbsp;</li>
+    <li aria-level="1">Como foi a experi&ecirc;ncia de entrevistar grandes profissionais da gringa?</li>
+    <li aria-level="1">Comunidade Tech, conte&uacute;dos e palestras</li>
+    <li aria-level="1">Comparando o mercado tech e profissionais de hoje com o ano de 2013</li>
+    <li aria-level="1">O que falta hoje para muitos profissionais iniciantes na &aacute;rea tech?</li>
+    <li aria-level="1">Ainda h&aacute; profissional no mercado que n&atilde;o sabe conceitos b&aacute;sicos de programa&ccedil;&atilde;o</li>
+    <li aria-level="1">Frontend ou Arquitetura? O que te envolve mais?</li>
+    <li aria-level="1">Indica&ccedil;&otilde;es, dicas e conselhos para iniciantes da &aacute;rea</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech <strong>-</strong><a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener" title="mentoria tech"><strong> </strong><strong>https://site-mentoria-tech.vercel.app/</strong></a></li>
+    <li aria-level="1">Blog Rodrigo Branas - <a href="https://medium.com/@rodrigobranas" target="_blank" rel="noopener" title="blog medium Rodrigo Branas">https://medium.com/@rodrigobranas</a></li>
+    <li aria-level="1">branas.io<strong> </strong><a href="https://app.branas.io/public/products" target="_blank" rel="noopener" title="cursos branas.io">https://app.branas.io</a></li>
+    <li aria-level="1">Canal <a href="https://www.youtube.com/rodrigobranas" target="_blank" rel="noopener" title="canal Youtube Rodrigo Branas">https://www.youtube.com/rodrigobranas</a></li>
+    <li aria-level="1"><a href="https://www.twitter.com/rodrigobranas" target="_blank" rel="noopener" title="twitter Branas">https://www.twitter.com/rodrigobranas</a></li>
+    <li aria-level="1"><a href="https://www.instagram.com/rodrigobranas" target="_blank" rel="noopener" title="instagram Branas">https://www.instagram.com/rodrigobranas</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora backend&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="Linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Rodrigo Branas (Arquiteto de Software, Professor e Criador de Conte&uacute;do) <br />Linkedin: <a href="https://www.linkedin.com/in/rodrigobranas/details/experience/" target="_blank" rel="noopener" title="linkedin Rodrigo Branas">https://www.linkedin.com/in/rodrigobranas/details/experience/</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br"> http://www.cafedebug.com.br</a><br />Produtora AGO Filmes:<a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="edi&ccedil;&atilde;o AGO Filmes"> https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</p>', 
+    'Entrevistamos o Rodrigo Branas, que é Arquiteto de Software, Professor e Criador de Conteúdo em seu canal. Nosso papo trouxe um pouco sobre a trajetória do Rodrigo Branas e abordamos assuntos como carreiras e entrevistas de algumas referências techs.', 
+    'https://omny.fm/shows/cafe-de-bug/106-entrevista-com-rodrigo-branas', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/rodrigo-branas.jpg', 
+    '2022-09-05 00:00:00', '["arquitetura de software", "clean architecture", "arquitetura hexagonal"]', 1, 107, 1, 1933, 794, '2022-09-05 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#107 Ecossistema Java com Ana Neri', 
+    '<p>Fizemos um programa pra falar sobre a Linguagem de programa&ccedil;&atilde;o Java.E para explicar esse ecossistema, conversamos com a Ana Beatriz Neri e mostrar para os devs que Java est&aacute; mais vivo do que nunca.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">A Hist&oacute;ria por tr&aacute;s do Java: Uma das linguagens mais populares do mundo</li>
+    <li aria-level="1">Evolu&ccedil;&atilde;o</li>
+    <li aria-level="1">Por que usar Spring Boot?</li>
+    <li aria-level="1">A evolu&ccedil;&atilde;o do Java tem rela&ccedil;&atilde;o com a falta de m&atilde;o de obra e devs Java no mercado?</li>
+    <li aria-level="1">Empresas que utilizam Java em suas aplica&ccedil;&otilde;es (Picpay, Spotify, Uber..)</li>
+    <li aria-level="1">Arquitetura e grandes aplica&ccedil;&otilde;es com Java</li>
+    <li aria-level="1">Motivos para aprender Java e n&atilde;o esquecer do aprofundamento de POO</li>
+    <li aria-level="1">Mercado internacional para Java</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech - <a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener" title="mentoria tech"><strong>https://site-mentoria-tech.vercel.app/</strong></a></li>
+    <li aria-level="1"><a href="https://medium.com/@duduxss3/a-hist%C3%B3ria-do-java-3bcb43f95f0b" target="_blank" rel="noopener" title="artigo sobre  java">https://medium.com/@duduxss3/a-hist%C3%B3ria-do-java-3bcb43f95f0b</a></li>
+    <li aria-level="1"><a href="https://lp.rocketseat.com.br/plus?referral=ana-beatriz-neri" title="curso Java Rocketseat Ana Neri" target="_blank" rel="noopener">https://lp.rocketseat.com.br/plus?referral=ana-beatriz-neri</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora Backend&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Ana Beatriz Neri&nbsp; (Senior Software Engineer Java) <br />Linkedin: <a href="https://www.linkedin.com/in/anabeatrizdev/" target="_blank" rel="noopener" title="Linkedin Ana Neri">https://www.linkedin.com/in/anabeatrizdev/</a><br />site: <a href="https://ananeri.dev/" target="_blank" rel="noopener" title="site Ana Neri">https://ananeri.dev/</a><br />Instagram: <a href="https://www.instagram.com/anabneri/" target="_blank" rel="noopener" title="instagram Ana Neri">https://www.instagram.com/anabneri/</a><br /><br /></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br" target="_blank" rel="noopener" title="site caf&eacute; debug - home">http://www.cafedebug.com.br</a><br />Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="produtora AGO Filmes">https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</p>', 
+    'Fizemos um programa pra falar sobre a Linguagem de programação Java. E para explicar esse ecossistema, conversamos com a Ana Beatriz Neri e mostrar para os devs que Java está mais vivo do que nunca.', 
+    'https://omny.fm/shows/cafe-de-bug/107-ecossistema-java-com-ana-neri', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/ecossistema-java.jpg', 
+    '2022-09-19 00:00:00', '["ecossistema java", "linguagem de programação"]', 1, 108, 17, 1924, 830, '2022-09-19 00:00:00', null);
+
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#108 - Inclusão e Acessibilidade - como é o trabalho de uma QA cega', 
+    '<p>H&aacute; alguns meses atr&aacute;s, fizemos um programa sobre Inclus&atilde;o e Acessibilidade e entrevistamos um desenvolvedor cego para entender melhor como era seu dia a dia como dev. E neste programa n&atilde;o foi diferente. Convidamos a Camila Garcia que &eacute; uma QA cega e contou pra gente suas dificuldades, ferramentas que utiliza e o que podemos fazer para melhorar ainda mais a acessibilidade, tanto para quem utiliza ou para quem desenvolve um software.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Os desafios sobre um QA com defici&ecirc;ncia visual</li>
+    <li aria-level="1">Como &eacute; o dia a dia de um QA com defici&ecirc;ncia visual?&nbsp;</li>
+    <li aria-level="1">Como &eacute; a rela&ccedil;&atilde;o com os desenvolvedores?</li>
+    <li aria-level="1">Ferramentas que facilitam a vida</li>
+    <li aria-level="1">Inclus&atilde;o e Acessibilidade para QAs no mercado de trabalho</li>
+    <li aria-level="1">Dicas, sugest&otilde;es para quem pretende se tornar um QA</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <ul>
+    <li aria-level="1">Mentoria Tech - <a href="https://site-mentoria-tech.vercel.app/"><strong>https://site-mentoria-tech.vercel.app/</strong></a></li>
+    <li aria-level="1"><a href="https://www.casadocodigo.com.br/products/livro-acessibilidade">https://www.casadocodigo.com.br/products/livro-acessibilidade</a></li>
+    <li aria-level="1"><a href="https://instruct.com.br/publicacoes/7-ferramentas-que-auxiliam-na-acessibilidade-para-web/">https://instruct.com.br/publicacoes/7-ferramentas-que-auxiliam-na-acessibilidade-para-web/</a></li>
+    </ul>
+    </ul>
+    <ul>
+    <li aria-level="1"><strong>Atributos wai aria - </strong><a href="https://tableless.com.br/wai-aria-estendendo-o-significado-das-interacoes/">https://tableless.com.br/wai-aria-estendendo-o-significado-das-interacoes/</a></li>
+    </ul>
+    <ul>
+    <li aria-level="1">Playlists sobre acessibilidade e implementa&ccedil;&otilde;es de componentes acess&iacute;veis <a href="https://www.youtube.com/watch?v=HtTyRajRuyY&amp;list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g">Introducing A11ycasts! -- A11ycasts #01</a> <a href="https://www.youtube.com/watch?v=wkvslBGkhZY&amp;list=PLNYkxOF6rcIBiiuN53rzwEidPcLZRtiOW">What's new in web accessibility (Google I/O '18)</a></li>
+    <li aria-level="1">Extens&otilde;es para testes de acessibilidade nas p&aacute;ginas (Chrome) - <a href="https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd">https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd</a>, <a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh">https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh</a> e o pr&oacute;prio &ldquo;Ligthhouse&rdquo; no devtools do Google Chrome.</li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="Linkedin da J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Camila Garcia (Analista de qualidade no Itau-Unibanco) <br />Linkedin: <a href="https://www.linkedin.com/in/camilamgarcia/" target="_blank" rel="noopener" title="Linkedin Camila Garcia">https://www.linkedin.com/in/camilamgarcia/</a><br />Twitter: @05or50</p>
+    <p>Joabson Silva (Desenvolvedor Front-End Pleno na Zup Innovation) <br />Linkedin: <a href="https://www.linkedin.com/in/joabson-silva/" target="_blank" rel="noopener" title="Linkedin Joabson">https://www.linkedin.com/in/joabson-silva/</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br</a><br />Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</p>', 
+    'Há alguns meses atrás, fizemos um programa sobre Inclusão e Acessibilidade e entrevistamos um desenvolvedor cego para entender melhor como era seu dia a dia como dev. E neste programa não foi diferente. Convidamos a Camila Garcia que é uma QA cega e contou pra gente suas dificuldades, ferramentas que utiliza e o que podemos fazer para melhorar ainda mais a acessibilidade, tanto para quem utiliza ou para quem desenvolve um software.', 
+    'https://omny.fm/shows/cafe-de-bug/108-inclus-o-e-acessibilidade-como-o-trabalho-de-u', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/9e0d3573-af34-4b81-bb54-89a01d118a26acessibilidade-qa.jpg', 
+    '2022-10-03 00:00:00', '["QE", "QA", "acessibilidade"]', 1, 109, 25, 1660, 707, '2022-10-03 00:00:00', null);
+
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#109 Dados Esportivos da Globo - Com a Dev Larissa Rodrigues', 
+    '<p>Conversamos com a Larissa Rodrigues pra entender um pouco mais sobre a stack, desafios e tecnologias utilizadas no time de Dados Esportivos da Globo, e compartilhou com a gente um pouco da sua experi&ecirc;ncia e seu dia a dia como desenvolvedora nesse time.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Um pouco sobre a Larissa Rodrigues</li>
+    <li aria-level="1">Qual a stack utilizada no time</li>
+    <li aria-level="1">Projeto legado: maturidade e desafios</li>
+    <li aria-level="1">Desafios</li>
+    <li aria-level="1">Arquitetura utilizada atualmente</li>
+    <li aria-level="1">O que pode ser melhorado e como melhorar</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech <strong>-</strong><a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener" title="Link mentoria tech"><strong> </strong>https://site-mentoria-tech.vercel.app/</a></li>
+    <li aria-level="1">Site da Larissa <a href="https://www.larissaheloisa.com.br/" target="_blank" rel="noopener" title="site Larissa Rodrigues">https://www.larissaheloisa.com.br/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora backend&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Larissa Rodrigues (Desenvolvedora Backend na Globo) <br />Linkedin: <a href="https://www.linkedin.com/in/larissa-heloisa-lh/" target="_blank" rel="noopener" title="Linkedin Larissa Rodrigues">https://www.linkedin.com/in/larissa-heloisa-lh/</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br"> http://www.cafedebug.com.br</a><br />d&uacute;vidas, sugest&otilde;es, cr&iacute;ticas construtivas ou publicidade envie para: <a href="mailto:debugcafe@gmail.com">debugcafe@gmail.com</a></p>
+    <p>Editado por: AGO Filmes:<a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="site AGO Filmes"> https://thiagocarvalhofotografia.wordpress.com/</a></p>', 
+    'Conversamos com a Larissa Rodrigues pra entender um pouco mais sobre a stack, desafios e tecnologias utilizadas no time de Dados Esportivos da Globo, e compartilhou com a gente um pouco da sua experiência e seu dia a dia como desenvolvedora nesse time.', 
+    'https://omny.fm/shows/cafe-de-bug/109-dados-esportivos-da-globo-com-a-dev-larissa-ro', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/42929c1d-0c96-4245-afe0-2e9e86cc2baadados-esportivos.jpg', 
+    '2022-10-17 00:00:00', '["technologia das empresas", "arquitetura de software"]', 1, 110, 1, 1578, 666, '2022-10-17 00:00:00', null);
+
+
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#2 Devs e Empreendedores com Alan Araujo', 
+    '<p>N&oacute;s come&ccedil;amos uma pequena s&eacute;rie sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu pr&oacute;prio neg&oacute;cio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <p>Sobre convidado(a)</p>
+    <ul>
+    <li aria-level="1">Administrando o neg&oacute;cio</li>
+    <li aria-level="1">Tecnologia e empreendedorismo</li>
+    <li aria-level="1">Abri meu neg&oacute;cio. Continuo codando? Como gerenciar meu tempo para administrar meu neg&oacute;cio e continuar ainda escrevndo c&oacute;digos? Como manter a paix&atilde;o por escrever softwares e continuar os estudos sem desequilibrar os neg&oacute;cios?</li>
+    <li aria-level="1">Desafios e como ser um bom gestor</li>
+    <li aria-level="1">Desenvolvedores precisam empreender?</li>
+    <li aria-level="1">Programador(a) vai sempre ser um programador(a) ou &eacute; natural ir para o caminho da gest&atilde;o?</li>
+    <li aria-level="1">Quais os soft skills mais recomendados para quem deseja seguir para o lado do empre</li>
+    <li aria-level="1">Gerenciamento de tempo</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech - <a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener"><strong>https://site-mentoria-tech.vercel.app/</strong></a></li>
+    <li aria-level="1">Estartando Devs -&nbsp; <a href="https://www.estartandodevs.com.br/" target="_blank" rel="noopener" title="site Estartandodevs">https://www.estartandodevs.com.br/</a></li>
+    <li aria-level="1">Github Estartando Devs - <a href="https://github.com/estartando-devs" target="_blank" rel="noopener" title="github Estartando devs">https://github.com/estartando-devs</a></li>
+    <li aria-level="1">Linkedin Estartando Devs <a href="https://www.linkedin.com/company/estartando-devs/?originalSubdomain=br" target="_blank" rel="noopener" title="Linkedin Estartando Devs">https://www.linkedin.com/company/estartando-devs/?originalSubdomain=br</a></li>
+    <li aria-level="1">Instagram Estartando Devs - <a href="https://www.instagram.com/estartandodevs/" target="_blank" rel="noopener" title="instagram Estartandodevs">https://www.instagram.com/estartandodevs/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="Linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Alan Araujo (Front-end Developer na Globo e Fundador na Estartando Devs) <br />Linkedin: <a href="https://www.linkedin.com/in/alan-araujo-440bb7109/" target="_blank" rel="noopener" title="Linkedin Alan Araujo">https://www.linkedin.com/in/alan-araujo-440bb7109/</a></p>
+    <p>Editado por AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou publicidade envie para: debugcafe@gmail.com</p>', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 111, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#110 Processamento de Linguagem Natural cases da Globo - Leonardo Ribeiro', 
+    '<p>Os dados s&atilde;o um dos principais vetores para tomada de decis&otilde;es dentro de uma empresa, seja para otimizar processos, planejamento estrat&eacute;gicos, atrair clientes, melhorar perfil de consumo, etc e &eacute; com base nesse estudo, que convidamos Leonardo Ribeiro para explicar melhor esse assunto pra n&oacute;s, e como isso &eacute; utilizado no time Produ&ccedil;&atilde;o de Conte&uacute;do na Globo.</p>
+    <p><strong><br />Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">O que &eacute; Machine Learning?</li>
+    <li aria-level="1">Como funciona?</li>
+    <li aria-level="1">Contexto e real import&acirc;ncia</li>
+    <li aria-level="1">Desafios e import&acirc;ncia em aplicar na organiza&ccedil;&atilde;o</li>
+    <li aria-level="1">Ganhos e benef&iacute;cios</li>
+    <li aria-level="1">O que &eacute; Processamento de Linguagem Natural?</li>
+    <li aria-level="1">Como funciona a NLP?</li>
+    <li aria-level="1">Principais uso da NLP</li>
+    <li aria-level="1">Cases utilizados na Globo</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech - <a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener" title="site mentoria tech"><strong>https://site-mentoria-tech.vercel.app/</strong></a></li>
+    <li aria-level="1"><a href="https://www.unisoma.com.br/noticias-processamento-de-linguagem-natural/" target="_blank" rel="noopener" title="unisoma - processamento de linguagem natural">https://www.unisoma.com.br/noticias-processamento-de-linguagem-natural/</a></li>
+    <li aria-level="1"><a href="https://www.take.net/blog/tecnologia/nlp-processamento-linguagem-natural/" target="_blank" rel="noopener" title="processamento de linguagem natural">https://www.take.net/blog/tecnologia/nlp-processamento-linguagem-natural/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="linkedin da J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Leonardo Ribeiro (Data Scientist / Physicist (PhD)) <br />Linkedin: <a href="https://www.linkedin.com/in/leonardo-ribeiro-4b54681a3/" target="_blank" rel="noopener" title="Linkedin Leonardo Ribeiro">https://www.linkedin.com/in/leonardo-ribeiro-4b54681a3/</a></p>
+    <p>Editado por: AGO Filmes&nbsp;<br />d&uacute;vidas, sugest&otilde;es ou e publicidade envie para: debugcafe@gmail.com</p>', 
+    'Os dados são um dos principais vetores para tomada de decisões dentro de uma empresa, seja para otimizar processos, planejamento estratégicos, atrair clientes, melhorar perfil de consumo, etc e é com base nesse estudo, que convidamos Leonardo Ribeiro para explicar melhor esse assunto pra nós, e como isso é utilizado no time Produção de Conteúdo na Globo.', 
+    'https://omny.fm/shows/cafe-de-bug/110-processamento-de-linguagem-natural-cases-da-gl', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/cfb3b681-be4c-4a5c-bca2-e54d666590eemachine-learning.jpg', 
+    '2022-11-14 00:00:00', '["machine learning", "processamento de linguagem natural"]', 9, 112, 18, 1759, 795, '2022-11-14 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#111 Vida de Dev Front no Netflix por Willian Martins', 
+    '<p>Convidamos o Willian Martins que &eacute; Desenvolvedor Frontend na Netflix e trouxe para n&oacute;s em uma conversa descontra&iacute;da como &eacute; o trabalho como dev na Netflix. A Netflix recentemente criou um time de engenharia no Brasil e esta pode ser uma oportunidade para voc&ecirc; que quer entrar em uma das grandes empresas de Entretenimento.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Quem &eacute; Willian Martins</li>
+    <li aria-level="1">Frontend de hoje e do amanh&atilde;</li>
+    <li aria-level="1">Como &eacute; trbalho de um dev front na Netflix</li>
+    <li aria-level="1">Dicas para quem deseja entrar em uma das maiores empresas de Entretenimento</li>
+    <li aria-level="1">Sobre o podcast Devnaestrada</li>
+    <li aria-level="1">Dicas de carreira para os mais novos e s&ecirc;niores da &aacute;rea</li>
+    </ul>
+    <p><br /><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech - <a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener" title="mentoria tech"><strong>https://site-mentoria-tech.vercel.app/</strong></a></li>
+    <li aria-level="1">Podcast Devnaestrada -&nbsp; <a href="https://devnaestrada.com.br/" target="_blank" rel="noopener" title="podcast devnaestrada">https://devnaestrada.com.br/</a></li>
+    <li aria-level="1"><a href="https://devnaestrada.com.br/2022/09/02/livro-a-regra-e-nao-ter-regras-a-netflix-e-a-cultura-da-reinven%C3%A7%C3%A3o-parte-2.html" target="_blank" rel="noopener" title="epis&oacute;dio Devnaestrada - Netflix">https://devnaestrada.com.br/2022/09/02/livro-a-regra-e-nao-ter-regras-a-netflix-e-a-cultura-da-reinven%C3%A7%C3%A3o-parte-2.html</a></li>
+    <li aria-level="1"><a href="https://twitter.com/tc39" target="_blank" rel="noopener" title="twitter TC39">https://twitter.com/tc39</a></li>
+    <li aria-level="1"><a href="https://github.com/tc39" target="_blank" rel="noopener" title="github tc39">https://github.com/tc39</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="Linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Willian Martins (Frontend Developer no Netflix e Podcaster Devnaestrada) <br />Linkedin: <a href="https://www.linkedin.com/in/wmsbill/" target="_blank" rel="noopener" title="Linkedin Willian Martins">https://www.linkedin.com/in/wmsbill/</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br</a><br />Editado por: AGO Filmes <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="AGO Filmes">https://thiagocarvalhofotografia.wordpress.com/</a></p>
+    <p>d&uacute;vidas, sugest&otilde;es ou&nbsp; publicidade envie para: debugcafe@gmail.com</p>', 
+    'Convidamos o Willian Martins que é Desenvolvedor Frontend na Netflix e trouxe para nós em uma conversa descontraída como é o trabalho como dev na Netflix. A Netflix recentemente criou um time de engenharia no Brasil e esta pode ser uma oportunidade para você que quer entrar em uma das grandes empresas de Entretenimento.', 
+    'https://omny.fm/shows/cafe-de-bug/111-vida-de-dev-front-no-netflix-por-willian-marti', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/b5d21d29-80d8-407e-8b1c-b198420ab872entrevista-willian-martins.jpg', 
+    '2022-11-28 00:00:00', '["carreira", "frontend", "William Martins", "Netflix"]', 9, 113, 4, 1770, 771, '2022-11-28 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#112 Live Streaming da Globo com Lais Lima', 
+    '<p>J&aacute; parou pra pensar como funciona e o que &eacute; Live Streaming da Globo? Entrevistamos nesse programa a Lais Lima, que compartilhou sobre a stack, linguagens de programa&ccedil;&atilde;o utilizada e ferramentas e como o time trabalha para entregar tanto conte&uacute;do de qualidade para sua casa.</p>
+    <p><strong><br />Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Como &eacute; o trabalho de um Dev neste time?</li>
+    <li aria-level="1">O que &eacute; Streaming?</li>
+    <li aria-level="1">Desafios, linguagens e stack</li>
+    <li aria-level="1">Arquitetura Live Streaming da Globo</li>
+    <li aria-level="1">Publica&ccedil;&atilde;o de v&iacute;deos, Encoders, RTMP e MSS</li>
+    <li aria-level="1">O que &eacute; CDN e sua origem</li>
+    <li aria-level="1">CDN e sua distribui&ccedil;&atilde;o do conteudo</li>
+    <li aria-level="1">Dicas para os mais iniciantes e os seniores que queiram atuar nessa &aacute;rea</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech - <a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener" title="mentoria tech"><strong>https://site-mentoria-tech.vercel.app/</strong></a></li>
+    <li aria-level="1">Gabriel Pato - Vota&ccedil;&atilde;o BBB testes<strong> </strong><a href="https://www.youtube.com/watch?v=c2dyvWhu_Y0" target="_blank" rel="noopener" title="V&iacute;deo Gabriel Pato vota&ccedil;&atilde;o do BBB">https://www.youtube.com/watch?v=c2dyvWhu_Y0</a></li>
+    <li aria-level="1">O que &eacute; TV 3.0 <a href="https://tecnoblog.net/responde/o-que-muda-com-a-tv-3-0/" target="_blank" rel="noopener" title="TV 3.0">https://tecnoblog.net/responde/o-que-muda-com-a-tv-3-0/</a></li>
+    <li aria-level="1">Medium Lais - <a href="https://medium.com/@laislima_dev" target="_blank" rel="noopener" title="blog Lais Lima Medium">https://medium.com/@laislima_dev</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="Linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Lais Lima (Software Engineer na Globo e Criadora de Conte&uacute;do) <br />Linkedin: <a href="https://www.linkedin.com/in/laislimadev/" target="_blank" rel="noopener" title="linkedin Lais Lima">https://www.linkedin.com/in/laislimadev/</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br</a></p>
+    <p>Editado por: AGO Filmes <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="produtora AGO Filmes">https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou&nbsp; publicidade envie para: debugcafe@gmail.com</p>', 
+    'Já parou pra pensar como funciona e o que é Live Streaming da Globo? Entrevistamos nesse programa a Lais Lima, que compartilhou sobre a stack, linguagens de programação utilizada e ferramentas e como o time trabalha para entregar tanto conteúdo de qualidade para sua casa.', 
+    'https://omny.fm/shows/cafe-de-bug/streaming-globo-laislima', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/fcdf134c-6b51-4a7e-a40a-d0265c770dc9live-streaming.jpg', 
+    '2022-12-16 00:00:00', '["streaming", "Globo", "Lais Lima"]', 9, 113, 23, 1976, 728, '2022-12-16 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#115', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 115, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#116', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 116, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#117', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 117, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#118', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 118, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#119', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 119, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#120', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 120, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#121', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 121, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#122', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 122, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#123', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 123, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#124', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 124, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#125', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 125, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#126', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 126, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#127', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 127, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#128', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 128, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#129', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 129, 1, 1665, 727, '2022-10-31 00:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#130', 
+    '', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
+    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 130, 1, 1665, 727, '2022-10-31 00:00:00', null);
 
 -- Team ---
 INSERT INTO Team (Name, UrlGitHub, UrlInstagram, UrlLinkedin, UrlImage, Job)
