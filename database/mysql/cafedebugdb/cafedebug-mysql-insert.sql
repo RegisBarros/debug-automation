@@ -53,7 +53,7 @@ INSERT INTO Category(Name, CreatedAt, UpdatedAt)
 VALUES('Data Analytics', NOW(), NOW()); -- 8
 
 INSERT INTO Category (Name, CreatedAt, UpdatedAt)
-VALUES('Devs Empreendedores', NOW(), NOW()); -- 9
+VALUES('Devs e Empreendedores', NOW(), NOW()); -- 9
 
 INSERT INTO Category (Name, CreatedAt, UpdatedAt)
 VALUES('DevOps', NOW(), NOW()); -- 10
@@ -1732,7 +1732,7 @@ VALUES(
     'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
     'https://omny.fm/shows/cafe-de-bug/1-devs-e-empreendedores-com-andr-baltieri', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/modelo-capa-episodios-dev-empreendedor.jpg', 
-    '2022-07-11 00:00:00', '["devs empreendedores", "André Baltieri"]', 1, 102, 9, 1811, 766, '2022-07-11 00:00:00', null);
+    '2022-07-11 00:00:00', '["devs e empreendedores", "André Baltieri"]', 1, 102, 9, 1811, 766, '2022-07-11 00:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
@@ -2008,7 +2008,7 @@ VALUES(
     'Conversamos com a Larissa Rodrigues pra entender um pouco mais sobre a stack, desafios e tecnologias utilizadas no time de Dados Esportivos da Globo, e compartilhou com a gente um pouco da sua experiência e seu dia a dia como desenvolvedora nesse time.', 
     'https://omny.fm/shows/cafe-de-bug/109-dados-esportivos-da-globo-com-a-dev-larissa-ro', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/42929c1d-0c96-4245-afe0-2e9e86cc2baadados-esportivos.jpg', 
-    '2022-10-17 00:00:00', '["technologia das empresas", "arquitetura de software"]', 1, 110, 1, 1578, 666, '2022-10-17 00:00:00', null);
+    '2022-10-17 00:00:00', '["technologia das empresas", "arquitetura de software"]', 1, 110, 24, 1578, 666, '2022-10-17 00:00:00', null);
 
 
 
@@ -2044,7 +2044,7 @@ VALUES(
     'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
     'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 111, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '2022-10-31 00:00:00', '["devs e empreendedores", "Alan Araújo"]', 1, 111, 9, 1665, 727, '2022-10-31 00:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
@@ -2076,7 +2076,7 @@ VALUES(
     'Os dados são um dos principais vetores para tomada de decisões dentro de uma empresa, seja para otimizar processos, planejamento estratégicos, atrair clientes, melhorar perfil de consumo, etc e é com base nesse estudo, que convidamos Leonardo Ribeiro para explicar melhor esse assunto pra nós, e como isso é utilizado no time Produção de Conteúdo na Globo.', 
     'https://omny.fm/shows/cafe-de-bug/110-processamento-de-linguagem-natural-cases-da-gl', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/cfb3b681-be4c-4a5c-bca2-e54d666590eemachine-learning.jpg', 
-    '2022-11-14 00:00:00', '["machine learning", "processamento de linguagem natural"]', 9, 112, 18, 1759, 795, '2022-11-14 00:00:00', null);
+    '2022-11-14 00:00:00', '["machine learning", "processamento de linguagem natural"]', 1, 112, 18, 1759, 795, '2022-11-14 00:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
@@ -2108,7 +2108,7 @@ VALUES(
     'Convidamos o Willian Martins que é Desenvolvedor Frontend na Netflix e trouxe para nós em uma conversa descontraída como é o trabalho como dev na Netflix. A Netflix recentemente criou um time de engenharia no Brasil e esta pode ser uma oportunidade para você que quer entrar em uma das grandes empresas de Entretenimento.', 
     'https://omny.fm/shows/cafe-de-bug/111-vida-de-dev-front-no-netflix-por-willian-marti', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/b5d21d29-80d8-407e-8b1c-b198420ab872entrevista-willian-martins.jpg', 
-    '2022-11-28 00:00:00', '["carreira", "frontend", "William Martins", "Netflix"]', 9, 113, 4, 1770, 771, '2022-11-28 00:00:00', null);
+    '2022-11-28 00:00:00', '["carreira", "frontend", "William Martins", "Netflix"]', 1, 113, 24, 1770, 771, '2022-11-28 00:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
@@ -2141,52 +2141,128 @@ VALUES(
     'Já parou pra pensar como funciona e o que é Live Streaming da Globo? Entrevistamos nesse programa a Lais Lima, que compartilhou sobre a stack, linguagens de programação utilizada e ferramentas e como o time trabalha para entregar tanto conteúdo de qualidade para sua casa.', 
     'https://omny.fm/shows/cafe-de-bug/streaming-globo-laislima', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/fcdf134c-6b51-4a7e-a40a-d0265c770dc9live-streaming.jpg', 
-    '2022-12-16 00:00:00', '["streaming", "Globo", "Lais Lima"]', 9, 113, 23, 1976, 728, '2022-12-16 00:00:00', null);
+    '2022-12-16 00:00:00', '["streaming", "Globo", "Lais Lima"]', 1, 113, 23, 1976, 728, '2022-12-16 00:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#115', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 115, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#3 Devs e Empreendedores com João Carrilho', 
+    '<p>N&oacute;s come&ccedil;amos uma pequena s&eacute;rie sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu pr&oacute;prio neg&oacute;cio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando? Neste epis&oacute;dio, entrevistamos Jo&atilde;o Carrilho.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Administrando o neg&oacute;cio</li>
+    <li aria-level="1">Tecnologia e empreendedorismo</li>
+    <li aria-level="1">Abri meu neg&oacute;cio. Continuo codando? Como gerenciar meu tempo para administrar meu neg&oacute;cio e continuar ainda escrevndo c&oacute;digos? Como manter a paix&atilde;o por escrever softwares e continuar os estudos sem desequilibrar os neg&oacute;cios?</li>
+    <li aria-level="1">Desafios e como ser um bom gestor</li>
+    <li aria-level="1">Desenvolvedores precisam empreender?</li>
+    <li aria-level="1">Programador(a) vai sempre ser um programador(a) ou &eacute; natural ir para o caminho da gest&atilde;o?</li>
+    <li aria-level="1">Gerenciamento de tempo</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech - <a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener" title="Mentoria Tech"><strong>https://site-mentoria-tech.vercel.app/</strong></a></li>
+    <li aria-level="1">Corre social <a href="https://corre.social/" target="_blank" rel="noopener" title="site Corre Social">https://corre.social/</a></li>
+    <li aria-level="1">Instagram Corre <a href="https://www.instagram.com/corre.social/" target="_blank" rel="noopener" title="instagram Corre Social">https://www.instagram.com/corre.social/</a></li>
+    <li aria-level="1">LinkedIn Corre <a href="https://www.linkedin.com/company/corresocial" target="_blank" rel="noopener" title="linkedin Corre social">https://www.linkedin.com/company/corresocial</a></li>
+    <li aria-level="1">Notion de Organiza&ccedil;&atilde;o pessoal criado por Jo&atilde;o:<a href="https://valley-shoemaker-a51.notion.site/Sobre-Organiza-o-e-Gest-o-Pessoal-Profissional-9d674654cc344937a8d8faf3e61b4c3a" target="_blank" rel="noopener" title="Notion de Organiza&ccedil;&atilde;o pessoal criado por Jo&atilde;o"> https://valley-shoemaker-a51.notion.site/Sobre-Organiza-o-e-Gest-o-Pessoal-Profissional-9d674654cc344937a8d8faf3e61b4c3a</a></li>
+    <li aria-level="1">Livro Principios, Ray Dalio <a href="https://www.amazon.com.br/Princ%C3%ADpios-Ray-Dalio/dp/8551003429" target="_blank" rel="noopener" title="link do livro Os Principios Ray Dailo ">https://www.amazon.com.br/Princ&iacute;pios-Ray-Dalio/dp/8551003429</a></li>
+    <li aria-level="1">Livro&nbsp; Satrt Small <a href="https://www.amazon.com/Start-Small-Stay-Developers-Launching-ebook/dp/B003YH9MMI" target="_blank" rel="noopener" title="Livro Smart Small link amazon">https://www.amazon.com/Start-Small-Stay-Developers-Launching-ebook/dp/B003YH9MMI</a></li>
+    </ul>
+    <p><strong><br />Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="Linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br /><br />Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Jo&atilde;o Carrilho (Fundador do Corre Social) <br />Linkedin: <a href="https://www.linkedin.com/in/jpmcarrilho/" target="_blank" rel="noopener" title="Linkedin Jo&atilde;o Castilho">https://www.linkedin.com/in/jpmcarrilho/</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br" target="_blank" rel="noopener" title="site caf&eacute; debug">http://www.cafedebug.com.br</a><br />Editado por AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="link da produtora Ago filmes">https://thiagocarvalhofotografia.wordpress.com/</a></p>
+    <p>d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</p>', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando? Neste episódio, entrevistamos João Carrilho.', 
+    'https://omny.fm/shows/cafe-de-bug/3-devs-e-empreendedores-com-jo-o-carrilho', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/1d94da38-d3fb-4949-a01e-8adaa8047a69modelo-capa-episodios-dev-empreendedor-3.jpg', 
+    '2023-01-23 00:00:00', '["devs e empreendedores", "João Carrilho"]', 1, 115, 9, 1607, 671, '2023-01-23 00:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#116', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 116, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#113 Design Docs e RFC - Syngenta Digital', 
+    '<p>Neste programa fizemos um bate papo com o time da Syngenta Digital para tratar sobre o assunto Design Docs e RFCs. Design Docs s&atilde;o documentos feitos pelo time ou melhor especialmente pessoas desenvolvedoras cujo objetivo &eacute; tornar claro todo o processo de desenvolvimento de uma solu&ccedil;&atilde;o. Al&eacute;m disso, Syngenta compartilhou com n&oacute;s um pouco do seu trabalho no agroneg&oacute;cio.</p>
+    <p><strong><br />Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Sobre a Syngenta Digital - hist&oacute;ria e introdu&ccedil;&atilde;o&nbsp;</li>
+    <li aria-level="1">Design DOCs e RFCs (Requests For Comments): O que s&atilde;o e para que usar?</li>
+    <li aria-level="1">&nbsp;Como criar um Design DOC eficaz?</li>
+    <li aria-level="1">As tend&ecirc;ncias do Design DOCs e RFCs &ndash; O que est&aacute; vindo de novas ferramentas e m&eacute;todos para garantir uma colabora&ccedil;&atilde;o eficaz e boas decis&otilde;es?</li>
+    <li aria-level="1">Experi&ecirc;ncia na Syngenta Digital (ou pessoal do convidado), como utilizam essas&nbsp;</li>
+    <li aria-level="1">ferramentas para tomar decis&otilde;es de projeto &ndash; citar exemplos bem sucedidos.</li>
+    <li aria-level="1">Momento pol&ecirc;mico: Como lidar com conflitos e diverg&ecirc;ncias de opini&atilde;o no</li>
+    <li aria-level="1">Processo de Design DOCs? Como fazer para que as sugest&otilde;es e coment&aacute;rios sejam considerados e implementados sendo aceitos por todos?&nbsp;</li>
+    <li aria-level="1">Principais pontos sobre como os Design DOCs e RFCs podem ser usados para melhorar a colabora&ccedil;&atilde;o e a tomada de decis&atilde;o nos projetos.</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech - <a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener" title="mentoria tech">https://site-mentoria-tech.vercel.app/</a></li>
+    <li aria-level="1"><a href="https://blog.pragmaticengineer.com/rfcs-and-design-docs/" target="_blank" rel="noopener" title="blog.pragmaticengineer.com">https://blog.pragmaticengineer.com/rfcs-and-design-docs/</a></li>
+    <li aria-level="1"><a href="https://eltonminetto.dev/post/2021-05-15-rfc/" target="_blank" rel="noopener" title="eltonminetto.dev">https://eltonminetto.dev/post/2021-05-15-rfc/</a></li>
+    <li aria-level="1">Design Docs Google&nbsp; <a href="https://www.industrialempathy.com/posts/design-docs-at-google/" target="_blank" rel="noopener" title="industrialempathy.com">https://www.industrialempathy.com/posts/design-docs-at-google/</a></li>
+    <li aria-level="1"><a href="https://www.youtube.com/watch?v=8IXLpoN8Xj0" target="_blank" rel="noopener" title="Design docs v&iacute;deo youtube">https://www.youtube.com/watch?v=8IXLpoN8Xj0</a></li>
+    <li aria-level="1"><a href="https://4linux.com.br/o-que-e-postgis/" target="_blank" rel="noopener" title="4linux postgis artigo">https://4linux.com.br/o-que-e-postgis/</a></li>
+    <li aria-level="1"><a href="https://syngentadigital.ag/" target="_blank" rel="noopener" title="syngenta digital">https://syngentadigital.ag/</a></li>
+    <li aria-level="1"><a href="https://www.linkedin.com/company/syngenta/" target="_blank" rel="noopener" title="syngenta linkedin">https://www.linkedin.com/company/syngenta/</a></li>
+    </ul>
+    <p><strong><br />Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Programadora&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="linkedin da J&eacute;ssica">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin do Weslley">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Fernanda Silva (Software Engineer na Syngenta)<strong><br /></strong>Linkedin: <a href="https://www.linkedin.com/in/fernanda-a-r-silva-32194bb8/" target="_blank" rel="noopener" title="Linkedin Fernanda Silva">https://www.linkedin.com/in/fernanda-a-r-silva-32194bb8/</a></p>
+    <p>Editado por: AGO Filmes <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="AGO Filmes ">https://thiagocarvalhofotografia.wordpress.com/</a></p>
+    <p>d&uacute;vidas, sugest&otilde;es ou&nbsp; publicidade envie para: debugcafe@gmail.com</p>', 
+    'Neste programa fizemos um bate papo com o time da Syngenta Digital para tratar sobre o assunto Design Docs e RFCs. Design Docs são documentos feitos pelo time ou melhor especialmente pessoas desenvolvedoras cujo objetivo é tornar claro todo o processo de desenvolvimento de uma solução. Além disso, Syngenta compartilhou com nós um pouco do seu trabalho no agronegócio.', 
+    'https://omny.fm/shows/cafe-de-bug/113-design-docs-e-rfc-syngenta-digital', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/syngenta-digital-design-docs.jpg', 
+    '2023-02-14 00:00:00', '["Design Docs e RFC", "tecnologia das empresas", "Syngenta Digital"]', 1, 116, 24, 1634, 699, '2023-02-14 00:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#117', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 117, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#114 Dissecando ChatGpt - conhecendo a maravilha da IA', 
+    '<p>ChatGPT &eacute; uma excelente ferramenta e virou febre nos &uacute;ltimos meses, sendo assuntos ded podcast, palestras e at&eacute; mesmo de cria&ccedil;&atilde;o de muitos memes. Mas o ChatGPT n&atilde;o para por ai, a tend&ecirc;ncia que se espera &eacute; evoluir cada vez mais, e claro ter outros concorrentes.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">As mudan&ccedil;as que o ChatGPT vem trazendo (melhorias e ganhos produtividade)</li>
+    <li aria-level="1">ChatGPT pode substiuir os Devs?</li>
+    <li aria-level="1">Por tr&aacute;s da ci&ecirc;ncia cognitiva do ChatGPT</li>
+    <li aria-level="1">Como funciona essa inteligencia artificial</li>
+    <li aria-level="1">Como podemos abstrair o melhor dela, para nosso aprendizado e desempenho profissional</li>
+    <li aria-level="1">Temos muito com que aprender com essa IA?</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1"><a href="https://openai.com/" target="_blank" rel="noopener" title="openai.com">https://openai.com/</a></li>
+    <li aria-level="1"><a href="https://olhardigital.com.br/2023/02/10/pro/novo-chatgpt-da-microsoft-chega-ao-office-em-breve-veja-o-que-muda/" target="_blank" rel="noopener" title="mat&eacute;ria olhar digital sobre chatgpt">https://olhardigital.com.br/2023/02/10/pro/novo-chatgpt-da-microsoft-chega-ao-office-em-breve-veja-o-que-muda/</a></li>
+    <li aria-level="1"><a href="https://www.istoedinheiro.com.br/google-anuncia-competidor-do-chat-gpt/" target="_blank" rel="noopener" title="istoedinheiro mat&eacute;ria sobre chatgpt">https://www.istoedinheiro.com.br/google-anuncia-competidor-do-chat-gpt/</a></li>
+    <li aria-level="1"><a href="https://www.cienciaedados.com/quantas-gpus-sao-necessarias-para-executar-o-chatgpt/" target="_blank" rel="noopener" title="quantas gpus s&atilde;o necess&aacute;rias para executar o chatgpt">https://www.cienciaedados.com/quantas-gpus-sao-necessarias-para-executar-o-chatgpt/</a></li>
+    <li aria-level="1"><a href="https://willrobotstakemyjob.com/" target="_blank" rel="noopener" title="site willrobotstakemyjob.com">https://willrobotstakemyjob.com/</a></li>
+    </ul>
+    <p><strong><br />Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Engineer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="linkedin da J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br /><br />Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Ahirton Lopes (Chief Data Officer (CDO) @ Lambda3 | Microsoft MVP)<strong><br /></strong>Linkedin: <a href="https://www.linkedin.com/in/ahirtonlopes/" target="_blank" rel="noopener" title="linkedin Arhirton Lopes">https://www.linkedin.com/in/ahirtonlopes/</a></p>
+    <p>Sofia Marchal (Privacy Engineer @UnicoIDTech)<strong><br /></strong>Linkedin: <a href="https://www.linkedin.com/in/marshallowitz/" target="_blank" rel="noopener" title="Linkedin Sofia Marshallowitz">https://www.linkedin.com/in/marshallowitz/</a></p>
+    <p>Editado por: AGO Filmes <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="editado por AGO Filmes">https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou&nbsp; publicidade envie para: debugcafe@gmail.com</p>', 
+    'ChatGPT é uma excelente ferramenta e virou febre nos últimos meses, sendo assuntos de podcast, palestras e até mesmo de criação de muitos memes. Mas o ChatGPT não para por ai, a tendência que se espera é evoluir cada vez mais, e claro ter outros concorrentes.', 
+    'https://omny.fm/shows/cafe-de-bug/114-dissecando-chatgpt-conhecendo-a-maravilha-da-i', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/chatgpt.jpg', 
+    '2023-02-27 00:00:00', '["IA", "chatgpt"]', 1, 117, 32, 6872, 734, '2023-02-27 00:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#118', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 118, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#115 Desenvolvimento Seguro', 
+    '<p>Nesse programa fizemos um bate papo para falar sobre desenvolvimento seguro, e alguns conceitos de seguran&ccedil;a tais como: Shift-left e SAMM, um pouco sobre vulnerabilidades e amea&ccedil;as. Como os desenvolvedores podem implementar um processo de desenvolvimento seguro?</p>', 
+    'Nesse programa fizemos um bate papo para falar sobre desenvolvimento seguro, e alguns conceitos de segurança tais como: Shift-left e SAMM, um pouco sobre vulnerabilidades e ameaças. Como os desenvolvedores podem implementar um processo de desenvolvimento seguro?. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
+    'https://omny.fm/shows/cafe-de-bug/115-desenvolvimento-seguro', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/desenvolvimento-seguro.jpg', 
+    '2023-03-13 07:10:00', '["desenvolvimento seguro", "cybersecurity"]', 7, 118, 1, 1572, 704, '2023-03-13 07:10:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#119', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 119, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#1 Pensar Cientificamente -  O trabalho de Climatologia com Karina Lima', 
+    '<p>Pensar Cientificamente &eacute; mais uma s&eacute;rie do podcast Caf&eacute; Debug, que tem como objetivo trazer assuntos relacionados a Ci&ecirc;ncia. E para abrir nosso primeiro epis&oacute;dio, conversamos com a Karina Lima que explicou um pouco do seu trabalho sobre Climatologia.</p>', 
+    'Pensar Cientificamente é mais uma série do podcast Café Debug, que tem como objetivo trazer assuntos relacionados a Ciência. E para abrir nosso primeiro episódio, conversamos com a Karina Lima que explicou um pouco do seu trabalho sobre Climatologia.', 
+    'https://omny.fm/shows/cafe-de-bug/1-pensar-cientificamente-o-trabalho-de-climatologi', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/modelo-capa-ciencia.jpg', 
+    '2023-03-27 01:00:00', '["ciência", "climatologia"]', 1, 119, 5, 1496, 703, '2023-03-27 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
@@ -2195,97 +2271,1041 @@ VALUES(
     'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
     'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 120, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '2022-10-31 00:00:00', '["devs e empreendedores", "Alan Araújo"]', 1, 120, 1, 1665, 727, '2022-10-31 00:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#121', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 121, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#116 Mudança de Stack e o mercado de trabalho para os Devs', 
+    '<p>Fizemos uma pesquisa recentemente para entender melhor sobre a mudan&ccedil;a de stack dos desenvolvedores, e saber um pouco mais qual a motiva&ccedil;&atilde;o para esta mudan&ccedil;a. Da nossa pesquisa, a penas 31 pessoas responderam, mas com isso ja nos gerou insumos para discutirmos aqui, sobre este assunto.</p>
+    <p><strong><br />Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Um pouco sobre a carreira e o trabalho do Rodrigo Duclerc e Reginaldo Barros</li>
+    <li aria-level="1">De acordo com nossa pesquisa, 93% se sente satisfeita com sua stack que trabalha</li>
+    <li aria-level="1">Mudan&ccedil;as de stack e linguagem de programa&ccedil;&ccedil;&atilde;o: motivos e desafios</li>
+    <li aria-level="1">Mudan&ccedil;as na industria de tecnologia e as demandas no mercado de trabalho</li>
+    <li aria-level="1">Necessidades de se adaptar &aacute;s demandas do mercado e &aacute;s novas tend&ecirc;ncias tecnol&oacute;gicas</li>
+    <li aria-level="1">Como minimizar os desafios da mudan&ccedil;a de stack e linguagens de programa&ccedil;&atilde;o?<br />- Planejamento cuidadoso e avalia&ccedil;&atilde;o dos beneficios e riscos da mudan&ccedil;a<br />- Capacita&ccedil;&atilde;o dos desenvolvedores atrav&eacute;s de treinamentos e cursos online<br />- Listar os principais motivos se est&atilde;o alinhados com suas espectativas</li>
+    <li aria-level="1">Generalista x Especialista</li>
+    <li aria-level="1">Desenvolvedores precisam saber programar com outras linguagens?</li>
+    <li aria-level="1">Quando o foco n&atilde;o &eacute; aprender novas linguagens e sim se especializar em arquitetura de software</li>
+    <li aria-level="1">A import&acirc;ncia para os desenvolvedores saber programar com outras linguagens</li>
+    </ul>
+    <p><strong><br />Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech - <a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener" title="mentoria tech"><strong>https://site-mentoria-tech.vercel.app/</strong></a></li>
+    </ul>
+    <p><strong><br />Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Engineer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br /><br />Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Reginaldo Barros (Tech Lead na Plataforma Builders) <br />Linkedin: <a href="https://www.linkedin.com/in/reginaldo-barros/" target="_blank" rel="noopener" title="linkedin Reginaldo Barros">https://www.linkedin.com/in/reginaldo-barros/</a></p>
+    <p>Rodrigo Duclerc (Senior Software .NET na Neasure)<br />Linkedin: <a href="https://www.linkedin.com/in/rodrigo-duclerc/" target="_blank" rel="noopener" title="linkedin Rodrigo Duclerc">https://www.linkedin.com/in/rodrigo-duclerc/</a></p>
+    <p>Lais Lima (Software .Engineer na Globo)<br />Linkedin: <a href="https://www.linkedin.com/in/laislimadev/" target="_blank" rel="noopener" title="linkedin Lais Lima">https://www.linkedin.com/in/laislimadev/</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br</a><br />Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="produtora AGO Filmes">https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</p>', 
+    'Fizemos uma pesquisa recentemente para entender melhor sobre a mudança de stack dos desenvolvedores, e saber um pouco mais qual a motivação para esta mudança. Dos 31 entrevistados identificamos que 74,2% mudariam de stack, os principais motivos são: salário, desafios e mercado de trabalho.', 
+    'https://omny.fm/shows/cafe-de-bug/16-mudan-a-de-stack-e-o-mercado-de-trabalho-para-o', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/mudanca-stack.jpg', 
+    '2022-10-31 00:00:00', '["carreira", "mudança de stack", "linguagens de programação", "frameworks"]', 1, 121, 32, 1577, 735, '2023-04-03 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#122', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 122, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#2 Pensar Cientificamente - Astroquímica', 
+    '<p>Pense Cientificamente &eacute; mais uma s&eacute;rie do podcast Caf&eacute; Debug que tem como objetivo trazer assuntos relacionados a Ci&ecirc;ncia. Hoje o nosso tema vamos entender o que &eacute; e como funciona o trabalho de uma cientista da Astroqu&iacute;mica.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Pensando Cientificamente</li>
+    <li aria-level="1">O que &eacute; Astroqu&iacute;mica</li>
+    <li aria-level="1">A import&acirc;ncia do estudo da Astroqu&iacute;mica</li>
+    <li aria-level="1">Astroqu&iacute;mica e a origem da vida (a origem da vida na Terra e em outros planetas)</li>
+    <li aria-level="1">Mol&eacute;culas e o Universo</li>
+    <li aria-level="1">A presen&ccedil;a de compostos org&acirc;nicos no espa&ccedil;o e sua import&acirc;ncia para a vida</li>
+    <li aria-level="1">Como a tecnologia contribui com os avan&ccedil;os do estudo</li>
+    </ul>
+    <p><strong><br />Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1"><a href="https://rce.casadasciencias.org/rceapp/art/2017/031/" target="_blank" rel="noopener" title="artigo ci&ecirc;ncia">https://rce.casadasciencias.org/rceapp/art/2017/031/</a></li>
+    <li aria-level="1"><a href="http://uspmulheres.usp.br/dia-internacional-das-mulheres-e-meninas-nas-ciencias/" target="_blank" rel="noopener" title="mulheres na ciencia artigo usp">http://uspmulheres.usp.br/dia-internacional-das-mulheres-e-meninas-nas-ciencias/</a></li>
+    <li aria-level="1"><a href="https://super.abril.com.br/cultura/por-que-entender-de-ciencia/" target="_blank" rel="noopener" title="artigo super interessante por que entender ci&ecirc;ncia">https://super.abril.com.br/cultura/por-que-entender-de-ciencia/</a></li>
+    <li aria-level="1"><a href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/cli2.15" target="_blank" rel="noopener" title="online library">https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/cli2.15</a></li>
+    <li aria-level="1"><a href="https://www.ufsm.br/app/uploads/sites/676/2019/08/tpico1.pdf" target="_blank" rel="noopener" title="ufsm sobre astroquimica">https://www.ufsm.br/app/uploads/sites/676/2019/08/tpico1.pdf</a></li>
+    <li aria-level="1"></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Engineer e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="linkedin da J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Julia Santos (Doutoranda em astroqu&iacute;mica na Universidade de Leiden)<br /><a href="https://twitter.com/santos_j_" target="_blank" rel="noopener" title="twitter Julia Santos">https://twitter.com/santos_j_</a><br /><a href="http://juliacsantos.com/" target="_blank" rel="noopener" title="profile Julia Santos">http://juliacsantos.com/</a></p>
+    <p>Editado por: AGO Filmes <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="AGO Filmes">https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou&nbsp; publicidade envie para: debugcafe@gmail.com</p>', 
+    'Pense Cientificamente é mais uma série do podcast Café Debug que tem como objetivo trazer assuntos relacionados a Ciência. Hoje o nosso tema vamos entender o que é e como funciona o trabalho de uma cientista da Astroquímica.', 
+    'https://omny.fm/shows/cafe-de-bug/2-pensar-cientificamente-astroqu-mica', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/modelo-capa-ciencia-2.jpg', 
+    '2023-04-16 01:00:00', '["ciência", "astroquímica"]', 1, 121, 5, 1548, 755, '2023-04-16 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#123', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 123, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#117 Linguagem Delphi - com Armando Neto', 
+    '<p>Neste programa vamos falar sobre a linguagem Delphi, que &eacute; uma linguagem de programa&ccedil;&atilde;o de alto n&iacute;vel orientado a objetos, desenvolvido por Embarcado Technologies. Entre as principais caracter&iacute;sticas da linguagem Delphi, podemos destacar sua f&aacute;cil integra&ccedil;&atilde;o com bancos de dados, a grande quantidade de componentes e bibliotecas dispon&iacute;veis entre outros.</p>', 
+    'Neste programa vamos falar sobre a linguagem Delphi, que é uma linguagem de programação de alto nível orientado a objetos, desenvolvido por Embarcado Technologies. Entre as principais características da linguagem Delphi, podemos destacar sua fácil integração com bancos de dados, a grande quantidade de componentes e bibliotecas disponíveis entre outros.', 
+    'https://omny.fm/shows/cafe-de-bug/117-lingaugem-delphi-com-armando-neto', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/linguagem-delphi.jpg', 
+    '2023-04-24 01:00:00', '["linguagens de programação", "Delphi"]', 17, 122, 1, 1804, 869, '2023-04-24 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#124', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 124, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#3 Pensar Cientificamente - Física Computacional com Julia Marcolan', 
+    '<p>Pense Cientificamente &eacute; mais uma s&eacute;rie do podcast Caf&eacute; Debug que tem como objetivo trazer assuntos relacionados a Ci&ecirc;ncia. O tema de hoje &eacute; sobre F&iacute;sica Computacional. A f&iacute;sica computacional &eacute; uma &aacute;rea multidisciplinar que combina conhecimentos de f&iacute;sica, matem&aacute;tica e ci&ecirc;ncia da computa&ccedil;&atilde;o para criar modelos e simula&ccedil;&otilde;es de fen&ocirc;menos f&iacute;sicos complexo.</p>', 
+    'Pense Cientificamente é mais uma série do podcast Café Debug que tem como objetivo trazer assuntos relacionados a Ciência. O tema de hoje é sobre Física Computacional. A física computacional é uma área multidisciplinar que combina conhecimentos de física, matemática e ciência da computação para criar modelos e simulações de fenômenos físicos complexo.', 
+    'https://omny.fm/shows/cafe-de-bug/3-pensar-cientificamente-f-sica-computacional-com', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/modelo-capa-ciencia-3.jpg', 
+    '2023-05-16 01:00:00', '["ciência", "computação quântica"]', 1, 123, 5, 1534, 777, '2023-05-16 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#125', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 125, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#118 Observabilidade com Angelo Belchior e Tiago Aguiar', 
+    '<p>Neste programa fizemos conversamos com Angelo Belchior e Tiago Aguiar sobre Observabilidade. Sabe a diferen&ccedil;a entre Observabilidade e Monitoramento? Quais ferramentas usar? Quais os ganhos que voc&ecirc; ter&aacute; na sua aplica&ccedil;&atilde;o? Ent&atilde;o, n&atilde;o deixe de ouvir este epis&oacute;dio.&nbsp;</p>', 
+    'Neste programa fizemos conversamos com Angelo Belchior e Tiago Aguiar sobre Observabilidade. Sabe a diferença entre Observabilidade e Monitoramento? Quais ferramentas usar? Quais os ganhos que você terá na sua aplicação? Então, não deixe de ouvir este episódio.', 
+    'https://omny.fm/shows/cafe-de-bug/118-observabilidade-com-angelo-belchior-e-tiago-ag', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/observabilidade.jpg', 
+    '2023-05-29 01:00:00', '["observabilidade", "monitoramento"]', 1, 124, 32, 1448, 682, '2023-05-29 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#126', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 126, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#119  A Web 3.0  com Daniel  Cukier', 
+    '<p>Neste programa falamos sobre Web 3.0. A Web 3.0 &eacute; uma evolu&ccedil;&atilde;o da World Wide Web (Web) que busca transformar a maneira como interagimos, compartilhamos informa&ccedil;&otilde;es e realizamos transa&ccedil;&otilde;es na internet. Enquanto a Web 1.0 foi marcada pela cria&ccedil;&atilde;o de websites est&aacute;ticos e a Web 2.0 trouxe a colabora&ccedil;&atilde;o e intera&ccedil;&atilde;o dos usu&aacute;rios por meio de redes sociais, j&aacute; a web 3.0 busca adicionar camadas de descentraliza&ccedil;&atilde;o, seguran&ccedil;a e intelig&ecirc;ncia aos servi&ccedil;os online.</p>', 
+    'Neste programa falamos sobre Web 3.0. A Web 3.0 é uma evolução da World Wide Web (Web) que busca transformar a maneira como interagimos, compartilhamos informações e realizamos transações na internet. Enquanto a Web 1.0 foi marcada pela criação de websites estáticos e a Web 2.0 trouxe a colaboração e interação dos usuários por meio de redes sociais, já a web 3.0 busca adicionar camadas de descentralização, segurança e inteligência aos serviços online.', 
+    'https://omny.fm/shows/cafe-de-bug/119-a-web-3-0-com-daniel-cukier', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/web3.0.jpg', 
+    '2023-06-12 01:00:00', '["web 3.0", "internet", "Daniel Cukier"]', 1, 125, 32, 1456, 680, '2023-06-12 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#127', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 127, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#120 Interview with Oren Eini CEO of RavenDB', 
+    '<p>We had a conversation with Oren Eini CEO of RavenDB an open-source, document-oriented NoSQL database written in C# and with full ACID operations support.&nbsp;</p>', 
+    'In this program, Oren told us about his experience, life as CEO at RavenDB, and some of the purposes of RavenDB compared to other NoSQL databases on the market.', 
+    'https://omny.fm/shows/cafe-de-bug/120-interview-with-oren-eini-ceo-of-ravendb', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/ravendb-update.jpg', 
+    '2023-07-02 11:47:00', '["banco de dados", "RavenDB"]', 1, 126, 3, 1413, 703, '2023-07-02 11:47:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#128', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 128, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#121 A vida de um gestor de tecnologia em Dublin - Rodrigo Mastini', 
+    '<p>Neste programa vamos contar a experi&ecirc;ncia e como est&aacute; sendo a viv&ecirc;ncia de um profissional de TI que mora e trabalha em uma empresa da Europa. Rodrigo Mastini compartilhou com a gente como foi essa trajet&oacute;ria, desafios e claro, se voc&ecirc; tem interesse em sair do pa&iacute;s e se desafiar em uma empresa fora, aqui ter&aacute; bastante dicas.</p>', 
+    'Neste programa vamos contar a experiência e como está sendo a vivência de um profissional de TI que mora e trabalha em uma empresa da Europa. Rodrigo Mastini compartilhou com a gente como foi essa trajetória, desafios e claro, se você tem interesse em sair do país e se desafiar em uma empresa fora, aqui terá bastante dicas.', 
+    'https://omny.fm/shows/cafe-de-bug/121-a-vida-de-um-gestor-de-tecnologia-em-dublin-ro', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/entrevista-rodrigo-mastini.jpg', 
+    '2023-07-17 01:00:00', '["carreira", "Rodrigo Mastini"]', 1, 127, 4, 1316, 645, '2023-07-17 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#129', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 129, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    '#122 RavenDB part2 com Daniel Jesus', 
+    '<p>No epis&oacute;dio anterior, fizemos uma grava&ccedil;&atilde;o com o Oren Eini CEO e fundador do RavenDB e conversamos sobre carreira, como &eacute; seu trabalho no RavenDB e o que o RavenDB se diferencia de outros bancos de dados NoSQL.<br /><br /></p>', 
+    'No episódio anterior, fizemos uma gravação com o Oren Eini CEO e fundador do RavenDB e conversamos sobre carreira, como é seu trabalho no RavenDB e o que o RavenDB se diferencia de outros bancos de dados NoSQL.', 
+    'https://omny.fm/shows/cafe-de-bug/122-ravendb-part2-com-daniel-jesus', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/certo.jpg', 
+    '2023-07-31 01:00:00', '["Banco de dados", "RavenDB"]', 1, 128, 3, 1255, 670, '2023-07-31 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#130', 
+    '#123 Dev Full Cycle com Wesley Willians', 
+    '<p>No epis&oacute;dio falamos sobre a Dev Fullcycle. O termo "Desenvolvedor Full Cycle" ou "Dev Full Cycle" est&aacute; se tornando cada vez mais comum na ind&uacute;stria de desenvolvimento de software. Ele se refere a devs que tem a capacidade e habilidade de contribuir para v&aacute;rias fases do ciclo de vida de desenvolvimento de um software, desde a concep&ccedil;&atilde;o e desenvolvimento at&eacute; a implementa&ccedil;&atilde;o, teste, manuten&ccedil;&atilde;o e suporte.<br /><br /></p>', 
+    'No episódio falamos sobre a Dev Fullcycle. O termo "Desenvolvedor Full Cycle" ou "Dev Full Cycle" está se tornando cada vez mais comum na indústria de desenvolvimento de software. Ele se refere a devs que tem a capacidade e habilidade de contribuir para várias fases do ciclo de vida de desenvolvimento de um software, desde a concepção e desenvolvimento até a implementação, teste, manutenção e suporte.', 
+    'https://omny.fm/shows/cafe-de-bug/123-dev-full-cycle-com-wesley-willians', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/fullcycle.jpg', 
+    '2023-08-07 01:00:00', '["Dev Full Cycle", "CICD", "engenharia de software", "Wesley Willians"]', 1, 129, 32, 1428, 656, '2023-08-07 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#124 Real Digital com Marcelo Queiroz', 
+    '<p>Neste epis&oacute;dio falamos sobre Real Digital, como ele funciona seu impacto na economia brasileira e no cen&aacute;rio global de criptomoedas. Conversamos com Marcelo Queiroz para entender melhor sobre o assunto, se voc&ecirc; quer entende melhor esse universo fique com a gente</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">O que &eacute; o Real Digital? E qual sua import&acirc;ncia?</li>
+    <li aria-level="1">Como o Real Digital est&aacute; ligado ao blockchain?</li>
+    <li aria-level="1">Como funciona? Quais tecnologias envolvidas e como as transa&ccedil;&otilde;es ocorrem?</li>
+    <li aria-level="1">Quais as implica&ccedil;&otilde;es de seguran&ccedil;a do Real Digital? Como &eacute; garantida a seguran&ccedil;a das transa&ccedil;&otilde;es e quais s&atilde;o as medidas de preven&ccedil;&atilde;o?</li>
+    <li aria-level="1">Como s&atilde;o processadas as transa&ccedil;&otilde;es ? E como a tecnologia garante a efici&ecirc;ncia, a velocidade e a seguran&ccedil;a das transa&ccedil;&otilde;es?</li>
+    <li aria-level="1">Quais s&atilde;o os desafios t&eacute;cnicos da integra&ccedil;&atilde;o do Real Digital com os sistemas de pagamento atuais?</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech -<a href="https://site-mentoria-tech.vercel.app/"> https://site-mentoria-tech.vercel.app/</a></li>
+    <li aria-level="1"><a href="https://conteudos.xpi.com.br/conteudos-gerais/real-digital-moeda-bc-projeto/?gclid=CjwKCAjw_aemBhBLEiwAT98FMi6ne-ltjwTlbs7gvIk2w3W6rhIntPhJrx5aVrk1NgqQFfoTpszSzBoCAJgQAvD_BwE" target="_blank" rel="noopener" title="real digital moeda projeto BC conteudo XP">https://conteudos.xpi.com.br/conteudos-gerais/real-digital-moeda-bc-projeto/?gclid=CjwKCAjw_aemBhBLEiwAT98FMi6ne-ltjwTlbs7gvIk2w3W6rhIntPhJrx5aVrk1NgqQFfoTpszSzBoCAJgQAvD_BwE</a></li>
+    <li aria-level="1"><a href="https://www.bcb.gov.br/estabilidadefinanceira/real_digital" target="_blank" rel="noopener" title="mat&eacute;ria BBC real digital">https://www.bcb.gov.br/estabilidadefinanceira/real_digital</a></li>
+    </ul>
+    <p><strong><br />Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Engineer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="linkedin da J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Marcelo Queiroz (CEO ClearSafe)<br />LinkedIn: <a href="https://www.linkedin.com/in/msqueiroz-innovation/" target="_blank" rel="noopener" title="linkedin Marcelo Quiroz">https://www.linkedin.com/in/msqueiroz-innovation/</a></p>
+    <p>Editado por: AGO Filmes <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="site produtora AGO Filmes">https://thiagocarvalhofotografia.wordpress.com/</a></p>
+    <p>d&uacute;vidas, sugest&otilde;es ou&nbsp; publicidade envie para: debugcafe@gmail.com</p>', 
+    'Neste episódio falamos sobre Real Digital, como ele funciona seu impacto na economia brasileira e no cenário global de criptomoedas. Conversamos com Marcelo Queiroz para entender melhor sobre o assunto, ficou com dúvidas? Clica aqui pra escutar e compartilhe esse programa.', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 130, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#125 Carreira em Segurança da Informação com Daniel Dalalana', 
+    '<p>A Seguran&ccedil;a da Informa&ccedil;&atilde;o &eacute; um campo especializado focado na prote&ccedil;&atilde;o de informa&ccedil;&otilde;es e sistemas de informa&ccedil;&atilde;o contra acessos n&atilde;o autorizados, divulga&ccedil;&atilde;o, altera&ccedil;&atilde;o ou destrui&ccedil;&atilde;o, seja por meios eletr&ocirc;nicos ou f&iacute;sicos.Conversamos com Daniel Dalalana que compartilhou com a gente seu conhecimento em seguran&ccedil;a da informa&ccedil;&atilde;o e qual o seu papel.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">O que &eacute; Seguran&ccedil;a da Informa&ccedil;&atilde;o e qual seu papel</li>
+    <li aria-level="1">Inicio da carreira, certifica&ccedil;&otilde;es, cursos por onde come&ccedil;ar</li>
+    <li aria-level="1">Caminhos de carreira dentro do campo (analista, engenheiro e gerente ex)</li>
+    <li aria-level="1">Import&acirc;ncia do aprendizado cont&iacute;nuo e da atualiza&ccedil;&atilde;o de habilidades</li>
+    <li aria-level="1">Legisla&ccedil;&atilde;o</li>
+    <li aria-level="1">Casos de falhas e vulnerabilidades - como podemos aprender com eles?</li>
+    <li aria-level="1">Vazamento de dados</li>
+    <li aria-level="1">Seguran&ccedil;a da informa&ccedil;&atilde;o para leigos - como pessoas comuns podem manter sua scontas seguras e evitar golpes? Existe alguma educa&ccedil;&atilde;o digital para isso?</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Mentoria Tech -<a href="https://site-mentoria-tech.vercel.app/" target="_blank" rel="noopener" title="link mentoria tech"> https://site-mentoria-tech.vercel.app/</a></li>
+    <li aria-level="1"><a href="https://tecnoblog.net/noticias/2017/09/14/equifax-vazamento-vulnerabilidade/" target="_blank" rel="noopener" title="tecnoblog vazamento de dados e vulnerabilidades">https://tecnoblog.net/noticias/2017/09/14/equifax-vazamento-vulnerabilidade/</a></li>
+    <li aria-level="1"><a href="https://exame.com/tecnologia/gates-musk-e-obama-hackeados-o-que-aconteceu-no-twitter/" target="_blank" rel="noopener" title="mat&eacute;ria do exame sobre hackers">https://exame.com/tecnologia/gates-musk-e-obama-hackeados-o-que-aconteceu-no-twitter/</a></li>
+    <li aria-level="1"><a href="https://g1.globo.com/economia/noticia/2021/06/09/senha-roubada-permitiu-que-hackers-atacassem-oleodutos-da-colonial-pipeline-diz-empresa.ghtml" target="_blank" rel="noopener" title="g1 senha roubadas e ataques hackers">https://g1.globo.com/economia/noticia/2021/06/09/senha-roubada-permitiu-que-hackers-atacassem-oleodutos-da-colonial-pipeline-diz-empresa.ghtml</a></li>
+    <li aria-level="1"><a href="https://www.amazon.com.br/Vigil%C3%A2ncia-Seguran%C3%A7a-na-Sociedade-Tecnol%C3%B3gica/dp/8536903473" target="_blank" rel="noopener" title="amazon seguran&ccedil;a da informa&ccedil;&atilde;o livro">https://www.amazon.com.br/Vigil%C3%A2ncia-Seguran%C3%A7a-na-Sociedade-Tecnol%C3%B3gica/dp/8536903473</a></li>
+    <li aria-level="1"><a href="https://www.youtube.com/watch?v=VE7iDdGdDtM" target="_blank" rel="noopener" title="v&iacute;deo Deschamps Hacker">https://www.youtube.com/watch?v=VE7iDdGdDtM</a> - V&iacute;deo Deschamps Hacker</li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Engineer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="Linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Engineer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="Linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Daniel Dalalana (PhD em Ci&ecirc;ncia da Computa&ccedil;&atilde;o e CEO da WSS Security)<br />LinkedIn: <a href="https://www.linkedin.com/in/danieldalalana/" target="_blank" rel="noopener" title="Linkedin Daniel Dalalana">https://www.linkedin.com/in/danieldalalana/</a><br />Youtube: <a href="https://www.youtube.com/@wsssec" target="_blank" rel="noopener" title="podcast wsssec">https://www.youtube.com/@wsssec</a><br />Podcast Caf&eacute; Seguro: <a href="https://open.spotify.com/show/1enf1pUTB3xaZxNFZ3LDgv" target="_blank" rel="noopener" title="podcast Caf&eacute; Seguro">https://open.spotify.com/show/1enf1pUTB3xaZxNFZ3LDgv</a><br />Instagram: <a href="https://www.instagram.com/wsssec/">https://www.instagram.com/wsssec/</a></p>
+    <p>Editado por: AGO Filmes <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="editado por AGO Filmes">https://thiagocarvalhofotografia.wordpress.com/</a></p>
+    <p>d&uacute;vidas, sugest&otilde;es ou&nbsp; publicidade envie para: debugcafe@gmail.com</p>', 
+    'A Segurança da Informação é um campo especializado focado na proteção de informações e sistemas de informação contra acessos não autorizados, divulgação, alteração ou destruição, seja por meios eletrônicos ou físicos.Conversamos com Daniel Dalalana que compartilhou com a gente seu conhecimento em segurança da informação e qual o seu papel.', 
+    'https://omny.fm/shows/cafe-de-bug/125-carreira-seguran-a-da-informa-o-com-daniel-dal', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/seguranca-informacao.jpg', 
+    '2023-09-04 07:30:00', '["segurança da informação", "Daniel Dalalana"]', 1, 131, 7, 1387, 630, '2023-09-04 07:30:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#126 O que são e como utilizar os Prompts do GPT', 
+    '<p>Uma discuss&atilde;o detalhada sobre como os prompts GPT funcionam, sua relev&acirc;ncia na intera&ccedil;&atilde;o homem-m&aacute;quina e as implica&ccedil;&otilde;es para o futuro da IA e linguagem natural, com a participa&ccedil;&atilde;o do Henrique Eduardo.<br /><br /></p>', 
+    'Uma discussão detalhada sobre como os prompts GPT funcionam, sua relevância na interação homem-máquina e as implicações para o futuro da IA e linguagem natural, com a participação do Henrique Eduardo.', 
+    'https://omny.fm/shows/cafe-de-bug/126-o-que-s-o-e-como-utilizar-os-prompts-do-gpt', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/prompts-gpt.jpg', 
+    '2023-09-18 01:00:00', '["prompts GPT", "Henrique Eduardo"]', 1, 132, 30, 1364, 695, '2023-09-18 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#127 Evolução na Carreira Dev e uso consciente das IAs - com Roberta Arcoverde e Thamirys Gameiro', 
+    '<p>Esse &eacute; um dos temas filos&oacute;ficos que adoramos, aquele bate papo de bar que se prolonga por horas. Neste tema, a discuss&atilde;o foi longa sobre como as IAs est&atilde;o mudando a forma como aprendemos e trabalhamos com a programa&ccedil;&atilde;o direta, e a import&acirc;ncia do uso consciente delas. Como a nova gera&ccedil;&atilde;o de Desenvolvedores deveria utilizar de forma consciente o uso delas.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Gera&ccedil;&otilde;es de programadores e as formas como buscam solu&ccedil;&otilde;es (livros, Google, Stackoverflow, Guj&nbsp; e outros f&oacute;runs)</li>
+    <li aria-level="1">A transforma&ccedil;&atilde;o do aprendizado e o trabalho (produtividade, m&eacute;todos e abordagens)</li>
+    <li aria-level="1">IAs que geram c&oacute;digos po&oacute;s e contras: a import&acirc;ncia de saber sobre o c&oacute;digo gerado</li>
+    <li aria-level="1">&ldquo;Me sinto culpado em usar o Chat GPT&rdquo;</li>
+    <li aria-level="1">Desenvolvedores precisaram adquirir novos hard skils&nbsp;</li>
+    <li aria-level="1">Cuidados que os desenvolvedores iniciantes precisam tomar</li>
+    <li aria-level="1">Contribui&ccedil;&atilde;o &eacute; uma &oacute;tima forma de se desenvolver tecnicamente</li>
+    <li aria-level="1">Um pouco sobre a OverflowIA</li>
+    </ul>
+    <p>&nbsp;</p>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1"><a href="https://stackoverflow.blog/2023/07/27/announcing-overflowai/" target="_blank" rel="noopener" title="stacoverflow ia">https://stackoverflow.blog/2023/07/27/announcing-overflowai/</a></li>
+    <li aria-level="1"><a href="https://www.guj.com.br/" target="_blank" rel="noopener" title="blog guj">https://www.guj.com.br/</a></li>
+    <li aria-level="1"><a href="https://culturadev.com.br/como-usar-o-chat-gpt-para-melhorar-suas-habilidades-de-programacao/" target="_blank" rel="noopener" title="como usar o GPT para melhorar suas habilidades com programa&ccedil;&atilde;o">https://culturadev.com.br/como-usar-o-chat-gpt-para-melhorar-suas-habilidades-de-programacao/</a></li>
+    <li aria-level="1"><a href="https://www.tabnews.com.br/alexandrepateis/me-sinto-culpado-em-usar-o-chat-gpt" target="_blank" rel="noopener" title="me sinto culpado por usar o gpt">https://www.tabnews.com.br/alexandrepateis/me-sinto-culpado-em-usar-o-chat-gpt</a></li>
+    <li aria-level="1"><a href="https://www.linkedin.com/pulse/cyrano-de-bergerac-chatgpt-e-o-python-excel-cristiano-galvao?utm_source=share&amp;utm_medium=member_android&amp;utm_campaign=share_via" target="_blank" rel="noopener" title="chatgpt python no excel">https://www.linkedin.com/pulse/cyrano-de-bergerac-chatgpt-e-o-python-excel-cristiano-galvao?utm_source=share&amp;utm_medium=member_android&amp;utm_campaign=share_via</a></li>
+    <li aria-level="1"><a href="https://www.hipsters.tech/carreira-e-dia-da-programacao-hipsters-ponto-tech-374/" target="_blank" rel="noopener" title="epis&oacute;dio carreira e dia da programa&ccedil;&atilde;o hipsterspontotech">https://www.hipsters.tech/carreira-e-dia-da-programacao-hipsters-ponto-tech-374/</a></li>
+    <li aria-level="1"><a href="https://survey.stackoverflow.co/2023/" target="_blank" rel="noopener" title="pesquisa stackoverflow 2023">https://survey.stackoverflow.co/2023/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Engineer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" rel="noopener" title="linkedin da J&eacute;ssica">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" rel="noopener" title="linkedin do Wesley">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Roberta Arcoverde (Diretora de Engenharia do Stackoverflow, Alura Star e Microsoft MVP)<br />LinkedIn: <a href="https://www.linkedin.com/in/robertaarcoverde/" target="_blank" rel="noopener" title="linkedin da Roberta Arcoverde">https://www.linkedin.com/in/robertaarcoverde/</a></p>
+    <p>Thamirys Gameiro (Software Engineer&nbsp; na Globo e Microsoft MVP)<br />LinkedIn: <a href="https://www.linkedin.com/in/thamirys-gameiro-5535a520/" target="_blank" rel="noopener" title="linkedin da Thamirys Gameiro">https://www.linkedin.com/in/thamirys-gameiro-5535a520/</a><br />Instagram: <a href="https://www.instagram.com/thamyshesharp/" target="_blank" rel="noopener" title="conte&uacute;do tech Tahmyshesharp">https://www.instagram.com/thamyshesharp/</a></p>
+    <p>Editado por: AGO Filmes <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" rel="noopener" title="AGO Filmes">https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou&nbsp; publicidade envie para: debugcafe@gmail.com</p>', 
+    'Esse é um dos temas filosóficos que adoramos, aquele bate papo de bar que se prolonga por horas. Neste tema, a discussão foi longa sobre como as IAs estão mudando a forma como aprendemos e trabalhamos com a programação direta, e a importância do uso consciente delas. Como a nova geração de Desenvolvedores deveria utilizar de forma consciente o uso delas.', 
+    'https://omny.fm/shows/cafe-de-bug/127-evolu-o-na-carreira-dev-e-uso-consciente-das-i', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/aprendizado-evolucao-devs.jpg', 
+    '2023-09-25 06:30:00', '["carreira", "desenvolvedor de software"]', 1, 133, 4, 2118, 664, '2023-09-25 06:30:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#128 CDN e Arquitetura Distribuída', 
+    '<p>Neste programa trouxemos para voc&ecirc;s um pouco de conte&uacute;do sobre CDN (Content Delivery Network) e Arquitetura Distribu&iacute;da e como essas tecnologias est&atilde;o transformando o cen&aacute;rio digital, otimizando o desempenho e a entrega de conte&uacute;do na Web. E para explicar todo esse trabalho, contamos com a participa&ccedil;&atilde;o do Mauricio Abreu que trabalha como Software Specialist na Globo.</p>', 
+    'Neste programa trouxemos para vocês um pouco de conteúdo sobre CDN (Content Delivery Network) e Arquitetura Distribuída e como essas tecnologias estão transformando o cenário digital, otimizando o desempenho e a entrega de conteúdo na Web. E para explicar todo esse trabalho, contamos com a participação do Mauricio Abreu que trabalha como Software Specialist na Globo.', 
+    'https://omny.fm/shows/cafe-de-bug/128-cdn-e-arquitetura-distribu-da', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/cdn.jpg', 
+    '2023-10-09 01:00:00', '["CDN", "Arquitetura Distribuída"]', 1, 134, 32, 1331, 667, '2023-10-09 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#129 Os impactos do Deep Fake com  Ahirton Lopes', 
+    '<p>Neste programa vamos falar sobre a aten&ccedil;&atilde;o que precisamos ter com as IAs e Deep Fake. &Eacute; preciso regulamentar o desenvolvimento das IA? Trouxemos o Ahirton Lopes para tratar desse assunto, ele melhor do que ningu&eacute;m para explicar o que s&atilde;o Deep Fake e quais cuidados necess&aacute;rios devemos ter.&nbsp;</p>', 
+    'Neste programa vamos falar sobre a atenção que precisamos ter com as IAs e Deep Fake. É preciso regulamentar o desenvolvimento das IA? Trouxemos o Ahirton Lopes para tratar desse assunto, ele melhor do que ninguém para explicar o que são Deep Fake e quais cuidados necessários devemos ter. ', 
+    'https://omny.fm/shows/cafe-de-bug/129-os-impactos-do-deep-fake-ahirton-lopes', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/deep-fake.jpg', 
+    '2023-10-16 01:00:00', '["machine learning", "deep fake", "Ahirton Lopes"]', 1, 135, 18, 1449, 739, '2023-10-16 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#130 An Interview with Dejan Milicic - AI/ML Model with RavenDB, Open-source projects and Hard Skills', 
+    '<p>We spoke with Dejan Milicic, a Software Craftsman at RavenDB. During our conversation, Dejan delved into essential practices every developer should adopt, his contributions to open-source projects, and insights on project architecture and managing complex tasks. We also discussed when it''s best to choose NoSQL databases for certain projects. This discussion was particularly insightful, highlighting the hard skills and primary areas of focus that Senior Software Engineers should prioritize.</p>', 
+    'We spoke with Dejan Milicic, a Software Craftsman at RavenDB. During our conversation, Dejan delved into essential practices every developer should adopt, his contributions to open-source projects, and insights on project architecture and managing complex tasks. We also discussed when it''s best to choose NoSQL databases for certain projects. This discussion was particularly insightful, highlighting the hard skills and primary areas of focus that Senior Software Engineers should prioritize.', 
+    'https://omny.fm/shows/cafe-de-bug/130-an-interview-with-dejan-milicic-ai-ml-model-wi', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/interview-djan-milicic.jpg', 
+    '2023-10-30 01:00:00', '["banco de dados", "AI/ML RavenDB"]', 1, 136, 3, 1307, 649, '2023-10-30 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#131 DevRel,  Criação de Conteúdo e Carreira Tech com Gabs Ferreira', 
+    '<p>Neste programa entrevistamos o Gabriel Ferreira mais conhecido como Gabs. Ele &eacute; criador de conte&uacute;do e &eacute; dono do seu pr&oacute;prio podcast chamado Ol&aacute; Gabs. Gabs j&aacute; foi desenvolvedor de software e instrutor na Alura. Fizemos um bate papo sobre, carreira, programa&ccedil;&atilde;o, cria&ccedil;&atilde;o de conte&uacute;do e Dev Rel. Clique para escutar o epis&oacute;dio e compartilhe com seus amigos.</p>', 
+    'Neste programa entrevistamos o Gabriel Ferreira mais conhecido como Gabs. Ele é criador de conteúdo e é dono do seu próprio podcast chamado Olá Gabs. Gabs já foi desenvolvedor de software e instrutor na Alura. Fizemos um bate papo sobre, carreira, programação, criação de conteúdo e Dev Rel. Clique para escutar o episódio e compartilhe com seus amigos.', 
+    'https://omny.fm/shows/cafe-de-bug/entrevista-gabs', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/entrevsita-gabs.jpg', 
+    '2023-11-04 01:00:00', '["carreira", "Dev Rel", "Gabs Ferreira"]', 1, 137, 4, 1267, 666, '2023-11-04 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#4 Devs e Empreendedores com Igor Halfeld', 
+    '<p>Continuamos nossa s&eacute;rie explorando o universo de Desenvolvedores e Empreendedores e, desta vez, tivemos o prazer de conversar com&nbsp;Igor Luiz Halfeld. Ele nos revelou os bastidores do desenvolvimento da&nbsp;Ext. Contabilidade Online&nbsp;e destacou os passos cruciais para transformar uma ideia empreendedora em realidade. Igor tamb&eacute;m compartilhou insights valiosos que impulsionaram o in&iacute;cio de suas opera&ccedil;&otilde;es, abordando estrat&eacute;gias de marketing, a import&acirc;ncia de construir uma rede de apoio robusta e muito mais.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Administrando o neg&oacute;cio</li>
+    <li aria-level="1">Tecnologia e empreendedorismo</li>
+    <li aria-level="1">Abri meu neg&oacute;cio. Continuo codando? Como gerenciar meu tempo para administrar meu neg&oacute;cio e continuar ainda escrevendo c&oacute;digos? Como manter a paix&atilde;o por escrever softwares e continuar os estudos sem desequilibrar os neg&oacute;cios?</li>
+    <li aria-level="1">Desafios e como ser um bom gestor</li>
+    <li aria-level="1">Desenvolvedores precisam empreender?</li>
+    <li aria-level="1">Programador(a) vai sempre ser um programador(a) ou &eacute; natural ir para o caminho da gest&atilde;o?</li>
+    <li aria-level="1">Gerenciamento de tempo</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1"><a href="https://www.linkedin.com/company/extcontabilidade/" target="_blank" title="linkedin extcontabilidade">https://www.linkedin.com/company/extcontabilidade/</a></li>
+    <li aria-level="1"><a href="https://extcontabilidade.com.br/" target="_blank" title="site ext contabilidade">https://extcontabilidade.com.br/</a></li>
+    <li aria-level="1"><a href="https://www.instagram.com/extcontabilidade/" target="_blank" title="instagram ext contabilidade">https://www.instagram.com/extcontabilidade/</a></li>
+    <li aria-level="1"><a href="https://www.indiehackers.com/" target="_blank" title="indiehackers">https://www.indiehackers.com/</a></li>
+    <li aria-level="1"><a href="https://leanhackers.club/" target="_blank" title="lenhahackers">https://leanhackers.club/</a></li>
+    <li aria-level="1"><a href="https://www.scalesleek.com/blog/product-hunt-launch-guide-using-memes" target="_blank" title="scalesleek">https://www.scalesleek.com/blog/product-hunt-launch-guide-using-memes</a></li>
+    </ul>
+    <p><strong><br />Participantes</strong></p>
+    <p>J&eacute;ssica Nathany Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" title="linkedin da J&eacute;ssica">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" title="linkedin Weslley">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Igor Halfeld (Software Engineer na GO.K One Step Ahead e Founder EXT Contabilidade Online) <br />Linkedin: <a href="https://www.linkedin.com/in/igorhalfeld/" target="_blank" title="linkedin Igor">https://www.linkedin.com/in/igorhalfeld/</a><br />Twitter: <a href="https://twitter.com/igorhalfeld" target="_blank" title="twitter Igor">https://twitter.com/igorhalfeld</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br" target="_blank" title="site cafedebug">http://www.cafedebug.com.br</a>Produtora AGO Filmes: <br /><a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" title="site AGO Filmes">https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</p>', 
+    'Continuamos nossa série explorando o universo de Desenvolvedores e Empreendedores e, desta vez, tivemos o prazer de conversar com Igor Luiz Halfeld. Ele nos revelou os bastidores do desenvolvimento da Ext. Contabilidade Online e destacou os passos cruciais para transformar uma ideia empreendedora em realidade. Igor também compartilhou insights valiosos que impulsionaram o início de suas operações, abordando estratégias de marketing, a importância de construir uma rede de apoio robusta e muito mais.', 
+    'https://omny.fm/shows/cafe-de-bug/4-devs-e-empreendedores-com-igor-igor-halfeld', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/modelo-capa-episodios-dev-empreendedor-4.jpg', 
+    '2023-11-20 01:00:00', '["Dev empreendedores", "Igor Halfeld"]', 1, 138, 9, 1314, 704, '2023-11-20 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#132 Tecnologia e Liderança: De Software na NASA à CEO da Minha Startup - Ludmila Pontremolez', 
+    '<p>Tivemos uma entrevista inspiradora com a Ludmila Pontremolez executiva e ex Software Engineer da NASA. Ludmila trouxe neste programa, como foi sua trajet&oacute;ria, seu trabalho os desafios enfrentandos na NASA.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Breve introdu&ccedil;&atilde;o sobre Ludmila Pontremolez</li>
+    <li aria-level="1">Desafios e projetos que atuou na NASA</li>
+    <li aria-level="1">Li&ccedil;&otilde;es aprendidas e como sua experi&ecirc;ncia moldou sua experi&ecirc;ncia com tecnologia</li>
+    <li aria-level="1">Diversidade na NASA</li>
+    <li aria-level="1">Desafios no ITA</li>
+    <li aria-level="1">Aprendizado e estudos no que priorizar?</li>
+    <li aria-level="1">O que motivou a sair da NASA e fundar sua pr&oacute;pria empresa?</li>
+    </ul>
+    <p><br /><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1"><a href="https://exame.com/pme/ex-engenheira-da-nasa-fundadora-fintech-brasileira/" target="_blank" title="mat&eacute;ria Exame entrevista Ludmila ">https://exame.com/pme/ex-engenheira-da-nasa-fundadora-fintech-brasileira/</a></li>
+    <li aria-level="1"><a href="https://zippi.com.br/" target="_blank" title="site Zippi">https://zippi.com.br/</a></li>
+    </ul>
+    <p><strong>Participantes3</strong></p>
+    <p>J&eacute;ssica Nathany Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" title="linkedin Jessica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/"><br /><br /></a>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" title="linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Ludmila Pontremolez (CTO da Zippi) <br />Linkedin:<a href="https://www.linkedin.com/in/ludmilapontremolez/" target="_blank" title="linkedin Ludmila Pontremolez">https://www.linkedin.com/in/ludmilapontremolez/</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br" target="_blank" title="site Caf&eacute; Debug">http://www.cafedebug.com.br</a><br />Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/" title="produtora AGO Filmes" target="_blank">https://thiagocarvalhofotografia.wordpress.com/</a></p>
+    <p>d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: <a href="mailto:debugcafe@gmail.com">debugcafe@gmail.com</a></p>
+    <p>Gostou do nosso conte&uacute;do? Contribua com o projeto :)<br />Chave PIX: 76b5e4bc-023f-404f-8251-0eec6afcb2ea<br />Gostou do nosso conte&uacute;do? Contribua com o projeto :)<br />Chave PIX: 76b5e4bc-023f-404f-8251-0eec6afcb2ea</p>', 
+    'Tivemos uma entrevista inspiradora com a Ludmila Pontremolez executiva e ex Software Engineer da NASA. Ludmila trouxe neste programa, como foi sua trajetória, seu trabalho os desafios enfrentandos na NASA.', 
+    'https://omny.fm/shows/cafe-de-bug/132-tecnologia-e-lideran-a-de-software-na-nasa-ceo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/entrevista-ludmila.jpg', 
+    '2023-12-12 01:00:00', '["entrevista", "tecnlogia e liderança" "Ludmila Pontremolez"]', 1, 139, 5, 1455, 594, '2023-12-12 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#5 Devs  e Empreendedores com Giulia Bordignon', 
+    '<p>N&oacute;s come&ccedil;amos uma pequena s&eacute;rie sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu pr&oacute;prio neg&oacute;cio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando? Neste epis&oacute;dio, entrevistamos a Giulia Bordignon.</p>', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando? Neste episódio, entrevistamos a Giulia Bordignon.', 
+    'https://omny.fm/shows/cafe-de-bug/5-devs-e-empreendedores-com-giulia-bordignon', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/modelo-capa-episodios-dev-empreendedor-5.jpg', 
+    '2024-01-08 01:00:00', '["devs e empreendedores", "Giulia Bordignon"]', 1, 140, 9, 1274, 623, '2024-01-08 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#133 Elevando o Nível: Performance e Escalabilidade Desvendadas com Italo Jose', 
+    '<p>Neste epis&oacute;dio, trouxemos uma abordagem profunda sobre t&eacute;cnicas e pr&aacute;ticas para otimizar a performance da sua aplica&ccedil;&atilde;o Trouxemos o Italo Jose que trouxe um compilado de informa&ccedil;&otilde;es que vai ajudar a voc&ecirc; a pensar mais otimiza&ccedil;&atilde;o e performance nas suas aplica&ccedil;&otilde;es, al&eacute;m de alavancar seu n&iacute;vel t&eacute;cnico.</p>', 
+    'Neste episódio, trouxemos uma abordagem profunda sobre técnicas e práticas para otimizar a performance da sua aplicação Trouxemos o Italo Jose que trouxe um compilado de informações que vai ajudar a você a pensar mais otimização e performance nas suas aplicações, além de alavancar seu nível técnico.', 
+    'https://omny.fm/shows/cafe-de-bug/133-elevando-o-n-vel-performance-e-escalabilidade', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/high-performance.jpg', 
+    '2024-01-29 01:00:00', '["performance", "escalabilidade", "Italo Jose"]', 1, 141, 32, 1311, 601, '2024-01-29 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#134 Arquitetura Limpa: Construindo Aplicações do Jeito Certo', 
+    '<p>Neste epis&oacute;dio, mergulhamos no universo das arquiteturas de software e boas pr&aacute;ticas de desenvolvimento, com um olhar especial para o .NET, mas abrangendo conceitos aplic&aacute;veis a qualquer linguagem POO. Angelo Belchior, Daniel Jesus e Tiago Aguiar se juntam a n&oacute;s nesta discuss&atilde;o enriquecedora, onde descomplicamos a Clean Architecture, arquiteturas em camadas, automa&ccedil;&atilde;o e seguran&ccedil;a, tornando estes conhecimentos acess&iacute;veis independentemente da stack que voc&ecirc; utiliza</p>', 
+    'Neste episódio, mergulhamos no universo das arquiteturas de software e boas práticas de desenvolvimento, com um olhar especial para o .NET, mas abrangendo conceitos aplicáveis a qualquer linguagem POO. Angelo Belchior, Daniel Jesus e Tiago Aguiar se juntam a nós nesta discussão enriquecedora, onde descomplicamos a Clean Architecture, arquiteturas em camadas, automação e segurança, tornando estes conhecimentos acessíveis independentemente da stack que você utiliza', 
+    'https://omny.fm/shows/cafe-de-bug/134-arquitetura-limpa-construindo-aplica-es-do-jei', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/arquitetura-padroes-projeto.jpg', 
+    '2024-02-12 01:00:00', '["arquitetura limpa", "Angelo Belchior", "Daniel Jesus", "Tiago Aguiar"]', 1, 142, 1, 1400, 556, '2024-02-12 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#135 Mudança de Stack Parte ||', 
+    '<p>Neste epis&oacute;dio, vamos dar continuidade &agrave; nossa discuss&atilde;o sobre Mudan&ccedil;a de Stack, na sua segunda parte. Para enriquecer ainda mais a nossa conversa com uma perspectiva diferente sobre a experi&ecirc;ncia de mudar de Stack, temos o prazer de receber novamente Ana Beatriz Neri que compartilhou conosco suas experi&ecirc;ncias pessoais, as dificuldades e o que vem agregando na sua vida profisisonal.</p>', 
+    'Neste episódio, vamos dar continuidade à nossa discussão sobre Mudança de Stack, na sua segunda parte. Para enriquecer ainda mais a nossa conversa com uma perspectiva diferente sobre a experiência de mudar de Stack, temos o prazer de receber novamente Ana Beatriz Neri que compartilhou conosco suas experiências pessoais, as dificuldades e o que vem agregando na sua vida profisisonal.', 
+    'https://omny.fm/shows/cafe-de-bug/135-mudan-a-de-stack-parte', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/mudanca-stack-p2.jpg', 
+    '2024-02-26 01:00:00', '["carreira", "mudança de stack part II"]', 1, 143, 4, 1367, 604, '2024-02-26 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#6 Devs e Empreendedores com Christopher Ribeiro', 
+    '<p>&nbsp;N&oacute;s come&ccedil;amos uma pequena s&eacute;rie sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu pr&oacute;prio neg&oacute;cio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando? Neste epis&oacute;dio, entrevistamos o Christopher Ribeiro.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Administrando o neg&oacute;cio</li>
+    <li aria-level="1">Tecnologia e empreendedorismo</li>
+    <li aria-level="1">Abri meu neg&oacute;cio. Continuo codando? Como gerenciar meu tempo para administrar meu neg&oacute;cio e continuar ainda escrevendo c&oacute;digos? Como manter a paix&atilde;o por escrever softwares e continuar os estudos sem desequilibrar os neg&oacute;cios?</li>
+    <li aria-level="1">Desafios e como ser um bom gestor</li>
+    <li aria-level="1">Desenvolvedores precisam empreender?</li>
+    <li aria-level="1">Programador(a) vai sempre ser um programador(a) ou &eacute; natural ir para o caminho da gest&atilde;o?</li>
+    <li aria-level="1">Gerenciamento de tempo</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1"><a href="https://www.alertpix.live" target="_blank" title="site alertpix">https://www.alertpix.live</a></li>
+    <li aria-level="1"><a href="https://instagram.com/alertpix_live" target="_blank" title="instagram alert pix">https://instagram.com/alertpix_live</a></li>
+    <li aria-level="1">Cupom de desconto <strong>CAFEDEBUG </strong>&nbsp;do Gorilashield&nbsp; <a href="http://gorilashield.com.br/" target="_blank" title="Site Gorilashield">gorilashield.com.br</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" title="linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br /><br />Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" title="linkedin Wesley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Christopher Ribeiro (Software Developer e Founder na AlertPix) <br />Linkedin:<a href="https://linkedin.com/in/christopy" target="_blank" title="linkedin Crhistopy">https://linkedin.com/in/christopy</a><br />Twitter:<a href="https://twitter.com/ChristoPy_" target="_blank" title="twitter CRhistopher">https://twitter.com/ChristoPy_</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br<br /></a>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/</a></p>
+    <p>d&uacute;vidas, sugest&otilde;es ou publicidade envie para: debugcafe@gmail.com</p>', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando? Neste episódio, entrevistamos o Christopher Ribeiro.', 
+    'https://omny.fm/shows/cafe-de-bug/6-devs-e-empreendedores-christopher-ribeiro', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/dev-empreendedor.jpg', 
+    '2024-03-13 01:00:00', '["devs e empreendedores", "Christopher Ribeiro"]', 1, 144, 9, 1163, 690, '2024-03-13 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#136 DevOps - Automação, Cultura, Responsabilidade e Aplicações Complexas', 
+    '<p>Neste programa apresentamos o tema focado no papel crescente&nbsp; dos desenvolvedores em pr&aacute;ticas DevOps. E para falar desse tema quem trabalha com isso no dia a dia, esteve conosco o Amaury Borges.</p>', 
+    'Neste programa apresentamos o tema focado no papel crescente dos desenvolvedores em práticas DevOps. E para falar desse tema quem trabalha com isso no dia a dia, esteve conosco o Amaury Borges.', 
+    'https://omny.fm/shows/cafe-de-bug/136-devops-automa-o-cultura-responsabilidade-e-apl', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/devops.jpg', 
+    '2024-03-18 01:00:00', '["devops", "automação", "Amaury Borges"]', 1, 145, 10, 1945, 683, '2024-03-18 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#137 Conceitos essenciais que você precisa saber sobre Arquitetura Orientada a Eventos', 
+    '<p>Neste programa apresentamos o tema sobre a import&acirc;ncia dos impactos da Arquitetura Orientada a Eventos ou (EDA) no desenvolvimento de softwware. Participou com a gente o Arthur Costa e Reginaldo Barros.</p>', 
+    'Neste programa apresentamos o tema sobre a importância dos impactos da Arquitetura Orientada a Eventos ou (EDA) no desenvolvimento de software. Participou com a gente o Arthur Costa e Reginaldo Barros.', 
+    'https://omny.fm/shows/cafe-de-bug/137-conceitos-essenciais-que-voc-precisa-saber-sob', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/arquitetura-eventos.jpg', 
+    '2024-04-01 01:00:00', '["arquitetura orientada a eventos", "Arthur Costa", "Reginaldo Barros"]', 1, 146, 1, 1646, 638, '2024-04-01 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#138 Building Resilient Systems: Availability, Scalability, and DevOps with Dejan Milicic', 
+    '<p>We had a conversation with Dejan Milicic, a Software Craftsman at RavenDB. We talked about Availability, Scalability, DevOps, Revolution, and some concepts of Software Architecture.</p>', 
+    'We had a conversation with Dejan Milicic, a Software Craftsman at RavenDB. We talked about Availability, Scalability, DevOps, Revolution, and some concepts of Software Architecture.', 
+    'https://omny.fm/shows/cafe-de-bug/138-building-resilient-systems-availability-scalab', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/resilient-system.jpg', 
+    '2024-04-08 01:00:00', '["observability", "Building Resilient Systems"]', 1, 147, 10, 2026, 600, '2024-04-08 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#7 Devs e Empreendedores com Ariadne Alcântara', 
+    '<p>&nbsp;N&oacute;s come&ccedil;amos uma pequena s&eacute;rie sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu pr&oacute;prio neg&oacute;cio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codificando? Neste epis&oacute;dio, entrevistamos a Ariadne Alc&acirc;ntara.</p>', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codificando? Neste episódio, entrevistamos a Ariadne Alcântara.', 
+    'https://omny.fm/shows/cafe-de-bug/7-devs-e-empreendedores-com-ariadne-alc-ntara', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/dev-empreendedor-7.jpg', 
+    '2024-04-22 01:00:00', '["devs e empreendedores", "Ariadne Alcântara"]', 1, 148, 9, 2203, 594, '2024-04-22 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#139 Agilidade Ampliada: Como a IA Está Transformando Equipes Ágeis', 
+    '<p>Neste programa vamos explorar novas dimens&otilde;es das metodologias &aacute;geis al&eacute;m do conhecimento b&aacute;sico do Scrum. Neste epis&oacute;dio participou com n&oacute;s o Vitor Cardoso e Ver&ocirc;nica Antunes e discutimos como as ferramentas de IAs est&atilde;o ajudando no processo e nos times &aacute;geis.</p>', 
+    'Neste programa vamos explorar novas dimensões das metodologias ágeis além do conhecimento básico do Scrum. Neste episódio participou com nós o Vitor Cardoso e Verônica Antunes e discutimos como as ferramentas de IAs estão ajudando no processo e nos times ágeis.', 
+    'https://omny.fm/shows/cafe-de-bug/139-agilidade-ampliada-como-a-ia-est-transformando', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/metodologia-agil-ia.jpg', 
+    '2024-04-29 01:00:00', '["metologia ágil", "scrum"]', 1, 149, 32, 1397, 588, '2024-04-29 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#140 De Open Source a Desenvolvedor: Explorando Bun vs. Node.js com Ciro Spaciari', 
+    '<p>Neste programa apresentamos conversamos com o Ciro Spaciari sobre o runtime Bun destacando sua contribui&ccedil;&atilde;o ao c&oacute;digo fonte de Bun e como isso levou a um convite para trabalhar na equipe do Bun.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Um pouco sobre o Ciro (motiva&ccedil;&otilde;es, trajet&oacute;ria e como deu inicio a contribui&ccedil;&atilde;o ao Bun)</li>
+    <li aria-level="1">Experi&ecirc;ncia com o Open Source</li>
+    <li aria-level="1">Vis&atilde;o geral sobre o Bun e porque o Bun est&aacute; ganhando popularidade</li>
+    <li aria-level="1">NodeJs x Bun x Deno</li>
+    <li aria-level="1">Bun vai substituir o deno?</li>
+    <li aria-level="1">Pr&oacute;s e contra do Bun</li>
+    <li aria-level="1">Migrar projetos para o Bun</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Participe da nossa comunidade no Discord:<a href="https://discord.com/invite/hGpFPsV2gB" target="_blank" title="discord do Caf&eacute; Debug"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">Utilize nosso cupom de compras <strong>cafedebug-24-20 </strong>na Amazon e ajude o Caf&eacute;zinho</li>
+    <li aria-level="1"><a href="https://bun.sh/" target="_blank" title="bun.sh">https://bun.sh/</a></li>
+    <li aria-level="1"><a href="https://medium.com/code-crafters/what-is-bun-a-high-performance-javascript-runtime-3aaff50aeef7" target="_blank" title="artigo medium sobre bun">https://medium.com/code-crafters/what-is-bun-a-high-performance-javascript-runtime-3aaff50aeef7</a></li>
+    <li aria-level="1"><a href="https://www.treehacks.com/" target="_blank" title="site treehacks">https://www.treehacks.com/</a>&nbsp;</li>
+    <li aria-level="1"><a href="https://bun.sh/discord" target="_blank" title="discord do Bun">https://bun.sh/discord</a>&nbsp;</li>
+    </ul>
+    <p><strong>Participantes<br /><br /></strong>J&eacute;ssica Nathany Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" title="linkedin da J&eacute;ssica">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" title="LINKEDIN do weslley">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Ciro Spaciari (Software Developer no Bun) <br />Linkedin: <a href="https://www.linkedin.com/in/ciro-spaciari-23253b57/" target="_blank" title="linkedin do Ciro">https://www.linkedin.com/in/ciro-spaciari-23253b57/</a>&nbsp;<br />Github: <a href="https://github.com/cirospaciari" target="_blank" title="github do Ciro">https://github.com/cirospaciari</a>&nbsp;<br />Github Bun: <a href="https://github.com/oven-sh/bun">https://github.com/oven-sh/bun</a>&nbsp;</p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br<br /></a>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou publicidade envie para: debugcafe@gmail.com</p>', 
+    'Neste programa apresentamos conversamos com o Ciro Spaciari sobre o runtime Bun destacando sua contribuição ao código fonte de Bun e como isso levou a um convite para trabalhar na equipe do Bun.', 
+    'https://omny.fm/shows/cafe-de-bug/140-de-open-source-a-desenvolvedor-explorando-bun', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/bun.jpg', 
+    '2024-05-06 07:00:00', '["frameworks", "bun", "nodejs"]', 1, 150, 13, 1719, 560, '2024-05-06 07:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#141 Trabalho Remoto, Profissional do Futuro e Mercado de Trabalho Com Rafael Miranda', 
+    '<p>Neste epis&oacute;dio, abordamos um tema que tem estado em voga: o trabalho remoto. Com a participa&ccedil;&atilde;o de Rafael Miranda, Co-fundador e Diretor da Impulso, exploramos n&atilde;o apenas as transforma&ccedil;&otilde;es trazidas pelo trabalho remoto, mas tamb&eacute;m os desafios enfrentados pelos profissionais juniores na busca por oportunidades. Al&eacute;m disso, discutimos o que as empresas esperam dos profissionais do futuro.</p>', 
+    'Neste episódio, abordamos um tema que tem estado em voga: o trabalho remoto. Com a participação de Rafael Miranda, Co-fundador e Diretor da Impulso, exploramos não apenas as transformações trazidas pelo trabalho remoto, mas também os desafios enfrentados pelos profissionais juniores na busca por oportunidades. Além disso, discutimos o que as empresas esperam dos profissionais do futuro.', 
+    'https://omny.fm/shows/cafe-de-bug/141-trabalho-remoto-profissional-do-futuro-e-merca', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/trabalho-remoto.jpg', 
+    '2024-05-27 01:00:00', '["temas não técnicos", "trabalho remoto"]', 1, 151, 22, 1433, 573, '2024-05-27 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#8 Devs e Empreendedores com Alexia Kattah', 
+    '<p>&nbsp;N&oacute;s come&ccedil;amos uma pequena s&eacute;rie sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu pr&oacute;prio neg&oacute;cio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando? Neste epis&oacute;dio, entrevistamos a Alexia Kattah</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Introdu&ccedil;&atilde;o</li>
+    <li aria-level="1">Tecnologia e empreendedorismo</li>
+    <li aria-level="1">De onde surgiu a ideia de fundar a Hero Code?</li>
+    <li aria-level="1">Como conciliar sobre carreira internacional e o empreendedorismo?</li>
+    <li aria-level="1">Abri meu neg&oacute;cio. Continuo codando? Como gerenciar meu tempo para administrar meu neg&oacute;cio e continuar ainda escrevendo c&oacute;digos? Como manter a paix&atilde;o por escrever softwares e continuar os estudos sem desequilibrar os neg&oacute;cios?</li>
+    <li aria-level="1">Como pensar em um MVP? Qual melhor caminho?</li>
+    <li aria-level="1">Desafios e como ser um bom gestor</li>
+    <li aria-level="1">Desenvolvedores precisam empreender?</li>
+    <li aria-level="1">Programador(a) vai sempre ser um programador(a) ou &eacute; natural ir para o caminho da gest&atilde;o?</li>
+    <li aria-level="1">Gerenciamento de tempo</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Participe da nossa comunidade no Discord:<a href="https://discord.com/invite/hGpFPsV2gB" target="_blank" title="discord do Caf&eacute;"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">Utilize nosso cupom de compras <strong>cafedebug-24-20 </strong>na Amazon e ajude o Caf&eacute;zinho</li>
+    <li aria-level="1">Vagas Golang S&ecirc;nior pela Impulso <a href="https://impulso.link/Yq8GSm" target="_blank" title="vagas Golan na Impulso">https://impulso.link/Yq8GSm</a></li>
+    <li aria-level="1">Vagas Product Manager Impulso <a href="https://impulso.link/6TcVY7" target="_blank" title="vagas PM na Impulso">https://impulso.link/6TcVY7</a></li>
+    <li aria-level="1">Vagas Java Pleno/Senior pela Impulso <a href="https://impulso.link/Pq2KLF" target="_blank" title="vagas de Java na Impulso">https://impulso.link/Pq2KLF</a></li>
+    <li aria-level="1">Vagas Senior Elixir pela Impulso <a href="https://impulso.link/fAV5IV" target="_blank" title="vaga Elixir na Impulso">https://impulso.link/fAV5IV</a></li>
+    <li aria-level="1"><a href="https://herocode.com.br/semana-heroi/?" target="_blank" title="herocode">https://herocode.com.br</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" title="linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" title="linkedin Wesley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Alexia Kattah (Software Engineer na Atria Institute e Fundadora do Hero Code) <br />Linkedin: <a href="https://www.linkedin.com/in/alexiakattah/&nbsp;" target="_blank" title="linkedin Alexia">https://www.linkedin.com/in/alexiakattah/&nbsp;</a><br />Instagram: <a href="https://www.instagram.com/herocodebr/&nbsp;" target="_blank" title="instagram Alexia">https://www.instagram.com/herocodebr/&nbsp;</a><br />Youtube: <a href="https://www.youtube.com/@herocodebr&nbsp;" target="_blank" title="canal herocoder">https://www.youtube.com/@herocodebr&nbsp;</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br<br /></a>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" title="produtora Ago filmes">https://thiagocarvalhofotografia.wordpress.com/</a></p>
+    <p>d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</p>', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando? Neste episódio, entrevistamos a Alexia Kattah', 
+    'https://omny.fm/shows/cafe-de-bug/8-devs-empreendedores-com-alexia-kattah', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/dev-empreendedor-8.jpg', 
+    '2024-06-03 01:00:00', '["devs e empreendedores", "Alexia Kattah"]', 1, 152, 9, 1324, 580, '2024-06-03 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#142 Decolando com sua Startup: Dicas Essenciais para Crescimento Rápido', 
+    '<p>Neste programa tivemos um bate papo com Carlos Perobelli para falar sobre Startups, primeiros e a import&acirc;ncia do Produto M&iacute;nimo Vi&aacute;vel (MVP). Esse programa visa fornecer insights valiosos tanto para empreendedores iniciantes quanto para investidores interessados no ecossistemas de startups.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Breve introdu&ccedil;&atilde;o ao tema, e destacamos a jornada de uma startup desde a concep&ccedil;&atilde;o do MVP at&eacute; a capta&ccedil;&atilde;o de investimentos significativos</li>
+    <li aria-level="1">O que torna uma Startup: discuss&atilde;o sobre a diferen&ccedil;a de outros tipos de neg&oacute;cios</li>
+    <li aria-level="1">An&aacute;lise das caracter&iacute;sticas chave que definem o esp&iacute;rito e a opera&ccedil;&atilde;o de uma startup bem-sucedida</li>
+    <li aria-level="1">MVP eficaz</li>
+    <li aria-level="1">Rodada de investimento: descri&ccedil;&atilde;o das fases de financiamento de uma startup</li>
+    <li aria-level="1">Discuss&atilde;o sobre como preparar uma startup para ser atraente para investidores</li>
+    <li aria-level="1">Dicas de como negociar o termos de investimento e manter uma boa rela&ccedil;&atilde;o com investidores</li>
+    <li aria-level="1">Alavancando a Startup</li>
+    <li aria-level="1">Considera&ccedil;&otilde;es finais</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Participe da nossa comunidade no Discord:<a href="https://discord.com/invite/hGpFPsV2gB" target="_blank" title="discord do caf&eacute; debug"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">Utilize nosso cupom de compras <strong>cafedebug-24-20 </strong>na Amazon e ajude o Caf&eacute;zinho&nbsp;</li>
+    <li aria-level="1">Vagas Golang S&ecirc;nior pela Impulso <a href="https://impulso.link/Yq8GSm" target="_blank" title="vagas golang senior impulso">https://impulso.link/Yq8GSm</a></li>
+    <li aria-level="1">Vagas Product Manager Impulso <a href="https://impulso.link/6TcVY7" target="_blank" title="vagas product manager na Impulso">https://impulso.link/6TcVY7</a></li>
+    <li aria-level="1">Vagas Java Pleno/Senior pela Impulso <a href="https://impulso.link/Pq2KLF" target="_blank" title="vagas java pleno na impulso">https://impulso.link/Pq2KLF</a></li>
+    <li aria-level="1">Vagas Senior Elixir pela Impulso <a href="https://impulso.link/fAV5IV" target="_blank" title="vagas elixir senior na impulso">https://impulso.link/fAV5IV</a></li>
+    <li aria-level="1"><a href="https://www.nexmuv.com.br/" target="_blank" title="site nexmuv">https://www.nexmuv.com.br/</a></li>
+    <li aria-level="1"><a href="https://startups.com.br/noticias/empresa-brasileira-lanca-venture-studio-para-criar-startups-do-zero/" target="_blank" title="artigo sobre starttups nexmuv">https://startups.com.br/noticias/empresa-brasileira-lanca-venture-studio-para-criar-startups-do-zero/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" title="linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br /><br />Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" title="linkedin Wesley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Carlos Perobelli (CEO da Nexmuv)<br />LinkedIn: <a href="https://www.linkedin.com/in/carlosperobelli/" target="_blank" title="linkedin Carlos Perobelli">https://www.linkedin.com/in/carlosperobelli/</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br<br /></a>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" title="edi&ccedil;&atilde;o AGO Filmes">https://thiagocarvalhofotografia.wordpress.com/</a></p>
+    <p>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste programa tivemos um bate papo com Carlos Perobelli para falar sobre Startups, primeiros e a importância do Produto Mínimo Viável (MVP). Esse programa visa fornecer insights valiosos tanto para empreendedores iniciantes quanto para investidores interessados no ecossistemas de startups.', 
+    'https://omny.fm/shows/cafe-de-bug/142-decolando-com-sua-startup-dicas-essenciais-par', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/alavancando-startups.jpg', 
+    '2024-06-10 01:00:00', '["startups"]', 1, 153, 14, 1924, 625, '2024-06-10 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#143 Desenvolvedor de Sucesso: Crescendo, Automatizando e Aprendendo', 
+    '<p>Este epis&oacute;dio &eacute; essencial para voc&ecirc; que deseja avan&ccedil;ar na carreira de desenvolvimento de software. Tiago Aguiar esteve conosco onde discutimos pontos cruciais para o crescimento profissional e abordaremos erros comuns que podem ser evitados ao longo de sua trajet&oacute;ria. Prepare-se para receber dicas valiosas que impulsionar&atilde;o sua carreira como programador.</p>', 
+    'Este episódio é essencial para você que deseja avançar na carreira de desenvolvimento de software. Tiago Aguiar esteve conosco onde discutimos pontos cruciais para o crescimento profissional e abordaremos erros comuns que podem ser evitados ao longo de sua trajetória. Prepare-se para receber dicas valiosas que impulsionarão sua carreira como programador.', 
+    'https://omny.fm/shows/cafe-de-bug/143-desenvolvedor-de-sucesso-crescendo-automatizan', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/programadores-bkp.jpg', 
+    '2024-06-24 01:00:00', '["carreira", "desenvolvedor de software"]', 1, 154, 4, 2071, 617, '2024-06-24 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#144 Desvendando os Ecossistemas de Pagamentos e os Desafios do BaaS com Danilo Assis', 
+    '<p>Neste programa, tivemos uma conversa com Danilo Assis para explorar mais a fundo o ecossistema de meios de pagamento e os desafios encontrados no Banking as a Service (BaaS).</p>', 
+    'Neste programa, tivemos uma conversa com Danilo Assis para explorar mais a fundo o ecossistema de meios de pagamento e os desafios encontrados no Banking as a Service (BaaS).', 
+    'https://omny.fm/shows/cafe-de-bug/145-desvendando-os-ecossistemas-de-pagamentos-e-os', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/ecossistemas-pagamento.jpg', 
+    '2024-07-08 01:00:00', '["ecossistemas de pagamento", "BaaS"]', 1, 155, 32, 1352, 561, '2024-07-08 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#145 Imensidão de Dados: Explorando o Universo do Big Data', 
+    '<p>Neste programa mergulhamos no mundo expansivo do Big Data com a participa&ccedil;&atilde;o do Brian Monteiro. Discutimos como o Big Data est&aacute; transformando ind&uacute;strias, impulsionando a inova&ccedil;&atilde;o e reformulando as estrat&eacute;gias empresariais em escala global. Este programa &eacute; projetado para oferecer insights profundos tanto para profissionais de tecnologia que buscam aprimorar suas habilidades, quanto l&iacute;deres empresariais.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Introdu&ccedil;&atilde;o ao Big Data (volume, variedade, velocidade e veracidade)</li>
+    <li aria-level="1">Os (5vs) do Big Data</li>
+    <li aria-level="1">Origem do Big Data e como vem evoluindo ao longo do tempo</li>
+    <li aria-level="1">Aplica&ccedil;&otilde;es Pr&aacute;ticas do Big Data: como diferentes setores impulsionam inova&ccedil;&atilde;o e efici&ecirc;ncia</li>
+    <li aria-level="1">Setores que envolvem Big Data como: sa&uacute;de, finan&ccedil;as, marketing e etc.</li>
+    <li aria-level="1">Ferramentas e Tecnologias: Hadoop, Spark e plataformas de aprendizado de m&aacute;quina</li>
+    <li aria-level="1">A import&acirc;ncia da arquitetura de dados e os desafios do manuseio de grandes volumes de dados</li>
+    <li aria-level="1">Big Data e IA</li>
+    <li aria-level="1">Mercado de trabalho</li>
+    <li aria-level="1">Considera&ccedil;&otilde;es finais</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Participe da nossa comunidade no Discord:<a href="https://discord.com/invite/hGpFPsV2gB" target="_blank" title="nosso discord"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">Pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; Debug 2024 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform" target="_blank" title="nossa pesquisa de satisfa&ccedil;&atilde;o">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a></li>
+    <li aria-level="1"><a href="https://www.nucleodoconhecimento.com.br/tag/big-data" target="_blank" title="artigo sobre big data nucleo do conhecimento">https://www.nucleodoconhecimento.com.br/tag/big-data</a></li>
+    <li aria-level="1"><a href="https://www.akkadiantech.com.br/" target="_blank" title="Akkadian tech">https://www.akkadiantech.com.br/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" title="linkedin da J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br /><br />Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" title="linkedin Weslley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Brian Monteiro (CEO na Akkadian)<br />LinkedIn: <a href="https://www.linkedin.com/in/brian-monteiro-b8738a58/&nbsp;" target="_blank" title="linkedin Brian Monteiro">https://www.linkedin.com/in/brian-monteiro-b8738a58/&nbsp;</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br<br /></a>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/</a></p>
+    <p>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: <a href="mailto:debugcafe@gmail.co">debugcafe@gmail.co</a>m</p>', 
+    'Neste programa mergulhamos no mundo expansivo do Big Data com a participação do Brian Monteiro. Discutimos como o Big Data está transformando indústrias, impulsionando a inovação e reformulando as estratégias empresariais em escala global. Este programa é projetado para oferecer insights profundos tanto para profissionais de tecnologia que buscam aprimorar suas habilidades, quanto líderes empresariais.', 
+    'https://omny.fm/shows/cafe-de-bug/145-imensid-o-de-dados-explorando-o-universo-do-bi', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/big-data.jpg', 
+    '2024-07-23 01:00:00', '["big data", "Brian Monteiro"]', 1, 156, 3, 1218, 559, '2024-07-23 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#146 Eficiência e Adaptabilidade: Explorando Clojure e LSP com Eric Dallo', 
+    '<p>Neste programa, exploramos as profundezas de Clojure e do Language Server Protocol (LSP) com a participa&ccedil;&atilde;o de Eric Dallo. Discutimos como essas tecnologias est&atilde;o redefinindo o desenvolvimento de software, tornando o processo mais eficiente e adapt&aacute;vel. Este epis&oacute;dio &eacute; destinado a desenvolvedores que desejam aprimorar suas habilidades t&eacute;cnicas e l&iacute;deres empresariais interessados em integrar solu&ccedil;&otilde;es avan&ccedil;adas em suas opera&ccedil;&otilde;es.empresariais.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Introdu&ccedil;&atilde;o ao Clojure (Linguagem de Programa&ccedil;&atilde;o Funcional)</li>
+    <li aria-level="1">Benef&iacute;cios em utilizar o Clojure e a diferen&ccedil;a com outras linguagens</li>
+    <li aria-level="1">O que &eacute; LSP (Language Server Protocol)?</li>
+    <li aria-level="1">Defini&ccedil;&atilde;o de LSP e discuss&atilde;o sobre como ele padroniza a comunica&ccedil;&atilde;o entre editores de c&oacute;digo e servidores de linguagem</li>
+    <li aria-level="1">Como Clojure e LSP trabalham juntos para proporcionar uma experi&ecirc;ncia de desenvolvimento otimizada.</li>
+    <li aria-level="1">Exemplos pr&aacute;ticos de configura&ccedil;&otilde;es e integra&ccedil;&otilde;es.</li>
+    <li aria-level="1">Revis&atilde;o das principais ferramentas e extens&otilde;es que melhoram o uso de Clojure e LSP.</li>
+    <li aria-level="1">Impacto dessas ferramentas na produtividade do desenvolvedor.</li>
+    <li aria-level="1">Dicas para aqueles que desejam come&ccedil;ar ou melhorar seu uso dessas tecnologias.</li>
+    <li aria-level="1">Mercado de Trabalho</li>
+    </ul>
+    <p>&nbsp;</p>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Participe da nossa comunidade no Discord:<a href="https://discord.com/invite/hGpFPsV2gB" target="_blank" title="discord Caf&eacute; Debug"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">Pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; Debug 2024&nbsp;</li>
+    <li aria-level="1"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform" target="_blank" title="pesquisa de satisfa&ccedil;&atilde;o cafe debug">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a></li>
+    <li aria-level="1"><a href="https://github.com/clojure-lsp/clojure-lsp" target="_blank" title="github clojure">https://github.com/clojure-lsp/clojure-lsp</a></li>
+    <li aria-level="1"><a href="https://clojure-lsp.io/clients/">https://clojure-lsp.io/clients/</a></li>
+    <li aria-level="1"><a href="https://clojure.org/" target="_blank" title="clojure.org">https://clojure.org/</a></li>
+    <li aria-level="1"><a href="https://alefeans.medium.com/por-que-clojure-82b47ea4774c" target="_blank" title="artigo sobre clojure medium">https://alefeans.medium.com/por-que-clojure-82b47ea4774c</a></li>
+    <li aria-level="1"><a href="https://www.gta.ufrj.br/grad/09_1/versao-final/mpls/LSP.html" target="_blank" title="ufrj vers&atilde;o final lsp">https://www.gta.ufrj.br/grad/09_1/versao-final/mpls/LSP.html</a></li>
+    <li aria-level="1"><a href="https://github.com/nubank/state-flow" target="_blank" title="nubank state flow artigo clojure">https://github.com/nubank/state-flow</a></li>
+    <li aria-level="1"><a href="https://mishadoff.com/blog/clojure-design-patterns/" target="_blank" title="clojure design patterns">https://mishadoff.com/blog/clojure-design-patterns/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" title="linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br /><br />Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" title="Weslley Fratini linkedin">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Eric Dallo (apelido Greg) - Software Developer)<br />LinkedIn: <a href="https://www.linkedin.com/in/ericdallo" target="_blank" title="linkedin Erick Dallo">https://www.linkedin.com/in/ericdallo</a><br />Github: <a href="https://github.com/ericdallo" target="_blank" title="github Eric Dallo">https://github.com/ericdallo</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br<br /></a>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/</a></p>
+    <p>publicidade envie para: debugcafe@gmail.com</p>', 
+    'Neste programa, exploramos as profundezas de Clojure e do Language Server Protocol (LSP) com a participação de Eric Dallo. Discutimos como essas tecnologias estão redefinindo o desenvolvimento de software, tornando o processo mais eficiente e adaptável. Este episódio é destinado a desenvolvedores que desejam aprimorar suas habilidades técnicas e líderes empresariais interessados em integrar soluções avançadas em suas operações.empresariais.', 
+    'https://omny.fm/shows/cafe-de-bug/146-efici-ncia-e-adaptabilidade-explorando-clojure', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/clojure.jpg', 
+    '2024-08-05 01:00:00', '["linguagem de programação", "Clojure", "LSP"]', 1, 157, 17, 1358, 621, '2024-08-05 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#147 Por Dentro dos Ataques Hackers: Análises Profundas com Julio Fort', 
+    '<p>Neste programa, conversamos com o J&uacute;lio Fort que &eacute; co fundador da Blaze Information Security, e nesta pauta trouxemos assuntos sobre seguran&ccedil;a civern&eacute;tica, ataques hackers e como pensar como um hacker para melhor proteger suas aplica&ccedil;&otilde;es. Essa pauta aborda conceitos fundamentais, discuss&otilde;es t&eacute;cnicas e li&ccedil;&otilde;es pr&aacute;ticas. Como foram executados esses famosos ataques hackers?!</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Introdu&ccedil;&atilde;o ao Julio Fort</li>
+    <li aria-level="1">Introdu&ccedil;&atilde;o ao tema do epis&oacute;dio, focando em ataques hackers e estrat&eacute;gias de defesas</li>
+    <li aria-level="1">An&aacute;lise do mindset hacker: como hackers identificam vulnerabilidades e planejam seus ataques.</li>
+    <li aria-level="1">O que s&atilde;o ataques DDoS?</li>
+    <li aria-level="1">Comentando sobre &uacute;ltimos ataques Hackers <br />ataque Github<br />ataque hacker ticket de passagem &aacute;rea (explicar e comentar)<br />ataque Lojas Americas<br />ataque TicketMaster <br />ataque Smartphones&nbsp;</li>
+    <li aria-level="1">Import&acirc;ncia da educa&ccedil;&atilde;o cont&iacute;nua em seguran&ccedil;a cibern&eacute;tica</li>
+    <li aria-level="1">Considera&ccedil;&otilde;es finais</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Participe da nossa comunidade no Discord:<a href="https://discord.com/invite/hGpFPsV2gB" target="_blank" title="Nosso discord"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">Pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; Debug 2024&nbsp;</li>
+    <li aria-level="1"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform" target="_blank" title="pesquisa de satista&ccedil;&atilde;o">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a></li>
+    <li aria-level="1"><a href="https://www.cloudflare.com/pt-br/learning/ddos/famous-ddos-attacks/" target="_blank" title="ataques ddos artigo cloudflare">https://www.cloudflare.com/pt-br/learning/ddos/famous-ddos-attacks/</a></li>
+    <li aria-level="1"><a href="https://minutodaseguranca.blog.br/falha-critica-no-docker-permite-ignorar-plug-ins-de-autorizacao/" target="_blank" title="artigo sobre seguran&ccedil;a falha cr&iacute;tica no docker">https://minutodaseguranca.blog.br/falha-critica-no-docker-permite-ignorar-plug-ins-de-autorizacao/</a></li>
+    <li aria-level="1"><a href="https://www.forbes.com/sites/suzannerowankelleher/2023/08/03/never-share-boarding-pass-social-media/" target="_blank" title="ataque famoso ao primeiro ministro da australia">https://www.forbes.com/sites/suzannerowankelleher/2023/08/03/never-share-boarding-pass-social-media/</a></li>
+    <li aria-level="1"><a href="https://www.instagram.com/p/C7XZOzPCmEz/">https://www.instagram.com/p/C7XZOzPCmEz/</a> (Felipe Deschamps ataque ao primeiro ministro da Australia via ticket passagem)</li>
+    <li aria-level="1"><a href="https://g1.globo.com/tecnologia/noticia/2023/03/08/hackers-causaram-prejuizos-a-cerca-de-25-das-empresas-brasileiras-em-2022-diz-pesquisa.ghtml" target="_blank" title="globo tecnologia sobre falhas em seguran&ccedil;a">https://g1.globo.com/tecnologia/noticia/2023/03/08/hackers-causaram-prejuizos-a-cerca-de-25-das-empresas-brasileiras-em-2022-diz-pesquisa.ghtml</a></li>
+    <li aria-level="1"><a href="https://g1.globo.com/tecnologia/noticia/2024/06/01/ticketmaster-confirma-invasao-hacker-que-pode-ter-exposto-dados-de-560-milhoes-de-clientes.ghtml" target="_blank" title="globo tecnologia not&iacute;cia sobre falha na ticketmaster">https://g1.globo.com/tecnologia/noticia/2024/06/01/ticketmaster-confirma-invasao-hacker-que-pode-ter-exposto-dados-de-560-milhoes-de-clientes.ghtml</a></li>
+    <li aria-level="1"><a href="https://olhardigital.com.br/2023/08/29/seguranca/ataque-hacker-a-celular-como-funciona-e-como-se-proteger/" target="_blank" title="olhar digital mat&eacute;ria sobre como proteger seu celular">https://olhardigital.com.br/2023/08/29/seguranca/ataque-hacker-a-celular-como-funciona-e-como-se-proteger/</a></li>
+    </ul>
+    <p><strong>Participantes<br /></strong>J&eacute;ssica Nathany Software Developer&nbsp; e host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" title="J&eacute;ssica Nathany host">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br /><br />Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" title="linkedin Wesley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Julio Fort (Co-founder Blaze Information Security)<br />LinkedIn: <a href="https://www.linkedin.com/in/juliocesarfort/" target="_blank" title="Julio Fort linkedin">https://www.linkedin.com/in/juliocesarfort/</a></p>
+    <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br<br /></a>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/</a></p>
+    <p>d&uacute;vidas, sugest&otilde;es ou publicidade envie para: debugcafe@gmail.com</p>', 
+    'Neste programa, conversamos com o Júlio Fort que é co fundador da Blaze Information Security, e nesta pauta trouxemos assuntos sobre segurança civernética, ataques hackers e como pensar como um hacker para melhor proteger suas aplicações. Essa pauta aborda conceitos fundamentais, discussões técnicas e lições práticas. Como foram executados esses famosos ataques hackers?!', 
+    'https://omny.fm/shows/cafe-de-bug/147-por-dentro-dos-ataques-hackers-an-lises-profun', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/ataques-hackers.jpg', 
+    '2024-08-19 01:00:00', '["cybersecurity", "hackers"]', 1, 158, 7, 1277, 612, '2024-08-19 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#148 Inclusão Digital na Prática: O Impacto Transformador do Campinho Digital', 
+    '<p>Neste programa iremos apresentar um projeto bem bacana do Campinho Digital. A Campinho Digital &eacute; uma rede de centro de aprendizagem em neg&oacute;cios digitais orientada para a integra&ccedil;&atilde;o social. O objetivo &eacute; formar pessoas em situa&ccedil;&atilde;o de vulnerabilidade, sem custos, para que ingressem na economia digital.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Introdu&ccedil;&atilde;o ao Guilherme Estev&atilde;o e sua carreira no jornalismo</li>
+    <li aria-level="1">Sobre a Campinho</li>
+    <li aria-level="1">Como surgiu a ideia do Campinho Digital e quais os desafios encontrados at&eacute; hoje</li>
+    <li aria-level="1">Sobre os programas e a parceria com a AWS</li>
+    <li aria-level="1">Alfabetiza&ccedil;&atilde;o Digital - a inclus&atilde;o digital ainda h&aacute; desafios enormes</li>
+    <li aria-level="1">Desafios de mercado de trabalho para iniciantes</li>
+    <li aria-level="1">Como a capacita&ccedil;&atilde;o tecnol&oacute;gica&nbsp; impactou vidas de pessoas baixa renda</li>
+    <li aria-level="1">Considera&ccedil;&otilde;es finais</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB" target="_blank" title="discord do CAf&eacute; DEbug"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">Pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; Debug 2024 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform" target="_blank" title="pesquisa de satisfa&ccedil;&atilde;o">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a>&nbsp;</li>
+    <li aria-level="1"><a href="https://www.campinhodigital.org/" target="_blank" title="site campinho digital">https://www.campinhodigital.org/</a></li>
+    <li aria-level="1"><a href="https://sebraeinova.com.br/blog/o-que-e-e-como-aplicar-a-alfabetizacao-digital-na-escola" target="_blank" title="blogo sobre coo aplicar alfabetiza&ccedil;&atilde;o nas escolas">https://sebraeinova.com.br/blog/o-que-e-e-como-aplicar-a-alfabetizacao-digital-na-escola</a></li>
+    <li aria-level="1"><a href="https://epocanegocios.globo.com/colunas/Lifelong-Learning/noticia/2022/03/falta-de-letramento-digital-na-educacao-dos-brasileiros.html" target="_blank" title="mat&eacute;ria &eacute;poca falta de letramento digital nas escolas">https://epocanegocios.globo.com/colunas/Lifelong-Learning/noticia/2022/03/falta-de-letramento-digital-na-educacao-dos-brasileiros.html</a></li>
+    <li aria-level="1"><a href="https://linktr.ee/campinho.digital" target="_blank" title="linktree campinho digital">https://linktr.ee/campinho.digital</a></li>
+    <li aria-level="1"><a href="https://www.instagram.com/campinhodigital/" target="_blank" title="instagram campinho digital">https://www.instagram.com/campinhodigital/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank" title="linkedin J&eacute;ssica Nathany">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br /><br />Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" title="linkedin Wesley Fratini">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Guilherme Estev&atilde;o(Diretor de Alian&ccedil;as e Desenvolvimento Institucional do Campinho Digital) <br />LinkedIn: <a href="https://www.linkedin.com/in/guilhermeestevao/" target="_blank" title="linkedin Guilherme Estev&atilde;o">https://www.linkedin.com/in/guilhermeestevao/</a></p>
+    <p>Julli Mayanne(Software Engineer e Instrutora no Campinho Digital)<br />LinkedIn: <a href="https://www.linkedin.com/in/julli-mayanne-/" target="_blank" title="linkedin Julli Mayanne">https://www.linkedin.com/in/julli-mayanne-/</a></p>
+    <p>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste programa iremos apresentar um projeto bem bacana do Campinho Digital. A Campinho Digital é uma rede de centro de aprendizagem em negócios digitais orientada para a integração social. O objetivo é formar pessoas em situação de vulnerabilidade, sem custos, para que ingressem na economia digital.', 
+    'https://omny.fm/shows/cafe-de-bug/148-inclus-o-digital-na-pr-tica-o-impacto-transfor', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/campinho-digital.jpg', 
+    '2024-09-02 01:00:00', '["programas não técnicos", "inclusão digital"]', 1, 159, 22, 1014, 546, '2024-09-02 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#149 Uma breve explicação sobre Time-Series Database?', 
+    '<p>Esse &eacute; a tradu&ccedil;&atilde;o do programa sobre Times-Series database que gravamos, caso queira conferir a vers&atilde;o original voc&ecirc; pode conferir no segundo link abaixo. Espero que gostem, o tema &eacute; bem interessante e aprendemos muito com o Ning Sun.</p>
+    <p><strong>Assuntos discutidos</strong></p>
+    <ul>
+    <li aria-level="1">Introdu&ccedil;&atilde;o sobre Ning Sun&nbsp;</li>
+    <li aria-level="1">Introdu&ccedil;&atilde;o sobre Greptime&nbsp;</li>
+    <li aria-level="1">Introdu&ccedil;&atilde;o sobre bancos de dados temporiais&nbsp;</li>
+    <li aria-level="1">Quais as caracter&iacute;sticas dos bancos de dados temporiais?</li>
+    <li aria-level="1">Quais s&atilde;o os bancos TSDB mais populares?</li>
+    <li aria-level="1">Discuss&atilde;o sobre key features e benef&iacute;cios de usar bancos de dados temporiais em aplica&ccedil;&otilde;es modernas</li>
+    <li aria-level="1">Monitoramento em Infraestrutura com IOT: aplica&ccedil;&otilde;es, servidores observabilidade e m&eacute;tricas</li>
+    <li aria-level="1">Exemplos espec&iacute;ficos de como implementar TSDB em projetos e na industria</li>
+    <li aria-level="1">Discuss&otilde;es sobre escalabilidade e desafios dos bancos temporiais</li>
+    <li aria-level="1">Time-Series Database ferramentas: InfluxData, Prometheus and TimescaleDB</li>
+    </ul>
+    <p><strong>Links</strong></p>
+    <ul>
+    <li aria-level="1"><a title="article times series database" href="https://hazelcast.com/glossary/time-series-database/" target="_blank">https://hazelcast.com/glossary/time-series-database/</a></li>
+    <li aria-level="1">Introduction Time series database video&nbsp; <a title="video about explanation times series database" href="https://www.youtube.com/watch?v=4Dh6ytwB-no" target="_blank">https://www.youtube.com/watch?v=4Dh6ytwB-no</a></li>
+    <li aria-level="1"><a title="influxdata" href="https://www.influxdata.com/" target="_blank">https://www.influxdata.com/</a></li>
+    <li aria-level="1"><a title="timescale article" href="https://www.timescale.com/" target="_blank">https://www.timescale.com/</a></li>
+    <li aria-level="1"><a title="what is times series database" href="https://tdengine.com/what-is-a-time-series-database/" target="_blank">https://tdengine.com/what-is-a-time-series-database/</a></li>
+    <li aria-level="1"><a title="video TSDB" href="https://www.youtube.com/watch?v=cgTZvJTQuuQ" target="_blank">https://www.youtube.com/watch?v=cgTZvJTQuuQ</a></li>
+    <li aria-level="1"><a title="blog about times-series database" href="https://www.timescale.com/blog/time-series-analysis-what-is-it-how-to-use-it/" target="_blank">https://www.timescale.com/blog/time-series-analysis-what-is-it-how-to-use-it/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; and&nbsp; host)</p>
+    <p>LinkedIn: <a title="J&eacute;ssica Nathany linkedin" href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br /><br />Weslley Fratini (Software Engineer and co-host)</p>
+    <p>LinkedIn: <a title="Wesley Fratini linkedin" href="https://www.linkedin.com/in/weslley-fratini/" target="_blank">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Ning Sun (Greptime Co-founder. Observability/Time-Series Database for Scalability)<br />LinkedIn: <a title="Ning Sun linkedin" href="https://www.linkedin.com/in/sunning87/" target="_blank">https://www.linkedin.com/in/sunning87/</a>Github: <a href="https://github.com/sunng87">https://github.com/sunng87</a></p>
+    <p>Taymor Taymure (Enterprise Account Executive)<br />LinkedIn: <a title="Taymor Taymur linkedin" href="https://www.linkedin.com/in/taytaymuree/" target="_blank">https://www.linkedin.com/in/taytaymuree/</a></p>
+    <p>Edited by: AGO Movies <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>question, suggestions or advertising send to: debugcafe@gmail.com</p>', 
+    'Esse é a tradução do programa sobre Times-Series database que gravamos, caso queira conferir a versão original você pode conferir no segundo link abaixo. Espero que gostem, o tema é bem interessante e aprendemos muito com o Ning Sun.', 
+    'https://omny.fm/shows/cafe-de-bug/149-uma-breve-explica-o-sobre-time-series-database', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/timeseries-database-148.jpg', 
+    '2024-09-17 01:00:00', '["banco de dados", "Time-Series Database"]', 1, 160, 3, 981, 670, '2024-09-17 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#161', 
     '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs empreendedores", "Alan Araújo"]', 9, 130, 1, 1665, 727, '2022-10-31 00:00:00', null);
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 161, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#162', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 162, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#163', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 163, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#164', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 164, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#165', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 165, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#166', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 166, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#167', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 167, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#168', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 168, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#169', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 169, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#170', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 170, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#171', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 171, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#172', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 172, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#173', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 173, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#174', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 174, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#175', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 175, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#176', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 176, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#177', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 177, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#178', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 178, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#179', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 179, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#180', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 180, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#181', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 181, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#182', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 182, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#183', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 183, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#184', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 184, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#185', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 185, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#186', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 186, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#187', 
+    '', 
+    'exxx', 
+    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
+    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 187, 32, 1301, 670, '2023-08-21 01:00:00', null);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -- Team ---
 INSERT INTO Team (Name, UrlGitHub, UrlInstagram, UrlLinkedin, UrlImage, Job)
