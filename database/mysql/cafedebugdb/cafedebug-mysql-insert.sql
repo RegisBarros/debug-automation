@@ -943,7 +943,7 @@ VALUES(
     'E nesta gravação conversamos com o Diego Fernandes o CTO da Rocketseat. Vamos conhecer o Diego, falar sobre carreira, desenvolvimento pessoal e muito mais.', 
     'https://omny.fm/shows/cafe-de-bug/60-bate-papo-diego-fernandes-empreender-stacks-e-r', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/6e1100f5-bb0c-4574-b322-a32b69428bf3diego-fernandes.jpg', 
-    '2021-02-01 05:10:00', '["tecnlogia das empresas"]', 1, 60, 24, 3180, 1347, '2021-02-01 05:10:00', null);
+    '2021-02-01 05:10:00', '["tecnologia das empresas"]', 1, 60, 24, 3180, 1347, '2021-02-01 05:10:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
@@ -1132,7 +1132,7 @@ VALUES(
     'Entrevistamos a Isadora Stangarlin, dona do canal PapoDev no Instagram, desenvolvedora frontend e influencer. Fomos conhecer um pouco da história dela e entender de onde veio a ideia de disseminar o conhecimento, seus projetos e carreiras tech lead.', 
     'https://omny.fm/shows/cafe-de-bug/81-como-surgiu-papodev-conte-dos-que-ajudam-inicia', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/02ba7a16-c47b-4a8a-bcc1-20e92e283a88isadora-stangarlin.jpg', 
-    '2021-09-06 06:00:00', '["entrevista"]', 12, 81, 1, 2639, 1105, '2021-09-06 06:00:00', null);
+    '2021-09-06 06:00:00', '["entrevista"]', 1, 81, 1, 2639, 1105, '2021-09-06 06:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
@@ -1966,7 +1966,7 @@ VALUES(
     <li aria-level="1"><strong>Atributos wai aria - </strong><a href="https://tableless.com.br/wai-aria-estendendo-o-significado-das-interacoes/">https://tableless.com.br/wai-aria-estendendo-o-significado-das-interacoes/</a></li>
     </ul>
     <ul>
-    <li aria-level="1">Playlists sobre acessibilidade e implementa&ccedil;&otilde;es de componentes acess&iacute;veis <a href="https://www.youtube.com/watch?v=HtTyRajRuyY&amp;list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g">Introducing A11ycasts! -- A11ycasts #01</a> <a href="https://www.youtube.com/watch?v=wkvslBGkhZY&amp;list=PLNYkxOF6rcIBiiuN53rzwEidPcLZRtiOW">What's new in web accessibility (Google I/O '18)</a></li>
+    <li aria-level="1">Playlists sobre acessibilidade e implementa&ccedil;&otilde;es de componentes acess&iacute;veis <a href="https://www.youtube.com/watch?v=HtTyRajRuyY&amp;list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g">Introducing A11ycasts! -- A11ycasts #01</a> <a href="https://www.youtube.com/watch?v=wkvslBGkhZY&amp;list=PLNYkxOF6rcIBiiuN53rzwEidPcLZRtiOW">What''s new in web accessibility (Google I/O ''18)</a></li>
     <li aria-level="1">Extens&otilde;es para testes de acessibilidade nas p&aacute;ginas (Chrome) - <a href="https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd">https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd</a>, <a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh">https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh</a> e o pr&oacute;prio &ldquo;Ligthhouse&rdquo; no devtools do Google Chrome.</li>
     </ul>
     <p><strong>Participantes</strong></p>
@@ -2586,7 +2586,7 @@ VALUES(
     <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/" target="_blank" title="linkedin Weslley">https://www.linkedin.com/in/weslley-fratini/</a></p>
     <p>Igor Halfeld (Software Engineer na GO.K One Step Ahead e Founder EXT Contabilidade Online) <br />Linkedin: <a href="https://www.linkedin.com/in/igorhalfeld/" target="_blank" title="linkedin Igor">https://www.linkedin.com/in/igorhalfeld/</a><br />Twitter: <a href="https://twitter.com/igorhalfeld" target="_blank" title="twitter Igor">https://twitter.com/igorhalfeld</a></p>
     <p>Anuncie em nosso site:<a href="http://www.cafedebug.com.br/"> </a><a href="http://www.cafedebug.com.br" target="_blank" title="site cafedebug">http://www.cafedebug.com.br</a>Produtora AGO Filmes: <br /><a href="https://thiagocarvalhofotografia.wordpress.com/" target="_blank" title="site AGO Filmes">https://thiagocarvalhofotografia.wordpress.com/</a><br />d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</p>', 
-    'Continuamos nossa série explorando o universo de Desenvolvedores e Empreendedores e, desta vez, tivemos o prazer de conversar com Igor Luiz Halfeld. Ele nos revelou os bastidores do desenvolvimento da Ext. Contabilidade Online e destacou os passos cruciais para transformar uma ideia empreendedora em realidade. Igor também compartilhou insights valiosos que impulsionaram o início de suas operações, abordando estratégias de marketing, a importância de construir uma rede de apoio robusta e muito mais.', 
+    'Conversamos com Igor Luiz Halfeld sobre desenvolvedores e empreendedorismo. Ele revelou os bastidores da Ext. Contabilidade Online e compartilhou insights sobre estratégias de marketing, transformação de ideias em realidade e construção de uma rede de apoio robusta.',
     'https://omny.fm/shows/cafe-de-bug/4-devs-e-empreendedores-com-igor-igor-halfeld', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/modelo-capa-episodios-dev-empreendedor-4.jpg', 
     '2023-11-20 01:00:00', '["Dev empreendedores", "Igor Halfeld"]', 1, 138, 9, 1314, 704, '2023-11-20 01:00:00', null);
@@ -2619,7 +2619,7 @@ VALUES(
     'Tivemos uma entrevista inspiradora com a Ludmila Pontremolez executiva e ex Software Engineer da NASA. Ludmila trouxe neste programa, como foi sua trajetória, seu trabalho os desafios enfrentandos na NASA.', 
     'https://omny.fm/shows/cafe-de-bug/132-tecnologia-e-lideran-a-de-software-na-nasa-ceo', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/entrevista-ludmila.jpg', 
-    '2023-12-12 01:00:00', '["entrevista", "tecnlogia e liderança" "Ludmila Pontremolez"]', 1, 139, 5, 1455, 594, '2023-12-12 01:00:00', null);
+    '2023-12-12 01:00:00', '["entrevista", "tecnlogia e liderança", "Ludmila Pontremolez"]', 1, 139, 5, 1455, 594, '2023-12-12 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
@@ -2652,7 +2652,7 @@ INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, Publis
 VALUES(
     '#135 Mudança de Stack Parte ||', 
     '<p>Neste epis&oacute;dio, vamos dar continuidade &agrave; nossa discuss&atilde;o sobre Mudan&ccedil;a de Stack, na sua segunda parte. Para enriquecer ainda mais a nossa conversa com uma perspectiva diferente sobre a experi&ecirc;ncia de mudar de Stack, temos o prazer de receber novamente Ana Beatriz Neri que compartilhou conosco suas experi&ecirc;ncias pessoais, as dificuldades e o que vem agregando na sua vida profisisonal.</p>', 
-    'Neste episódio, vamos dar continuidade à nossa discussão sobre Mudança de Stack, na sua segunda parte. Para enriquecer ainda mais a nossa conversa com uma perspectiva diferente sobre a experiência de mudar de Stack, temos o prazer de receber novamente Ana Beatriz Neri que compartilhou conosco suas experiências pessoais, as dificuldades e o que vem agregando na sua vida profisisonal.', 
+    'Neste episódio, vamos dar continuidade à nossa discussão sobre Mudança de Stack, na sua segunda parte, com Ana Neri.', 
     'https://omny.fm/shows/cafe-de-bug/135-mudan-a-de-stack-parte', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/mudanca-stack-p2.jpg', 
     '2024-02-26 01:00:00', '["carreira", "mudança de stack part II"]', 1, 143, 4, 1367, 604, '2024-02-26 01:00:00', null);
@@ -3124,7 +3124,7 @@ VALUES(
     <p>Marcos Ferreira (Director, Sales Engineering - LATAM at CrowdStrike)<br />LinkedIn: <a title="linkedin Marcos Frerreira" href="https://www.linkedin.com/in/marcosbferreira/?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app" target="_blank">https://www.linkedin.com/in/marcosbferreira/?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app</a></p>
     <p>Jefferson<a href="https://www.linkedin.com/in/jefersonpropheta/overlay/about-this-profile/"> Propheta</a> (Regional Vice President CrowdStrike)<br />LinkedIn: <a title="linkedin Jeferson Propheta" href="https://www.linkedin.com/in/jefersonpropheta/?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app" target="_blank">https://www.linkedin.com/in/jefersonpropheta/?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app</a></p>
     <p>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
-    'Neste programa, vamos mergulhar no mundo da cibersegurança com um foco especial na CrowdStrike, uma líder inovadora no setor. Exploraremos como as tecnologias avançadas da empresa estão definindo o campo da segurança digital e como suas soluções ajudam a proteger organizações em todo o mundo contra ameaças cibernéticas cada vez mais sofisticadas. Se você tem interesse em tecnologia ou trabalha na área de segurança cibernética, este episódio é imperdível. Este programa conta com o apoio da KingHost.', 
+    'Mergulhamos no mundo da cibersegurança com foco na CrowdStrike, líder inovadora do setor. Exploramos como suas tecnologias avançadas definem a segurança digital e protegem organizações contra ameaças cibernéticas sofisticadas. Episódio imperdível para quem trabalha com tecnologia ou segurança cibernética. Programa com apoio da KingHost.', 
     'https://omny.fm/shows/cafe-de-bug/crowdstrike', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/crowdstrike2.jpg', 
     '2024-10-14 01:00:00', '["tecnologia das empresas", "crowdstrike"]', 1, 162, 24, 1187, 573, '2024-10-14 01:00:00', null);
@@ -3609,7 +3609,7 @@ VALUES(
     <p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>', 
     'exxx', 
     'https://omny.fm/shows/caf-debug-seu-podcast-de-tecnologia/159-democratiza-o-dos-pagamentos-em-tempos-de-alta-conectividade', 
-    null,
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/fe354985-80a2-43e2-a0ce-59b44a8cf49fcafedebug.jpg',
     '2025-04-07 01:00:00', '["pagamentos", "conectividade", "tecnologias"]', 1, 174, 32, 0, 0, '2025-04-07 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
@@ -4466,7 +4466,7 @@ VALUES(
     'Engenharia de software de verdade envolve decisões, responsabilidade, contexto, pessoas, negócio e impacto. Com a evolução acelerada dos modelos de IA generativa,  capazes de produzir código em escala, o papel do(a) engenheiro(a) muda. Codar continua sendo importante, mas não é mais o diferencial principal. Neste episódio, tivemos um bate-papo bem interessante com Angelo Belchior sobre engenharia além do código.', 
     'https://omny.fm/shows/cafe-de-bug/182-o-novo-diferencial-do-engenheiro-de-software-na-era-da-ia', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/engenharia-software.jpg', 
-    '2026-02-16 01:00:00', '["carreira", "desenvolvedores de software" "engenharia de software", "Angelo Belchior"]', 1, 195, 4, 210, 87, '2026-02-16 01:00:00', null);
+    '2026-02-16 01:00:00', '["carreira", "desenvolvedores de software", "engenharia de software", "Angelo Belchior"]', 1, 195, 4, 210, 87, '2026-02-16 01:00:00', null);
 
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
@@ -4661,14 +4661,22 @@ VALUES(
     '2026-04-16 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 200, 32, 30, 14, '2026-04-16 01:00:00', null);
 
 -- Team ---
-INSERT INTO Team (Name, UrlGitHub, UrlInstagram, UrlLinkedin, UrlImage, Job)
+INSERT INTO TeamMember (Name, Nickname, Email, Bio, PodcastRole, GithubUrl, InstagramUrl, LinkedInUrl, ProfilePhotoUrl, JobTitle, IsActive, JoinedAt, CreatedAt, UpdatedAt)
 VALUES(
     'Jéssica Nathany',
+    null,
+    null,
+    'Desenvolvedora de sistemas, host e fundadora do Café Debug',
+    'Host',
     'https://github.com/JessicaNathany', 
-    'https://www.instagram.com/jnathanycarvalho/', 
+    null, 
     'https://www.linkedin.com/in/jessica-nathany-38260868/', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/eb3747ef-168f-408d-9156-06b36b79f3b5jessica.jpg', 
-    'Sofware Developer Backend, Host e fundadora do Café Debug');
+    'Sofware Developer Backend',
+    1,
+    '2024-01-01 00:00:00',
+    '2024-01-01 00:00:00',
+    '2024-01-01 00:00:00');
 
 -- Insert user admin
 INSERT INTO UserAdmin (Name, Email, HashedPassword) 
