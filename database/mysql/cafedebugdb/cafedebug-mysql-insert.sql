@@ -3053,259 +3053,1612 @@ VALUES(
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#161', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 161, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#150 Explorando a Criação de Jogos: De Storytelling a Game Design', 
+    '<p>Neste programa vamos mergulhar no fascinante mundo de cria&ccedil;&atilde;o de jogos. Vamos explorar como as narrativas poderosas s&atilde;o tecidas no design de jogos e como os designers moldam experi&ecirc;ncias para os jogadores. Se voc&ecirc; gosta de jogos ou trabalha neste ramo, n&atilde;o deixe de ouvir esse programa. Este programa teve como parceira a <a class="app-aware-link " href="https://www.linkedin.com/company/kinghost/" target="_self" data-test-app-aware-link="">KingHost</a>, acesse a descri&ccedil;&atilde;o do programa para saber mais.</p>
+    <p><strong>Assuntos abordados no tema&nbsp;</strong></p>
+    <ul>
+    <li aria-level="1">Breve apresenta&ccedil;&atilde;o sobre Nathalia e Matheus</li>
+    </ul>
+    <ul>
+    <li aria-level="1">O que &eacute; Storytelling no desenvolvimento de jogos e como ele define a experi&ecirc;ncia do usu&aacute;rio?</li>
+    <li aria-level="1">Como as ideias s&atilde;o transformadas em jogos envolventes, do conceito inicial ao produto final?</li>
+    <li aria-level="1">Explora&ccedil;&atilde;o de diferentes estilos de game design, incluindo RPGs, jogos de aventura, e jogos casuais, e as <strong>t&eacute;cnicas</strong> usadas em cada um</li>
+    <li aria-level="1">Os principais obst&aacute;culos enfrentados pelos games designers e como super&aacute;-los, desde limita&ccedil;&otilde;es t&eacute;cnicas a restri&ccedil;&otilde;es or&ccedil;ament&aacute;rias</li>
+    <li aria-level="1">Como as novas tecnologias, como VR e AI est&atilde;o influenciando o design e a jogabilidade dos jogos modernos</li>
+    <li aria-level="1">Jogos que mudaram o cen&aacute;rio: an&aacute;lise de alguns jogos ic&ocirc;nicos que revolucionaram a ind&uacute;stria e o que podemos aprender com eles</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">Pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; Debug 2024 <a title="pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; Debug" href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform" target="_blank">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a>&nbsp;</li>
+    <li aria-level="1"><a title="blog sobre storytelling" href="https://blog.soap.com.br/o-que-aprender-com-storytelling-games/" target="_blank">https://blog.soap.com.br/o-que-aprender-com-storytelling-games/</a></li>
+    <li aria-level="1"><a title="game designer" href="https://ebaconline.com.br/blog/game-designer-o-que-faz" target="_blank">https://ebaconline.com.br/blog/game-designer-o-que-faz</a></li>
+    <li aria-level="1"><a href="https://brasilpaisdigital.com.br/segunda-edicao-da-pesquisa-nacional-da-industria-de-games-revela-crescimento-de-32-no-numero-de-estudios-brasileiros/#:~:text=Dessa%20forma%2C%20estima%2Dse%20que,65%25%20na%20pesquisa%20de%202022">https://brasilpaisdigital.com.br/segunda-edicao-da-pesquisa-nacional-da-industria-de-games-revela-crescimento-de-32-no-numero-de-estudios-brasileiros/#:~:text=Dessa%20forma%2C%20estima%2Dse%20que,65%25%20na%20pesquisa%20de%202022</a>.</li>
+    <li aria-level="1"><a href="https://centrodepesquisaeformacao.sescsp.org.br/atividade/a-jornada-da-heroina">A narrativa m&iacute;tica das mulheres (Curso Sesc)</a></li>
+    <li aria-level="1"><a href="https://gizmodo.uol.com.br/os-50-melhores-games-de-todos-os-tempos-segundo-o-metacritic/">https://gizmodo.uol.com.br/os-50-melhores-games-de-todos-os-tempos-segundo-o-metacritic/</a></li>
+    <li>Solu&ccedil;&otilde;es de hospedagem acesse <a href="https://king.host/">https://king.host/</a></li>
+    </ul>
+    <p><strong>Participantes<br /></strong>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a title="linkedin J&eacute;ssiica Nathany" href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br /><br />Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a title="linkedin Wesley Fratini" href="https://www.linkedin.com/in/weslley-fratini/" target="_blank">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Nathalia Silva (Prof de Game Design na Secretaria de Educa&ccedil;&atilde;o de Barueri)<br />LinkedIn: <a title="linkedin Nathalia Siilva" href="https://www.linkedin.com/in/eunathaliasilva/" target="_blank">https://www.linkedin.com/in/eunathaliasilva/</a></p>
+    <p>Matheus Correia (Prof de Game Design e Pesquisador na TechLab Fatec Carapicu&iacute;ba)<br />LinkedIn: <a title="Linkedin Matheus Correa" href="https://www.linkedin.com/in/matheus-servilha-correia/" target="_blank">https://www.linkedin.com/in/matheus-servilha-correia/</a></p>
+    <p>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste programa vamos mergulhar no fascinante mundo de criação de jogos. Vamos explorar como as narrativas poderosas são tecidas no design de jogos e como os designers moldam experiências para os jogadores. Se você gosta de jogos ou trabalha neste ramo, não deixe de ouvir esse programa. Este programa teve como parceira a KingHost, acesse a descrição do programa para saber mais.', 
+    'https://omny.fm/shows/cafe-de-bug/150-explorando-a-cria-o-de-jogos-de-storytelling-a', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/storytelling-games.jpg', 
+    '2024-09-30 01:00:00', '["games", "storytelling", "game design"]', 1, 161, 15, 1061, 594, '2024-09-30 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#162', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 162, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#151 Cibersegurança em Ação: Descubra a Vanguarda Tecnológica da CrowdStrike', 
+    '<p>Neste programa, vamos mergulhar no mundo da ciberseguran&ccedil;a com um foco especial na CrowdStrike, uma l&iacute;der inovadora no setor. Exploraremos como as tecnologias avan&ccedil;adas da empresa est&atilde;o definindo o campo da seguran&ccedil;a digital e como suas solu&ccedil;&otilde;es ajudam a proteger organiza&ccedil;&otilde;es em todo o mundo contra amea&ccedil;as cibern&eacute;ticas cada vez mais sofisticadas. Se voc&ecirc; tem interesse em tecnologia ou trabalha na &aacute;rea de seguran&ccedil;a cibern&eacute;tica, este epis&oacute;dio &eacute; imperd&iacute;vel. Este programa conta com o apoio da <a title="linkedin kindhost" href="https://www.linkedin.com/company/kinghost/" target="_blank">KingHost</a>.&nbsp;</p>
+    <p><strong>Assuntos abordados no tema&nbsp;</strong></p>
+    <ul>
+    <li aria-level="1">Breve apresenta&ccedil;&atilde;o sobre os convidados</li>
+    </ul>
+    <ul>
+    <li aria-level="1">Breve explica&ccedil;&atilde;o sobre CrowdStrike</li>
+    <li aria-level="1">Sobre a plataforma Falcon</li>
+    <li aria-level="1">Advers&aacute;rio Famous Chollima: atua&ccedil;&atilde;o de ciber criminosos como insiders (infiltrados) em empresas</li>
+    <li aria-level="1">Intrus&otilde;es "hands-on-keyboard" (m&atilde;os no teclado) aumentaram em 55%. Os advers&aacute;rios empregam esses ataques para contornar os controles de seguran&ccedil;a e se passarem por usu&aacute;rios leg&iacute;timos</li>
+    <li aria-level="1">As viola&ccedil;&otilde;es relacionadas &agrave;s ferramentas de RMM (ferramentas de Monitoramento e gerenciamento remoto) aumentam em 70% e se tornam uma nova fronteira para os advers&aacute;rios;</li>
+    <li aria-level="1">CrowdStrike: como a IA e Machine Learning s&atilde;o aplicadas &agrave; seguran&ccedil;a</li>
+    <li aria-level="1">Cyberataques na nuvem aumentaram 75% em 2023</li>
+    <li aria-level="1">Hackers est&atilde;o usando IA para modernizar seus ataques (como a IA generativa est&aacute; entrando nesse contexto)</li>
+    <li aria-level="1">An&aacute;lise de casos reais de invas&otilde;es que a CrowdStrike ajudou a mitigar</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Nosso Discord:<a title="discord Caf&eacute; DEbug" href="https://discord.com/invite/hGpFPsV2gB" target="_blank"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">Pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; Debug 2024 <a title="pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; DEbug" href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform" target="_blank">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a>&nbsp;</li>
+    <li aria-level="1"><a title="site crowdstrike" href="https://www.crowdstrike.com/en-us/" target="_blank">https://www.crowdstrike.com/en-us/</a></li>
+    <li aria-level="1"><a title="falcon platform crowdstrike" href="https://www.crowdstrike.com.br/falcon-platform/" target="_blank">https://www.crowdstrike.com.br/falcon-platform/</a></li>
+    <li aria-level="1"><a title="categoria seguran&ccedil;a crowdstrike" href="https://www.crowdstrike.com/en-us/blog/category.public-sector/" target="_blank">https://www.crowdstrike.com/en-us/blog/category.public-sector/</a></li>
+    <li aria-level="1">Solu&ccedil;&otilde;es de hospedagem acesse<a title="site king.host" href="https://king.host/" target="_blank"> https://king.host/</a>Promo&ccedil;&atilde;o Black Friday&nbsp;</li>
+    <ul>
+    <li aria-level="2">VPS: todos os planos com 25% de desconto no mensal e 50% no trimestral e anual;</li>
+    <li aria-level="2">Hospedagem Cloud: descontos entre 45% e 60%.</li>
+    </ul>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a title="linkedin J&eacute;ssica Nathany" href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/" target="_blank">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br /><br />Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a title="linkedin Wesley Fratini" href="https://www.linkedin.com/in/weslley-fratini/" target="_blank">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Marcos Ferreira (Director, Sales Engineering - LATAM at CrowdStrike)<br />LinkedIn: <a title="linkedin Marcos Frerreira" href="https://www.linkedin.com/in/marcosbferreira/?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app" target="_blank">https://www.linkedin.com/in/marcosbferreira/?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app</a></p>
+    <p>Jefferson<a href="https://www.linkedin.com/in/jefersonpropheta/overlay/about-this-profile/"> Propheta</a> (Regional Vice President CrowdStrike)<br />LinkedIn: <a title="linkedin Jeferson Propheta" href="https://www.linkedin.com/in/jefersonpropheta/?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app" target="_blank">https://www.linkedin.com/in/jefersonpropheta/?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app</a></p>
+    <p>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste programa, vamos mergulhar no mundo da cibersegurança com um foco especial na CrowdStrike, uma líder inovadora no setor. Exploraremos como as tecnologias avançadas da empresa estão definindo o campo da segurança digital e como suas soluções ajudam a proteger organizações em todo o mundo contra ameaças cibernéticas cada vez mais sofisticadas. Se você tem interesse em tecnologia ou trabalha na área de segurança cibernética, este episódio é imperdível. Este programa conta com o apoio da KingHost.', 
+    'https://omny.fm/shows/cafe-de-bug/crowdstrike', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/crowdstrike2.jpg', 
+    '2024-10-14 01:00:00', '["tecnologia das empresas", "crowdstrike"]', 1, 162, 24, 1187, 573, '2024-10-14 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#163', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 163, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#152 Aplicações Escaláveis na Black Friday', 
+    '<p>Neste programa, conversamos sobre aplicações escaláveis durante o mês que tem o maior pico de acesso, que é o mês do Black Friday.&nbsp;</span><br><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Discutimos sobre estratégias para melhorar a performance e escalar as aplicações sem aumentar tanto o custo de cloud. Este programa conta com o apoio da&nbsp;</span><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/kinghost/"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>KingHost</u></span></a><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">.&nbsp;</span></p>
+    <p><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><strong>Assuntos abordados no tema&nbsp;</strong></span></p>
+    <ul>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Breve introdução aos convidados</span></li>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Sobre a Builders</span></li>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Definição de aplicações escaláveis e por que são cruciais para eventos de alto tráfego como a Black Friday</span></li>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Estratégias para escalar aplicações sem aumentar tanto o custo da Cloud?</span></li>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Monitoramento e Observabilidade</span></li>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">O papel dos balanceadores de carga e redes de entrega de conteúdo (CDNs) na gestão de tráfego.</span></li>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Técnicas de dimensionamento preditivo e reativo para lidar com picos de tráfego</span></li>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Uso de testes de carga e testes de stress para simular alta demanda e identificar gargalos.</span></li>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">O papel dos bancos de dados NoSQL e sistemas de cache distribuído na melhoria da performance.</span></li>
+    </ul>
+    <p>&nbsp;</p>
+    <p><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><strong>Links úteis</strong></span></p>
+    <ul>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Nosso Discord:</span><a target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/hGpFPsV2gB"><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">&nbsp;</span><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://discord.com/invite/hGpFPsV2gB</u></span></a></li>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Pesquisa de satisfação Café Debug 2024&nbsp;</span><a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</u></span></a><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">&nbsp;</span></li>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Café Debug novo feed inglês&nbsp;</span><a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP</u></span></a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.platformbuilders.io/"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://www.platformbuilders.io/</u></span></a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://gadget.dev/blog/5-tips-for-scaling-your-shopify-app-during-black-friday-cyber-monday"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://gadget.dev/blog/5-tips-for-scaling-your-shopify-app-during-black-friday-cyber-monday</u></span></a></li>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Vagas Builders</span><a target="_blank" rel="noopener noreferrer" href="https://www.platformbuilders.io"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u> https://www.platformbuilders.io</u></span></a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.platformbuilders.io"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://platformbuilders.inhire.app/vagas</u></span></a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.platformbuilders.io/content/programa-estagio"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://www.platformbuilders.io/content/programa-estagio</u></span></a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://blog.openreplay.com/building-scalable-web-applications/?ref=dailydev"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://blog.openreplay.com/building-scalable-web-applications/?ref=dailydev</u></span></a></li>
+        <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Soluções de hospedagem acesse</span><a target="_blank" rel="noopener noreferrer" href="https://king.host/"><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">&nbsp;</span><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://king.host/</u></span></a><br><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Promoção Black Friday&nbsp;</span>
+            <ul>
+                <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">VPS: todos os planos com 25% de desconto no mensal e 50% no trimestral e anual;</span></li>
+                <li><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Hospedagem Cloud: descontos entre 45% e 60%.</span></li>
+            </ul>
+        </li>
+    </ul>
+    <p><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;"><strong>Participantes</strong></span></p>
+    <p style="text-align:justify;"><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Jéssica Nathany (Software Developer&nbsp; e&nbsp; host)</span></p>
+    <p style="text-align:justify;"><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">LinkedIn:&nbsp;</span><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</u></span></a><br><br><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Weslley Fratini (Software Developer e co-host)</span></p>
+    <p style="text-align:justify;"><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">LinkedIn:&nbsp;</span><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/weslley-fratini/"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://www.linkedin.com/in/weslley-fratini/</u></span></a></p>
+    <p style="text-align:justify;">&nbsp;</p>
+    <p style="text-align:justify;"><span style="background-color:#ffffff;color:#222222;font-family:Arial,sans-serif;font-size:11pt;">Bruno Pedroso (Solutions Architecture na Builders</span><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">)</span></p>
+    <p style="text-align:justify;"><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">LinkedIn:</span><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/pedrosobruno/"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://www.linkedin.com/in/pedrosobruno/</u></span></a></p>
+    <p style="text-align:justify;"><br><span style="background-color:#ffffff;color:#222222;font-family:Arial,sans-serif;font-size:11pt;">Reginaldo Barros (Tech Lead na Builders</span><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">)</span></p>
+    <p style="text-align:justify;"><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">LinkedIn:&nbsp;</span><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/reginaldo-barros/"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://www.linkedin.com/in/reginaldo-barros/</u></span></a></p>
+    <p style="text-align:justify;"><br><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">Produtora AGO Filmes:&nbsp;</span><a target="_blank" rel="noopener noreferrer" href="https://thiagocarvalhofotografia.wordpress.com/"><span style="background-color:transparent;color:#1155cc;font-family:Arial,sans-serif;font-size:11pt;"><u>https://thiagocarvalhofotografia.wordpress.com/</u></span></a><br><span style="background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;">dúvidas, sugestões ou anúncios envie para: debugcafe@gmail.com</span></p>
+    <p>&nbsp;</p>', 
+    'Neste programa, conversamos sobre aplicações escaláveis durante o mês que tem o maior pico de acesso, que é o mês do Black Friday. Discutimos sobre estratégias para melhorar a performance e escalar as aplicações sem aumentar tanto o custo de cloud. Este programa conta com o apoio da KingHost.', 
+    'https://omny.fm/shows/cafe-de-bug/black-friday', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/blackfriday.jpg', 
+    '2024-10-28 01:00:00', '["aplicações escaláveis", "ecommerce", "black friday", "Builders"]', 1, 163, 32, 1156, 589, '2024-10-28 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#164', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 164, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#153 Aplicações Legadas: Discussão sobre Refatoração como Estratégia de Negócio', 
+    '<p dir="ltr">Neste programa aborgadamos o tema da importância de lidar com aplicações legadas e os impactos comerciais na da refatoração. Discutimos também sobre projetos legados, negócios e desafios. Este programa foi projetado para proporcionar uma discussão aprofundada e informativa sobre a refatoração e gestão de aplicações legadas.</p>
+    <p dir="ltr"><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr">O que constitui aplicações legadas?</p>
+        </li>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr">Desafios que empresas enfrentam ao trabalhar com sistemas legados</p>
+        </li>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr">Exploração das razões pelas quais as empresas decidem refatorar sistemas legados em vez de substituí-los</p>
+        </li>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr">Como a refatoração pode levar a melhorias em eficiência, segurança e escalabilidade</p>
+        </li>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr">Análise de como a refatoração impacta as operações comerciais, a satisfação do cliente e a estratégia de negócios em geral</p>
+        </li>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr">Debate sobre o futuro dos sistemas legados na paisagem tecnológica em rápida evolução</p>
+        </li>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr">Como as empresas podem equilibrar inovação com a manutenção de sistemas mais antigos?</p>
+        </li>
+    </ul>
+    <p dir="ltr"><strong>Links úteis</strong></p>
+    <ul>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr">Nosso Discord:<a target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></p>
+        </li>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr">Café Debug Global<a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></p>
+        </li>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr">Pesquisa de satisfação Café Debug 2024 <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a>&nbsp;</p>
+        </li>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr"><a target="_blank" rel="noopener noreferrer" href="https://itforum.com.br/aplicacoes-legadas-um-problema-dificil-de-lidar/amp/">https://itforum.com.br/aplicacoes-legadas-um-problema-dificil-de-lidar/amp/</a></p>
+        </li>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr"><a target="_blank" rel="noopener noreferrer" href="https://www.devmedia.com.br/introducao-a-refatoracao/21377">https://www.devmedia.com.br/introducao-a-refatoracao/21377</a></p>
+        </li>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr"><a target="_blank" rel="noopener noreferrer" href="https://www.infoq.com/br/articles/refactoring-legacy-applications/">https://www.infoq.com/br/articles/refactoring-legacy-applications/</a></p>
+        </li>
+        <li dir="ltr" aria-level="1">
+            <p dir="ltr"><a target="_blank" rel="noopener noreferrer" href="https://whatfix.com/blog/legacy-application-modernization/">https://whatfix.com/blog/legacy-application-modernization/</a></p>
+        </li>
+    </ul>
+    <p dir="ltr"><br><strong>Participantes</strong></p>
+    <p dir="ltr">Jéssica Nathany (Software Developer&nbsp; e&nbsp; host)<br>LinkedIn: <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a><br><br>Weslley Fratini (Software Developer e co-host)<br>LinkedIn: <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/</a><br>&nbsp;</p>
+    <p dir="ltr">Tiago Aguiar (Senior Developer na InfoJobs)<br>LinkedIn: <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tiago-aguiar/">https://www.linkedin.com/in/tiago-aguiar/</a><br>Canal Youtube: <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@AguiarDev91">https://www.youtube.com/@AguiarDev91</a><br>&nbsp;</p>
+    <p dir="ltr">Daniel Jesus(Engineer Manager na XP Investimentos)<br>LinkedIn: <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/djesusnet/">https://www.linkedin.com/in/djesusnet/</a><br>Canal Youtube: <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@DjesusNet">https://www.youtube.com/@DjesusNet</a><br>&nbsp;</p>
+    <p dir="ltr">Produtora AGO Filmes: <a target="_blank" rel="noopener noreferrer" href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/</a><br>dúvidas, sugestões ou anúncios envie para: debugcafe@gmail.com</p>', 
+    'Neste programa aborgadamos o tema da importância de lidar com aplicações legadas e os impactos comerciais na da refatoração. Discutimos também sobre projetos legados, negócios e desafios. Este programa foi projetado para proporcionar uma discussão aprofundada e informativa sobre a refatoração e gestão de aplicações legadas.', 
+    'https://omny.fm/shows/cafe-de-bug/153-aplica-es-legadas-discuss-o-sobre-refatora-o-c', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/aplicacoes-legadas.jpg', 
+    '2024-12-23 01:00:00', '["aplicações legadas", "refatoração"]', 1, 164, 32, 1041, 520, '2024-12-23 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#165', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 165, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#154 Os Desafios das Arquiteturas Distribuídas', 
+    '<p>Neste programa, abordaremos os desafios complexos e as nuances das arquiteturas distribuídas. Discutiremos como essas estruturas influenciam a escalabilidade, performance e a gestão de dados em ambientes de TI modernos. Este episódio foi criado para oferecer uma visão detalhada e insights valiosos sobre como otimizar e enfrentar os obstáculos comuns em sistemas distribuídos.</p>
+    <p>Assuntos abordados no tema</p>
+    <p>Introdução aos participantes </p>
+    <p>Contexto do convidados </p>
+    <p>Explicação do que são arquiteturas distribuídas e por que são essenciais para sistemas modernos e escaláveis</p>
+    <p>Discussão sobre as complexidades de realizar operações CRUD (Create, Read, Update, Delete) de forma isolada e os desafios de consistência de dados</p>
+    <p>Teorema CAP </p>
+    <p>A importância do algoritmo em cenários distribuídos: eficientes são vitais para gerenciar a latência e a sincronização em sistemas distribuídos</p>
+    <p>Observabilidade e Monitoramento (conceito e ferramentas)</p>
+    <p>Dica de estudos</p>
+    <p>Links úteis</p>
+    <p>Nosso Discord: https://discord.com/invite/hGpFPsV2gB</p>
+    <p>Café Debug Global https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</p>
+    <p>Pesquisa de satisfação Café Debug 2024 https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</p>
+    <p>https://github.com/systemdesignfightclub/SDFC?tab=readme-ov-file</p>
+    <p>https://medium.com/@tanstorm/cap%C3%ADtulo-10-arquitetura-distribu%C3%ADda-arquitetura-descentralizada-e-redes-sociais-federadas-23c27c07ae6</p>
+    <p>https://medium.com/@ruan.victor/breve-introdu%C3%A7%C3%A3o-ao-teorema-cap-eb8bb0a0d7a4</p>
+    <p>https://medium.com/@jessicanathanyf/sobre-nosql-cec7410e4413</p>
+    <p>https://www.youtube.com/@CoreDumpped</p>
+    <p>Participantes</p>
+    <p>Jéssica Nathany (Software Developer  e  host)<br>
+    LinkedIn: https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</p>
+    <p>Arthur Costa (Software Engineer na Fanduel)<br>
+    LinkedIn: https://www.linkedin.com/in/arthur-alves-da-costa/<br>
+    Projeto: https://linktr.ee/techishthoughts</p>
+    <p>Otavio Celestino (Senior Software Engineer no Mercado Libre)<br>
+    LinkedIn: https://www.linkedin.com/in/otaviocelestino/<br>
+    Youtube: https://www.youtube.com/@huncoding</p>
+    <p>Produtora AGO Filmes: https://thiagocarvalhofotografia.wordpress.com/<br>
+    dúvidas, sugestões ou anúncios envie para: debugcafe@gmail.com</p>', 
+    'Neste programa, abordaremos os desafios complexos e as nuances das arquiteturas distribuídas. Discutiremos como essas estruturas influenciam a escalabilidade, performance e a gestão de dados em ambientes de TI modernos. Este episódio foi criado para oferecer uma visão detalhada e insights valiosos sobre como otimizar e enfrentar os obstáculos comuns em sistemas distribuídos.', 
+    'https://omny.fm/shows/cafe-de-bug/154-os-desafios-das-arquiteturas-distribu-das', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/arquitetura-distribuida.jpg', 
+    '2025-01-13 01:00:00', '["arquitetura distribuída", "sistemas distribuídos"]', 1, 165, 1, 952, 529, '2025-01-13 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#166', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 166, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#155 IoT e o Futuro Digital: Traçando o Caminho para 2025', 
+    '<p><!-- x-tinymce/html --></p>
+    <p>&nbsp;</p>
+    <!-- x-tinymce/html -->
+    <p>&nbsp;</p>
+    <!-- x-tinymce/html -->
+    <p>&nbsp;</p>
+    <!-- x-tinymce/html -->
+    <p>Neste programa, tivemos um bate papo interessante sobre as tend&ecirc;ncias e mudan&ccedil;as do IoT para 2025. Conevrsamos sobre dispositivos, o crescimento do IoT, dados e cidades inteligentes. Como a integra&ccedil;&atilde;o da IA com o IoT est&aacute; sendo um diferencial competitivo na area digital.</p>
+    <p>&nbsp;<strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li>Internet Of Things (IoT) breve introdu&ccedil;&atilde;o</li>
+    <li>Tend&ecirc;ncias e avan&ccedil;os do IoT em 2025</li>
+    <li>Expans&atilde;o das redes 5G e 6G - O 5G oferece maior velocidade e menor lat&ecirc;ncia, permitindo que os dispositivos IoT se conectem mais rapidamente e em tempo real, o que &eacute; essencial para aplica&ccedil;&otilde;es como carros aut&ocirc;nomos e cidades inteligentes</li>
+    <li>Intelig&ecirc;ncia Artificial integrada ao IoT</li>
+    <li>Cidades Inteligentes e desafios urbanos</li>
+    <li>Como IoT pode melhorar criar empregos em 2025</li>
+    <li>Como fica a imensid&atilde;o de dados com o crescimento do IoT?</li>
+    <li>Como iniciar com pequenos dispositivos IoT? Por onde come&ccedil;ar</li>
+    <li>Mercado de trabalho / carreira</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Caf&eacute; Debug Global<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li>Responda nosas pesquisa Caf&eacute; Debug 2025 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a></li>
+    <li><a href="https://blog.algartelecom.com.br/iot-avancos/#Tendencias_e_avancos_da_IoT_em_2025">https://blog.algartelecom.com.br/iot-avancos/#Tendencias_e_avancos_da_IoT_em_2025</a></li>
+    <li><a href="https://ascenty.com/blog/artigos/a-inteligencia-artificial-na-era-da-internet-das-coisas/">https://ascenty.com/blog/artigos/a-inteligencia-artificial-na-era-da-internet-das-coisas/</a></li>
+    <li><a href="https://epma.medium.com/como-o-iot-pode-criar-empregos-em-2025-e-o-que-o-brasil-pode-aprender-com-a-china-b6b0bef1f6cc">https://epma.medium.com/como-o-iot-pode-criar-empregos-em-2025-e-o-que-o-brasil-pode-aprender-com-a-china-b6b0bef1f6cc</a></li>
+    <li><a href="https://www.industria40.ind.br/artigo/25729-integracao-ia-iot-diferencial-competitivo-era-digital">https://www.industria40.ind.br/artigo/25729-integracao-ia-iot-diferencial-competitivo-era-digital</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/<br /></a><br />Gleisson Bezerra (Especialista em Machine Learning no Google e PhD no ITA)<br />LinkedIn: <a href="https://www.linkedin.com/in/gleisson/">https://www.linkedin.com/in/gleisson/</a></p>
+    <p>Produtora AGO Filmes:&nbsp;<a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste programa, tivemos um bate papo interessante sobre as tendências e mudanças do IoT para 2025. Conevrsamos sobre dispositivos, o crescimento do IoT, dados e cidades inteligentes. Como a integração da IA com o IoT está sendo um diferencial competitivo na area digital.', 
+    'https://omny.fm/shows/cafe-de-bug/155-iot-e-o-futuro-digital-tra-ando-o-caminho-para', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/iot-ia.jpg', 
+    '2025-02-03 01:00:00', '["iot"]', 1, 166, 16, 831, 478, '2025-02-03 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#167', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 167, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#156 DeepSeek e a Guerra das IAs: Especialistas Revelam o Futuro da Inteligência Artificial', 
+    '<p class="demoTitle"><!-- x-tinymce/html --></p>
+    <p>Neste programa conversamos com o Victor Hugo e o Ahirton Lopes, dois especialistas em Intelig&ecirc;ncia Artificial e aprendizado de m&aacute;quina. Discutimos sobre a o modelo da DeepSeek e a&nbsp; intensa competi&ccedil;&atilde;o entre gigantes da tecnologia na corrida pela em IA, revelando como essa disputa moldando o futuro digital. Conversamos sobre a expans&atilde;o e o tratamento dos dados gerados por esses modelos.</p>
+    <h3><strong>Assuntos abordados no tema</strong></h3>
+    <ul>
+    <li>DeepSeek o BOOMM</li>
+    <li>Explorando a plataforma DeepSeek&nbsp; e suas principais funcionalidades e o diferencial das outras IAs</li>
+    <li>Mundo open source</li>
+    <li>Guerra comercial de IAs: como a &ldquo;guerra&rdquo; est&aacute; moldando inova&ccedil;&atilde;o e a economia digital</li>
+    <li>Impacto dos dados para o treinamento de modelos machine learning</li>
+    <li>Explora&ccedil;&atilde;o dos &uacute;ltimos avan&ccedil;os em machine learning: aprendizado profundo automatizado, algoritmos e transpar&ecirc;ncias&nbsp;</li>
+    <li>Mercado de trabalho: com tanta IAs sendo criada, como podemos profissionais devem-se capacitar ara n&atilde;o ficar para tr&aacute;s?</li>
+    <li>IA vai substituir ohttps://www.rdworldonline.com/within-hours-open-source-ai-developer-replicates-openais-deep-research/ dev? e o pessoal de dados?</li>
+    </ul>
+    <h3><strong>Links &uacute;teis</strong></h3>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Caf&eacute; Debug Global<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li>Pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; Debug 2024 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a></li>
+    <li><a href="https://www.victorhg.com/post/deepseek-e-o-real-impacto-do-open-source">https://www.victorhg.com/post/deepseek-e-o-real-impacto-do-open-source</a></li>
+    <li><a href="https://mittechreview.com.br/deepseek-ia-china/">https://mittechreview.com.br/deepseek-ia-china/</a></li>
+    <li><a href="https://semianalysis.com/2023/05/04/google-we-have-no-moat-and-neither/">https://semianalysis.com/2023/05/04/google-we-have-no-moat-and-neither/</a></li>
+    <li><a href="https://medium.com/@GenerationAI/how-deepseek-r1-zero-was-reproduced-in-30-4e394cd3dd58">https://medium.com/@GenerationAI/how-deepseek-r1-zero-was-reproduced-in-30-4e394cd3dd58</a></li>
+    <li><a href="https://www.maritaca.ai/">https://www.maritaca.ai/</a></li>
+    <li><a href="https://www.rdworldonline.com/within-hours-open-source-ai-developer-replicates-openais-deep-research/">https://www.rdworldonline.com/within-hours-open-source-ai-developer-replicates-openais-deep-research/</a></li>
+    <li><a href="https://huggingface.co/">https://huggingface.co/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/<br /><br /></a>Victor Hugo (Tech Executive, Digital &amp; Agile Expert, Lambda3 Founder, Master of Science Candidate at USD)<br />LinkedIn: <a href="https://www.linkedin.com/in/victorhg/">https://www.linkedin.com/in/victorhg/</a></p>
+    <p>Ahirton Lopes (AI Data Manager, Teacher 5x MVP Microsoft Google Developer Expert)</p>
+    <p>LinkedIn:<a href="https://www.linkedin.com/in/ahirtonlopes/">https://www.linkedin.com/in/ahirtonlopes/</a></p>
+    <p>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste programa conversamos com o Victor Hugo e o Ahirton Lopes, dois especialistas em Inteligência Artificial e aprendizado de máquina. Discutimos sobre a o modelo da DeepSeek e a  intensa competição entre gigantes da tecnologia na corrida pela em IA, revelando como essa disputa moldando o futuro digital. Conversamos sobre a expansão e o tratamento dos dados gerados por esses modelos.', 
+    'https://omny.fm/shows/cafe-de-bug/156-deepseek-e-a-guerra-das-ias-especialistas-reve', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/deepseek.jpg', 
+    '2025-02-10 01:00:00', '["deepseek", "IA", "Victor Hugo", "Ahirton Lopes"]', 1, 167, 28, 803, 500, '2025-02-10 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#168', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 168, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#157 Consultoria SAP: Uma Carreira Transformadora no Mundo Tech', 
+    '<p class="demoTitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <p>Neste programa, conversamos com a Julia Moesch e Camila Hegler que tirou as nossas d&uacute;vidas sobre a carreira de um consultor SAP. SAP (System Applications and Products) &eacute; uma empresa alem&atilde; criadora de software de gest&atilde;o de empresas. Ao longo de quatro d&eacute;cadas, a SAP evoluiu de uma empresa pequena e regional para uam organiza&ccedil;&atilde;o de alcance mundial.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li>O que &eacute; SAP (Systems&nbsp; Applications and Products)&nbsp;</li>
+    <li>SAP foi desenvolvido com uma linguagem pr&oacute;pria chamada ABAP (Advanced Business Applications Programming)</li>
+    <li>Quais s&atilde;o as vantagens do Sistema SAP e como ele melhora a realidade corporativa?</li>
+    <li>M&oacute;dulos SAP (Financial Accounting, Controlling, Production Planning, Logistics, Execution, Sales e Distribution)</li>
+    <li>Como funciona a implementa&ccedil;&atilde;o do SAP nas empresas? Como &eacute; o trabalho?</li>
+    <li>Dia a dia de um consultor</li>
+    <li>Diferen&ccedil;a entre Consutlor SAP e Desenvolvedor ABAP</li>
+    <li>Certifica&ccedil;&otilde;es SAP</li>
+    <li>Evolu&ccedil;&atilde;o de carreira e especializa&ccedil;&otilde;es</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Caf&eacute; Debug Global<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li>Pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; Debug 2024 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a></li>
+    <li><a href="https://www.sap.com/brazil/about/what-is-sap.html">https://www.sap.com/brazil/about/what-is-sap.html</a></li>
+    <li><a href="https://blog.brq.com/o-que-e-sistema-sap/">https://blog.brq.com/o-que-e-sistema-sap/</a></li>
+    <li><a href="https://www.primeinstitute.com/noticias/em-que-linguagem-de-programacao-o-sap-e-feito-452">https://www.primeinstitute.com/noticias/em-que-linguagem-de-programacao-o-sap-e-feito-452</a></li>
+    <li><a href="https://medium.com/@eng.damasceno/abap-que-linguagem-%C3%A9-essa-9c1c3c25ba09">https://medium.com/@eng.damasceno/abap-que-linguagem-%C3%A9-essa-9c1c3c25ba09</a></li>
+    <li><a href="https://www.tabnews.com.br/murillonadal/o-que-e-o-abap">https://www.tabnews.com.br/murillonadal/o-que-e-o-abap</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/<br /></a><br />Camila Hegler (SAP SuccessFactors &amp; HXM Consult)<br />LinkedIn: <a href="https://www.linkedin.com/in/camila-hengler-rodrigues-1b371115/">https://www.linkedin.com/in/camila-hengler-rodrigues-1b371115/</a></p>
+    <p>Julia Moesc (SAP SuccessFactors &amp; HXM Consult)<br />LinkedIn: <a href="https://www.linkedin.com/in/j%C3%BAlia-moesch-de-moraes-4368465/">https://www.linkedin.com/in/j%C3%BAlia-moesch-de-moraes-4368465/</a></p>
+    <p>Produtora AGO Filmes:&nbsp;<a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste programa, conversamos com a Julia Moesch e Camila Hegler que tirou as nossas dúvidas sobre a carreira de um consultor SAP. SAP (System Applications and Products) é uma empresa alemã criadora de software de gestão de empresas. Ao longo de quatro décadas, a SAP evoluiu de uma empresa pequena e regional para uam organização de alcance mundial.', 
+    'https://omny.fm/shows/cafe-de-bug/157-consultoria-sap-uma-carreira-transformadora-no', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/modelo-capa-episodioss-bkp.jpg', 
+    '2025-02-25 01:00:00', '["carreira", "consultoria SAP"]', 1, 168, 4, 787, 491, '2025-02-25 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#169', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 169, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#158 É Preciso Ser um PhD para Trabalhar com Machine Learning? Tudo sobre ML, IA e Deep Learning', 
+    '<p class="demoTitle"><!-- x-tinymce/html --></p>
+    <p>Neste epis&oacute;dio, tivemos o prazer de conversar com Ahirton Lopes e Felipe Teodoro, dois especialistas em machine learning. Durante nossa discuss&atilde;o, exploramos a import&acirc;ncia do aprendizado de m&aacute;quina e sas diferen&ccedil;as essenciais aos modelos machine learning ML e intelig&ecirc;ncia artificial IA. Mas ser&aacute; que &eacute; preciso ser ser um PhD para trabalhar com machine learning?&nbsp;</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li>Breve contextualiza&ccedil;&atilde;o sobre o que &eacute; Machine Learning (ML) e sua import&acirc;ncia no cen&aacute;rio tecnol&oacute;gico atual.</li>
+    <li>Defini&ccedil;&atilde;o t&eacute;cnica: diferen&ccedil;a entre ML, IA e Deep Learning</li>
+    <li>Breve explica&ccedil;&atilde;o sobre redes neurais</li>
+    <li>Exemplos simples de algoritmos de ML (regress&atilde;o linear, redes neurais, etc.).</li>
+    <li>Como criar modelos b&aacute;sicos e rodar localmente?</li>
+    <li>Futuro do ML (AutoML, Quantum Machine Learning, Edge AI)</li>
+    <li>C&aacute;lculos, &aacute;lgebra linear, matem&aacute;tica&hellip;</li>
+    <li>Impacto no mercado de trabalho: novas profiss&otilde;es e habilidades necess&aacute;rias.</li>
+    <li>Por onde come&ccedil;ar? Carreira, mercado de trabalho e estudos</li>
+    <li>&Eacute; poss&iacute;vel aprender o b&aacute;sico e explorar o machine learning sem trabalhar na &aacute;rea?</li>
+    <li>Informa&ccedil;&otilde;es &uacute;teis e divulga&ccedil;&otilde;es&nbsp;</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Caf&eacute; Debug Global<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li>Pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; Debug 2024 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a></li>
+    <li><a href="https://cloud.google.com/learn/artificial-intelligence-vs-machine-learning?hl=pt-BR">https://cloud.google.com/learn/artificial-intelligence-vs-machine-learning?hl=pt-BR</a></li>
+    <li><a href="https://www.bbc.com/portuguese/geral-62803019">https://www.bbc.com/portuguese/geral-62803019</a></li>
+    <li><a href="https://robertaduarte.com/">https://robertaduarte.com/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/<br /></a><br />Felipe Teodoro (Diretor de Ci&ecirc;ncia de Dados e Engenheiro de Dados na CCapital)<br />LinkedIn: <a href="https://www.linkedin.com/in/teodorofelipe/">https://www.linkedin.com/in/teodorofelipe/</a></p>
+    <p>Ahirton Lopes (AI Data Manager, Teacher 5x MVP Microsoft Google Developer Expert)<br />LinkedIn: <a href="https://www.linkedin.com/in/ahirtonlopes/">https://www.linkedin.com/in/ahirtonlopes/</a></p>
+    <p>Produtora AGO Filmes:&nbsp;<a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste episódio, tivemos o prazer de conversar com Ahirton Lopes e Felipe Teodoro, dois especialistas em machine learning. Durante nossa discussão, exploramos a importância do aprendizado de máquina e sas diferenças essenciais aos modelos machine learning ML e inteligência artificial IA. Mas será que é preciso ser ser um PhD para trabalhar com machine lea', 
+    'https://omny.fm/shows/cafe-de-bug/machine-learning', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/machine-learning.jpg', 
+    '2025-03-03 01:00:00', '["machine learning", "Ahirton Lopes", "Felipe Teodoro"]', 1, 169, 18, 1070, 476, '2025-03-03 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#170', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 170, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#9 Devs e Empreendedores com Italo Oliveira', 
+    '<p>Neste programa, conversamos com o Italo Oliveira que contou sua experi&ecirc;ncia em tirar seu projeto do papel e transformar em neg&oacute;cio. Compartilhou os desafios aprendidos, a import&acirc;ncia de n&atilde;o escalar o neg&oacute;cio de in&iacute;cio&nbsp; e as li&ccedil;&otilde;es aprendidas com os usu&aacute;rios da plataforma.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li>Introdu&ccedil;&atilde;o - origem do projeto</li>
+    <li>Tecnologia e empreendedorismo</li>
+    <li>Como conciliar sobre carreira internacional e o empreendedorismo?</li>
+    <li>Abri meu neg&oacute;cio. Continuo codando? Como gerenciar meu tempo para administrar meu neg&oacute;cio e continuar ainda escrevendo c&oacute;digos? Como manter a paix&atilde;o por escrever softwares e continuar os estudos sem desequilibrar os neg&oacute;cios?</li>
+    <li>Como pensar em um MVP? Qual melhor caminho?</li>
+    <li>Desafios e como ser um bom gestor</li>
+    <li>Desenvolvedores precisam empreender?</li>
+    <li>Vis&atilde;o futura e conselhos para novos empreendedores devs</li>
+    <li>Stack utilizada<br />Programador(a) vai sempre ser um programador(a) ou &eacute; natural ir para o caminho da gest&atilde;o?</li>
+    <li>Gerenciamento de tempo</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Caf&eacute; Debug Global <a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587">https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a><br />Patrocinadora do programa&nbsp; <a href="https://king.host/">https://king.host/</a></li>
+    <li>Pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; Debug 2024 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a></li>
+    <li><a href="https://cardapiomusical.pages.net.br/">https://cardapiomusical.pages.net.br/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/<br /><br /></a>Italo Oliveira (Software Engineer na Nodejs Source)<br />LinkedIn: <a href="https://www.linkedin.com/in/italojs/">https://www.linkedin.com/in/italojs/</a></p>
+    <p>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste programa, conversamos com o Italo Oliveira que contou sua experiência em tirar seu projeto do papel e transformar em negócio. Compartilhou os desafios aprendidos, a importância de não escalar o negócio de início  e as lições aprendidas com os usuários da plataforma.', 
+    'https://omny.fm/shows/cafe-de-bug/9-devs-empreendedores-com-italo-oliveira', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/devempreendedor9.jpg', 
+    '2025-03-17 01:00:00', '["devs e empreendedores", "Italo Oliveira"]', 1, 170, 9, 772, 468, '2025-03-17 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#171', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 171, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#160 Do Brasil para o Mundo: Como a VanHack Conecta Devs a Vagas Globais', 
+    '<p>Neste programa fizemos um &oacute;timo bate papo com Ilya Brotzky para falar sobre a Van Hack. A Van Hack &eacute; uma plataforma que qualifica e profissionais da &aacute;rea de tecnologia para serem contratados por empresas de tecnologia no Canada, Estados Unidos e pa&iacute;ses europeus. Ficou interessado? Ent&atilde;o escuta esse programa at&eacute; o final e deixe seu coment&aacute;rio.</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li>Conhecendo a&nbsp; Van Hack</li>
+    <li>Um pouco sobre <a href="https://vanhack.com/vanhackcon">https://vanhack.com/vanhackcon</a>&nbsp;</li>
+    <li>Sobre funciona o programa para contra&ccedil;&atilde;o de Devs para exterior</li>
+    <li>Como Devs devem se preparar: Mercado, prepara&ccedil;&atilde;o e inspira&ccedil;&atilde;o</li>
+    <li>Linguagens de programa&ccedil;&atilde;o e tecnologias mais procuradas no mercado de desenvolvimento de software por empresas do exterior</li>
+    <li>Qual n&iacute;vel de ingl&ecirc;s &eacute; exigido para trabalhar em empresas como Canad&aacute; ou europa?</li>
+    <li>Dicas, orienta&ccedil;&otilde;es para quem busca um emprego no exterior: melhor caminho</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Caf&eacute; Debug Global<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li>Pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; Debug 2024 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a></li>
+    <li>Patrocinadora do programa&nbsp; <a href="https://king.host/">https://king.host/</a></li>
+    <li>Link do evento Van Hack&nbsp; <a href="https://vanhack.com/candidates/events/brazil">https://vanhack.com/candidates/events/brazil</a></li>
+    <li>Site Van Hack <a href="https://vanhack.com/">https://vanhack.com/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; Host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e Co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/<br /><br /></a>Ilya Brotzky (CEO na Van Hack)<br />LinkedIn: <a href="https://www.linkedin.com/in/ilyabrotzky/">https://www.linkedin.com/in/ilyabrotzky/</a></p>
+    <p>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste programa fizemos um ótimo bate papo com Ilya Brotzky para falar sobre a Van Hack. A Van Hack é uma plataforma que qualifica e profissionais da área de tecnologia para serem contratados por empresas de tecnologia no Canada, Estados Unidos e países europeus. Ficou interessado? Então escuta esse programa até o final e deixe seu comentário.', 
+    'https://omny.fm/shows/cafe-de-bug/160-do-brasil-para-o-mundo-como-a-vanhack-conecta-devs-a-vagas-globais', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/vanchack.jpg', 
+    '2025-04-14 01:00:00', '["carreira", "Van Hack"]', 1, 171, 4, 731, 440, '2025-04-14 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#172', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 172, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#161 Tudo Sobre Sistemas Embarcados: Aplicações, Carreira e Futuro', 
+    '<p>J&aacute; parou para pensar que os Sistemas Embarcados est&atilde;o presentes em praticamente tudo ao nosso redor? Desde o seu smartphone at&eacute; a sua geladeira, passando por carros, avi&otilde;es e dispositivos m&eacute;dicos, esses sistemas s&atilde;o a base da tecnologia moderna. Neste programa, conversamos com Gleisson Bezerra, especialista em IO, Machine Learning e Sistemas Embarcados que explicou tudo pra n&oacute;s.&nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li>O que s&atilde;o Sistemas Embarcados e porque eles s&atilde;o t&atilde;o importantes?</li>
+    <li>Linguagens utilizadas: C, C++, Python, Rust e Assembly</li>
+    <li>Defini&ccedil;&atilde;o t&eacute;cnica: hardware + software dedicado a uma fun&ccedil;&atilde;o espec&iacute;fica</li>
+    <li>Diferen&ccedil;a entre sistemas embarcados e computadores tradicionais</li>
+    <li>Dados curiosos: exemplos de onde os sistemas embarcados est&atilde;o presentes (eletrodom&eacute;sticos, carros, dispositivos m&eacute;dicos, etc.)</li>
+    <li>Aplica&ccedil;&otilde;es e Sistemas Cr&iacute;ticos: Ind&uacute;stria automotiva: sistemas de controle, sensores, carros aut&ocirc;nomos, smart home, agro, e etc.</li>
+    <li>Aplica&ccedil;&otilde;es real-time</li>
+    <li>Intelig&ecirc;ncia Artificial em sistemas embarcados</li>
+    <li>Por onde come&ccedil;ar a desenvolver sistemas embarcados: ferramentas, linguagens como testar</li>
+    <li>Habilidades necess&aacute;rias: programa&ccedil;&atilde;o, eletr&ocirc;nica, pensamento l&oacute;gico</li>
+    <li>Mercado de trabalho: oportunidade de crescimento, carreira e forma&ccedil;&atilde;o</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Caf&eacute; Debug Global<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li>Pesquisa de satisfa&ccedil;&atilde;o Caf&eacute; Debug 2024 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform">https://docs.google.com/forms/d/e/1FAIpQLSdlkPGS-sqfD3QOmkddRDqj7dlYE8mpIlZXORIfTtn-MztKKA/viewform</a></li>
+    <li>Patrocinadora do programa&nbsp; <a href="https://king.host/">https://king.host/</a></li>
+    <li><a href="https://embarcados.com.br/o-que-sao-sistemas-embarcados/">https://embarcados.com.br/o-que-sao-sistemas-embarcados/</a></li>
+    <li><a href="https://victorvision.com.br/blog/sistemas-embarcados/">https://victorvision.com.br/blog/sistemas-embarcados/</a></li>
+    <li><a href="https://www.linkedin.com/pulse/voc%C3%AA-inteiro-dentro-do-metaverso-parte-1-de-2-gleisson-s-bezerra/">https://www.linkedin.com/pulse/voc%C3%AA-inteiro-dentro-do-metaverso-parte-1-de-2-gleisson-s-bezerra/</a></li>
+    <li><a href="https://www.youtube.com/watch?v=J2pHgzdAJRk">https://www.youtube.com/watch?v=J2pHgzdAJRk</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/<br /></a><br />Gleisson Bezerra (Especialista em Machine Learning no Google e PhD no ITA)<br />LinkedIn:<a href="https://www.linkedin.com/in/gleisson/"> https://www.linkedin.com/in/gleisson/</a></p>
+    <p>Produtora AGO Filmes:&nbsp;<a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Já parou para pensar que os Sistemas Embarcados estão presentes em praticamente tudo ao nosso redor? Desde o seu smartphone até a sua geladeira, passando por carros, aviões e dispositivos médicos, esses sistemas são a base da tecnologia moderna. Neste programa, conversamos com Gleisson Bezerra, especialista em IO, Machine Learning e Sistemas Embarcados que explicou tudo pra nós.', 
+    'https://omny.fm/shows/cafe-de-bug/161-tudo-sobre-sistemas-embarcados-aplica-es-carreira-e-futuro', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/sistemas-embarcados.jpg', 
+    '2025-04-28 01:00:00', '["iot","sistemas embarcados", "Gleisson Bezerra"]', 1, 172, 16, 626, 437, '2025-04-28 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#173', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 173, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#162 Tendência do Mercado Tech em 2025:  O que Mudou e Como se Preparar', 
+    '<p>O que mudou do mercado de desenvolvimento nos &uacute;ltimos 2 anos?&nbsp;Convidei Tiago Aguiar para discutir esse assunto. Fizemos um balan&ccedil;o sobre alguns pontos importantes a ser considerado na carreira de desenvolvimento de software, e como desenvolvedores podem se capacitar com tanta mudan&ccedil;a e tend&ecirc;ncia em IAs.&nbsp; &nbsp;</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li>Introdu&ccedil;&atilde;o ao tema</li>
+    <li>O que mudou no mercado de trabalho de 2024 para 2025</li>
+    <li>Modelo de trabalho h&iacute;brido</li>
+    <li>O que Devs iniciantes ou n&atilde;o precisam se atualizar</li>
+    <li>Comentando alguns t&oacute;picos da pesquisa Spiceworks report</li>
+    <li>Como usar ferramentas de IA para produtividade sem depender dela</li>
+    <li>Devs que usam Copilot tem 55% mais chance de aprova&ccedil;&atilde;o em entrevistas</li>
+    <li>Capacita&ccedil;&atilde;o: como se capacitar em um mundo com tanta mudan&ccedil;a?</li>
+    <li>Portf&oacute;lio relevante no Github</li>
+    <li>Hard skills n&atilde;o &eacute; o suficiente &eacute; preciso tamb&eacute;m de soft skills</li>
+    <li>Ingl&ecirc;s ja n&atilde;o &eacute; mais o diferencial</li>
+    <li>Otimizar sistemas cr&iacute;ticos torna um Dev de valor</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Caf&eacute; Debug global<br /><a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587">https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li>Patrocinadora do programa&nbsp; <a href="https://king.host/">https://king.host/</a></li>
+    <li><a href="https://www.jetbrains.com/pt-br/lp/devecosystem-2024/">https://www.jetbrains.com/pt-br/lp/devecosystem-2024/</a></li>
+    <li><a href="https://www.gitclear.com/ai_assistant_code_quality_2025_research">https://www.gitclear.com/ai_assistant_code_quality_2025_research</a></li>
+    <li><a href="https://www.spiceworks.com/research/it-report/">https://www.spiceworks.com/research/it-report/</a></li>
+    <li>V&iacute;deo sobre estrutura de dados <a href="https://www.youtube.com/watch?v=7kf1SACqlRw">https://www.youtube.com/watch?v=7kf1SACqlRw</a></li>
+    <li>System Design interview Google <a href="https://www.youtube.com/watch?v=Ti5vfu9arXQ">https://www.youtube.com/watch?v=Ti5vfu9arXQ</a></li>
+    <li>Dynamic programming <a href="https://www.youtube.com/watch?v=Hdr64lKQ3e4">https://www.youtube.com/watch?v=Hdr64lKQ3e4</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/<br /></a></p>
+    <p>Tiago Aguiar (Desenvovledor .NET na Redarbor Brasil e Criador de conte&uacute;do)<br />Site: <a href="https://beacons.ai/aguiardev">https://beacons.ai/aguiardev</a></p>
+    <p>Produtora AGO Filmes:&nbsp;<a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'O que mudou do mercado de desenvolvimento nos últimos 2 anos?', 
+    'https://omny.fm/shows/cafe-de-bug/162-tend-ncia-do-mercado-tech-em-2025-o-que-mudou-e-como-se-preparar', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/mercado-tecnologia.jpg', 
+    '2025-05-12 01:00:00', '["carreira", "mercado de tecnologia"]', 1, 173, 4, 671, 388, '2025-05-12 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#174', 
-    '', 
+    '#159 Democratização dos Pagamentos em Tempos de Alta Conectividade', 
+    '<p>Neste episódio, mergulhamos no mundo das soluções de pagamento e multiconectividade, explorando as inovações tecnológicas que estão reformulando o setor financeiro. Conversamos com especialista Ruy Alves que compartilhou suas experiências sobre a implementação de sistemas avançados de pagamento e os desafios enfrentados na integração dessas tecnologias em diversas plataformas. </p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li>Breve introdução ao Ruy Alves</li>
+    <li>Como a tecnologia está reformulando as soluções de pagamento e a importância da conectividade no setor financeiro</li>
+    <li>Gateway de pagamento</li>
+    <li>Visão geral sobre soluções de pagament - persistência dos cartões físicos e o crescimento explosivo dos pagamentos digitais</li>
+    <li>5G e 6G impacto na a adoção de pagamentos instantâneos e a eficiência das transações online</li>
+    <li>Integração de IAs nos pagamentos</li>
+    <li>Especificações técnicas das soluções de pagamento mais avançadas, como as tecnologias por trás dos pagamentos sem contato e criptografados</li>
+    </ul>
+    <p><strong>Links úteis</strong></p>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Café Debug Global<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li><a href="https://king.host/">https://king.host/</a> patrocinado pela King Host</li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>Jéssica Nathany (Software Developer  e  host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/<br /></a><br />Ruy Alves (Head do Studio de Payment Solutions da Edge UOL)<br />LinkedIn: <a href="https://www.linkedin.com/in/ruyalves/?originalSubdomain=br">https://www.linkedin.com/in/ruyalves/?originalSubdomain=br</a></p>
+    <p>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>dúvidas, sugestões ou anúncios envie para: debugcafe@gmail.com</p>
+    <p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>', 
     'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 174, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    'https://omny.fm/shows/caf-debug-seu-podcast-de-tecnologia/159-democratiza-o-dos-pagamentos-em-tempos-de-alta-conectividade', 
+    null,
+    '2025-04-07 01:00:00', '["pagamentos", "conectividade", "tecnologias"]', 1, 174, 32, 0, 0, '2025-04-07 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#175', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 175, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#163 Visão dos CTOs Sobre o Futuro dos Devs no Mercado De Trabalho', 
+    '<p>Neste programa, convidamos a Ludmila Pontremolez CTO e Cofundadora da Zippi, para entender como ela enxerga as transforma&ccedil;&otilde;es recentes no mercado de desenvolvimento de software. A conversa traz uma vis&atilde;o estrat&eacute;gica sobre contrata&ccedil;&atilde;o, capacita&ccedil;&atilde;o, impacto da IA nas equipes t&eacute;cnicas, mudan&ccedil;as nos modelos de trabalho e o que realmente import&acirc;ncia na hora de formar e reter bons talentos.&nbsp; &nbsp; &nbsp;</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li>Introdu&ccedil;&atilde;o ao tema: como o mercado mudou do ponto de vista da lideran&ccedil;a</li>
+    <li>O que mudou nas demandas das empresas entre 2024 e 2025?</li>
+    <li>Como a IA est&aacute; impactando a gest&atilde;o e a produtividade dos times de tecnologia?</li>
+    <li>Reorganiza&ccedil;&atilde;o dos times: devs generalistas, especialistas ou h&iacute;bridos?</li>
+    <li>Como CTOs est&atilde;o escolhendo talentos e avaliando compet&ecirc;ncias t&eacute;cnicas e comportamentais</li>
+    <li>Como a empresa pode fomentar um ambiente que estimula crescimento t&eacute;cnico e pessoal?</li>
+    <li>O papel do Dev no core do neg&oacute;cio: expectativa de vis&atilde;o estrat&eacute;gica al&eacute;m do c&oacute;digo</li>
+    <li>Vis&atilde;o sobre a ado&ccedil;&atilde;o de IA como ferramenta de apoio (ex: GitHub Copilot, ChatGPT, etc.)</li>
+    <li>Modelos de trabalho: o que CTOs preferem hoje? Remoto, h&iacute;brido ou presencial?</li>
+    <li>O que os l&iacute;deres esperam dos devs iniciantes hoje?</li>
+    <li>Desenvolvedores excepcionais que n&atilde;o sem bem avaliados e perdem oportunidades</li>
+    <li>A import&acirc;ncia de ter devs que otimizam sistemas cr&iacute;ticos e pensam em performance e escalabilidade</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Caf&eacute; Debug global<br /><a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587">https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li>Patrocinadora do programa&nbsp; <a href="https://king.host/">https://king.host/</a></li>
+    <li><a href="https://www.jetbrains.com/pt-br/lp/devecosystem-2024/">https://www.jetbrains.com/pt-br/lp/devecosystem-2024/</a></li>
+    <li><a href="https://www.gitclear.com/ai_assistant_code_quality_2025_research">https://www.gitclear.com/ai_assistant_code_quality_2025_research</a></li>
+    <li><a href="https://www.spiceworks.com/research/it-report/">https://www.spiceworks.com/research/it-report/</a></li>
+    <li>Dynamic programming <a href="https://www.youtube.com/watch?v=Hdr64lKQ3e4">https://www.youtube.com/watch?v=Hdr64lKQ3e4</a></li>
+    <li>Epis&oacute;dio 131 participa&ccedil;&atilde;o da Ludmila <a href="https://open.spotify.com/episode/6EOzeVA003rWVEZefnG3rn">https://open.spotify.com/episode/6EOzeVA003rWVEZefnG3rn</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Ludmila Pontremolez (CTO e Cofundadora da Zippi)<br />Linkedin: <a href="https://www.linkedin.com/in/ludmilapontremolez/">https://www.linkedin.com/in/ludmilapontremolez/</a></p>
+    <p>Produtora AGO Filmes:&nbsp;<a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste programa, convidamos a Ludmila Pontremolez CTO e Cofundadora da Zippi, para entender como ela enxerga as transformações recentes no mercado de desenvolvimento de software. A conversa traz uma visão estratégica sobre contratação, capacitação, impacto da IA nas equipes técnicas, mudanças nos modelos de trabalho e o que realmente importância na hora de formar e reter bons talentos.     ', 
+    'https://omny.fm/shows/cafe-de-bug/163-vis-o-dos-ctos-sobre-o-futuro-dos-devs-no-mercado-de-trabalho', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/mercado-tech-visao-cto.jpg', 
+    '2025-05-19 01:00:00', '["carreira", "mercado de trabalho", "tecnologia"]', 1, 175, 4, 597, 441, '2025-05-19 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#176', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 176, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#164 Soft Skills para Devs: O Diferencial que Nenhum Código Ensina', 
+    '<p>Neste epis&oacute;dio, conversamos sobre a import&acirc;ncia das soft skills na carreira de quem desenvolve software. Apesar do foco t&eacute;cnico ser essencial, cada vez mais empresas valorizam profissionais que sabem se comunicar bem, trabalhar em equipe, lidar com feedbacks e resolver problemas de forma colaborativa. Com a presen&ccedil;a do Tiago Aguiar.&nbsp; &nbsp; &nbsp;&nbsp;</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li>Introdu&ccedil;&atilde;o ao tema&nbsp;</li>
+    <li>O que s&atilde;o soft skills e porque elas s&atilde;o t&atilde;o relevantes para devs?</li>
+    <li>Habilidades mais valorizadas al&eacute;m da t&eacute;cnica: comunica&ccedil;&atilde;o, colabora&ccedil;&atilde;o, empatia, intelig&ecirc;ncia emocional, pensamento cr&iacute;tico..</li>
+    <li>Por que devs t&eacute;cnicos incr&iacute;veis podem perder oportunidades por falta de soft sills?</li>
+    <li>Como as soft skills impactam no trabalho remoto e na conviv&ecirc;ncia em times diversos?</li>
+    <li>Diferen&ccedil;as entre dev jr, pleno e s&ecirc;nior vai al&eacute;m da stack: maturidade e autonomia contra</li>
+    <li>Dificuldades comuns de devs com soft skills e como desenvolv&ecirc;-las na pr&aacute;tica</li>
+    <li>Como se preparar para entrevistas t&eacute;cnicas que tamb&eacute;m avaliam comportamento</li>
+    <li>Dicas de cursos, livros e podcasts</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Caf&eacute; Debug global<br /><a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587">https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li>Patrocinadora do programa&nbsp; <a href="https://king.host/">https://king.host/</a></li>
+    <li><a href="https://www.husky.io/melhor-opcao-receber-do-exterior">https://www.husky.io/melhor-opcao-receber-do-exterior</a></li>
+    <li><a href="https://www.amazon.com.br/Upstarts-Airbnb-Companies-Sil%C3%ADcio-Mudando/dp/8551002082">https://www.amazon.com.br/Upstarts-Airbnb-Companies-Sil%C3%ADcio-Mudando/dp/8551002082</a></li>
+    <li><a href="https://www.amazon.com.br/Como-fazer-amigos-influenciar-pessoas/dp/8543108683">https://www.amazon.com.br/Como-fazer-amigos-influenciar-pessoas/dp/8543108683</a></li>
+    <li><a href="https://www.amazon.com.br/arte-comunica%C3%A7%C3%A3o-impacto-naturalidade-potencialize/dp/6555443464">https://www.amazon.com.br/arte-comunica%C3%A7%C3%A3o-impacto-naturalidade-potencialize/dp/6555443464</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/<br /><br /></a>Tiago Aguiar (Desenvovledor .NET na InfoJobs e Criador de conte&uacute;do)<br />Site: <a href="https://beacons.ai/aguiardev">https://beacons.ai/aguiardev</a></p>
+    <p>Daniel Jesus (L&iacute;der T&eacute;cnico na XP&nbsp; e Criador de conte&uacute;do)<br />Linkedin: <a href="https://www.linkedin.com/in/djesusnet/">https://www.linkedin.com/in/djesusnet/</a><br />Site: <a href="https://danieljesus.io/">https://danieljesus.io/</a></p>
+    <p>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste episódio, conversamos sobre a importância das soft skills na carreira de quem desenvolve software. Apesar do foco técnico ser essencial, cada vez mais empresas valorizam profissionais que sabem se comunicar bem, trabalhar em equipe, lidar com feedbacks e resolver problemas de forma colaborativa. Com a presença do Tiago Aguiar e Daniel Jesus. ', 
+    'https://omny.fm/shows/cafe-de-bug/164-soft-skills-para-devs-o-diferencial-que-nenhum-c-digo-ensina', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/devs-softskill.jpg', 
+    '2025-05-26 01:00:00', '["carreira", "soft skills", "desenvolvimento de software"]', 1, 176, 4, 621, 377, '2025-05-26 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#177', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 177, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#10 Devs Empreendedores com Franco Lamping', 
+    '<p>N&oacute;s come&ccedil;amos uma pequena s&eacute;rie sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu pr&oacute;prio neg&oacute;cio. Como gerenciam seu tempo? Como organizam suas empresas? Neste programa entrevistamos o Franco Lamping que compartilhou sua experi&ecirc;ncia com n&oacute;s.</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li>Apresenta&ccedil;&atilde;o do convidado</li>
+    <li>A carreira como desenvolvedor</li>
+    <li>De onde surgiu a ideia de fundar a 180 Seguros e como o motivou?</li>
+    <li>Como foi sair de uma das maiores fintechs brasileiras para arriscar no seu pr&oacute;prio neg&oacute;cio?</li>
+    <li>Como pensar em um MVP? Qual melhor caminho?</li>
+    <li>Desafios e como ser um bom gestor</li>
+    <li>Desenvolvedores precisam empreender? (opini&atilde;o pessoal)</li>
+    <li>Programador(a) vai sempre ser um programador(a) ou &eacute; natural ir para o caminho da gest&atilde;o?</li>
+    <li>Na sua opini&atilde;o, como voc&ecirc; enxerga o mercado de tecnologia para desenvolvedores e empreendedores com tanto avan&ccedil;o e investimentos em IA?</li>
+    <li>Gerenciamento de tempo</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Caf&eacute; Debug global<br /><a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587">https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li><a href="https://180s.com.br/">https://180s.com.br/</a></li>
+    <li>Patrocinadora do programa&nbsp; <a href="https://king.host/">https://king.host/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/<br /><br /></a>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Franco Lamping (Co-Fundador e CTO da 180 Seguros)&nbsp;<br />LinkedIn: <a href="https://www.linkedin.com/in/francolamping/">https://www.linkedin.com/in/francolamping/</a></p>
+    <p>Anuncie em nosso site: <a href="http://www.cafedebug.com.br">http://www.cafedebug.com.br<br /></a>Produtora AGO Filmes: <a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/</a></p>
+    <p>d&uacute;vidas, sugest&otilde;es ou cr&iacute;ticas construtivas envie para: debugcafe@gmail.com</p>', 
+    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Neste programa entrevistamos o Franco Lamping que compartilhou sua experiência com nós.', 
+    'https://omny.fm/shows/cafe-de-bug/10-devs-empreendedores-com-franco-lamping', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/devs-empreendedor10.jpg', 
+    '2025-06-02 01:00:00', '["devs e empreendedores", "Franco Lamping"]', 1, 177, 9, 621, 432, '2025-06-02 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#178', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 178, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#165 Contratos em Tech: Entendendo CLT e PJ Sem Viés', 
+    '<p>Neste epis&oacute;dio, conversamos sobre as diferen&ccedil;as entre ser contratado como CLT e como PJ no mercado de tecnologia. Discutimos os impactos na vida de Devs, QAs, DevOps e at&eacute; gerentes de tecnologia, abordando pontos como carga tribut&aacute;ria, seguran&ccedil;a jur&iacute;dica, oportunidades no exterior, planejamento financeiro e muito mais.&nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li>Introdu&ccedil;&atilde;o ao tema e ao participante</li>
+    <li>Diferen&ccedil;a entre contrata&ccedil;&atilde;o CLT e PJ (vis&atilde;o pr&aacute;tica, jur&iacute;dicam, vantagens e desvantagens)</li>
+    <li>Tributos envolvidos para PJ (Simples Nacional, MEI, Lucro Presumido etc.)</li>
+    <li>O que ningu&eacute;m te conta antes de virar PJ</li>
+    <li>PJ precisa de contador? Quanto custa manter uma empresa?</li>
+    <li>Planejamento financeiro ao se tornar PJ (instabilidade, reserva de emerg&ecirc;ncia, impostos&hellip;)</li>
+    <li>PJ para exterior: Como funciona a contrata&ccedil;&atilde;o de devs brasileiros por empresas de fora?</li>
+    <li>Plataformas como Remessa Online, Remote, Oyster, Wise, etc.</li>
+    <li>Impostos para PJ que presta servi&ccedil;o para o exterior</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Caf&eacute; Debug global<br /><a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587">https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li>Patrocinadora do programa&nbsp; <a href="https://king.host/">https://king.host/</a></li>
+    <li><a href="https://www.husky.io/melhor-opcao-receber-do-exterior">https://www.husky.io/melhor-opcao-receber-do-exterior</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Andr&eacute; Aranha (Profissional de TI setor financeiro e criador conte&uacute;do ContratoPJ)<br />LinkedIn: <a href="https://www.linkedin.com/in/andrearanha/">https://www.linkedin.com/in/andrearanha/<br /></a>Canal Youtube: <a href="https://www.youtube.com/@Contrato_PJ">https://www.youtube.com/@Contrato_PJ</a></p>
+    <p>Produtora AGO Filmes:&nbsp;<a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste episódio, conversamos sobre as diferenças entre ser contratado como CLT e como PJ no mercado de tecnologia. Discutimos os impactos na vida de Devs, QAs, DevOps e até gerentes de tecnologia, abordando pontos como carga tributária, segurança jurídica, oportunidades no exterior, planejamento financeiro e muito mais.', 
+    'https://omny.fm/shows/cafe-de-bug/165-contratos-em-tech-entendendo-clt-e-pj-sem-vi-s', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/contrato-pjclt.jpg', 
+    '2025-06-16 01:00:00', '["contratação", "PJ", "CLT"]', 1, 178, 32, 562, 382, '2025-06-16 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#179', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 179, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#166 MongoDB como Backend para AI Agents: Atlas Vector Search e Análises do Banco', 
+    '<p>Neste epis&oacute;dio, exploramos o MongoDB al&eacute;m do b&aacute;sico, focando nas tend&ecirc;ncias e pr&aacute;ticas avan&ccedil;adas que est&atilde;o moldando o futuro dos bancos de dados NoSQL. Conversamos com Jhonathan Soares sobre como usar MongoDB como sistema de cache, os desafios do Teorema de CAP em ambientes distribu&iacute;dos, e as novas possibilidades de integra&ccedil;&atilde;o com intelig&ecirc;ncia artificial atrav&eacute;s de dados vetoriais e o protocolo MCP. Conhe&ccedil;a o AI Agent do Mongodb.&nbsp;</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li>Mongo como cache</li>
+    <li>Teorema de CAP (breve men&ccedil;&atilde;o)</li>
+    <li>Melhor integra&ccedil;&atilde;o com intelig&ecirc;ncia artificial e dados vetoriais.</li>
+    <li>Protocolo MCP</li>
+    <li>Expans&atilde;o de capacidades serverless via MongoDB Atlas.</li>
+    <li>Read Secondary: cen&aacute;rios ideais para utiliza&ccedil;&atilde;o</li>
+    <li>Armadilhas comuns em dados inconsistentes</li>
+    <li>Query pipelines cada vez mais sofisticados, substituindo ferramentas de ETL</li>
+    <li>Edge computing com Mongo embutido em dispositivos (Realm).</li>
+    <li>Maior uso de BSON + JSON Schema para valida&ccedil;&atilde;o autom&aacute;tica.</li>
+    <li>O que a IA deveria fazer com o Mongodb&nbsp;</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li>Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>Caf&eacute; Debug global<br /><a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587">https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li>Patrocinadora do programa&nbsp; <a href="https://king.host/">https://king.host/</a></li>
+    <li><a href="https://www.mongodb.com/products/tools/compass">https://www.mongodb.com/products/tools/compass</a></li>
+    <li><a href="https://learn.mongodb.com/">https://learn.mongodb.com/</a></li>
+    <li><a href="https://dev-aditya.medium.com/understanding-temporary-inconsistency-in-mongodb-during-network-partitions-causes-and-solutions-7ab418a76ac5">https://dev-aditya.medium.com/understanding-temporary-inconsistency-in-mongodb-during-network-partitions-causes-and-solutions-7ab418a76ac5</a></li>
+    <li><a href="https://www.educative.io/blog/what-is-cap-theorem">https://www.educative.io/blog/what-is-cap-theorem</a></li>
+    <li><a href="https://openai.com/codex/">https://openai.com/codex/</a></li>
+    <li><a href="https://github.com/modelcontextprotocol">https://github.com/modelcontextprotocol</a></li>
+    <li><a href="https://www.mongodb.com/docs/manual/mcp/">https://www.mongodb.com/docs/manual/mcp/</a></li>
+    <li><a href="https://www.mongodb.com/resources/basics/json-and-bson">https://www.mongodb.com/resources/basics/json-and-bson</a></li>
+    <li><a href="https://www.mongodb.com/pt-br/docs/atlas/architecture/current/solutions-library/manufacturing-agentic-ai-framework/">https://www.mongodb.com/pt-br/docs/atlas/architecture/current/solutions-library/manufacturing-agentic-ai-framework/</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/<br /></a><br />Jonathan Soares (Senior Project Leader no Mercado Livre e Criador de Conte&uacute;do do C&oacute;digo Simples)</p>
+    <p>Linkedin:<a href="https://www.linkedin.com/in/jhonathansoares/">https://www.linkedin.com/in/jhonathansoares/<br /></a>Codigo simples: <a href="https://codigosimples.net/">https://codigosimples.net/</a></p>
+    <p>Produtora AGO Filmes:&nbsp;<a href="https://thiagocarvalhofotografia.wordpress.com/">https://thiagocarvalhofotografia.wordpress.com/<br /></a>d&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste episódio, exploramos o MongoDB além do básico, focando nas tendências e práticas avançadas que estão moldando o futuro dos bancos de dados NoSQL. Conversamos com Jhonathan Soares sobre como usar MongoDB como sistema de cache, os desafios do Teorema de CAP em ambientes distribuídos, e as novas possibilidades de integração com inteligência artificial através de dados vetoriais e o protocolo MCP. Conheça o AI Agent do Mongodb.', 
+    'https://omny.fm/shows/cafe-de-bug/166-mongodb-como-backend-para-ai-agents-atlas-vector-search-e-an-lises-do-banco', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/mongodb-ia-agent.jpg', 
+    '2025-06-30 01:00:00', '["banco de dados", "MongoDB", "agents"]', 1, 179, 3, 547, 369, '2025-06-30 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#180', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 180, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#167 Threads, Paralelismo e SO na Prática para Devs', 
+    '<p>Neste epis&oacute;dio t&eacute;cnico, mergulhamos nos conceitos fundamentais de Sistema Operacional que todo desenvolvedor deveria dominar. Com insights pr&aacute;ticos e exemplos reais, discutimos sobre threads, paralelismo e alguns conceitos importantes para voc&ecirc; que &eacute; desenvolvedor(a) sobre S.O. e o que isso impacta no desenvolvimento de sistemas. Tivemos a participa&ccedil;&atilde;o do Vinicios Cararine.&nbsp;&nbsp;</p>
+    <p><strong>Assuntos abordados no tema</strong></p>
+    <ul>
+    <li aria-level="1">Introdu&ccedil;&atilde;o ao convidado</li>
+    <li aria-level="1">Por que Devs precisam entender de Sistema Operacional</li>
+    <li aria-level="1">Casos reais: apps lentos ou inst&aacute;veis por ignorar conceitos de S.O.</li>
+    <li aria-level="1">O que &eacute; uma thread</li>
+    <li aria-level="1">Context switching: custos e impacto no desempenho</li>
+    <li aria-level="1">Thread pools: quando usar e como configurar</li>
+    <li aria-level="1">Paralelismo vs Concorr&ecirc;ncia - diferen&ccedil;a, m&uacute;ltiplos cores vs. tempo compartilhado exemplos em linguagens (Go, Rust, Java)</li>
+    <li aria-level="1">Quando usar multi-threading (ex.: servidores web)</li>
+    <li aria-level="1">Quando evitar threads (ex.: tasks I/O-bound);</li>
+    <li aria-level="1">Async/Await sob a perspectiva do SO.</li>
+    </ul>
+    <p><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">Caf&eacute; Debug global<br /><a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587">https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587</a></li>
+    <li aria-level="1">Patrocinadora do programa&nbsp; <a href="https://king.host/">https://king.host/</a></li>
+    <li aria-level="1"><a href="https://www.mongodb.com/products/tools/compass">https://www.mongodb.com/products/tools/compass</a></li>
+    <li aria-level="1">The Linux Kernel documentation&nbsp; <a href="https://www.kernel.org/doc/html/latest/">https://www.kernel.org/doc/html/latest/</a></li>
+    <li aria-level="1">Operating System <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/">https://pages.cs.wisc.edu/~remzi/OSTEP/</a></li>
+    <li aria-level="1">Why Are Threads Needed On Single-Core Processors <a href="https://www.youtube.com/watch?v=M9HHWFp84f0">https://www.youtube.com/watch?v=M9HHWFp84f0</a></li>
+    <li aria-level="1">Livro Sistemas Operacionais Modernos -&nbsp;<a href="https://www.amazon.com.br/Sistemas-Operacionais-Modernos-Andrew-Tanenbaum/dp/8582606168/?_encoding=UTF8&amp;pd_rd_w=wRcRl&amp;content-id=amzn1.sym.454738cc-1d38-49bf-ab88-1bd74f2484a1%3Aamzn1.symc.abfa8731-fff2-4177-9d31-bf48857c2263&amp;pf_rd_p=454738cc-1d38-49bf-ab88-1bd74f2484a1&amp;pf_rd_r=K22XK4M0NPBDZ5XZRB5E&amp;pd_rd_wg=P0TkT&amp;pd_rd_r=be39ae3f-29cf-4b24-b82c-9cecafa25f60&amp;ref_=pd_hp_d_btf_ci_mcx_mr_ca_id_hp_d">https://www.amazon.com.br/Sistemas-Operacionais-Modernos-Andrew-Tanenbaum/dp/8582606168/?_encoding=UTF8&amp;pd_rd_w=wRcRl&amp;content-id=amzn1.sym.454738cc-1d38-49bf-ab88-1bd74f2484a1%3Aamzn1.symc.abfa8731-fff2-4177-9d31-bf48857c2263&amp;pf_rd_p=454738cc-1d38-49bf-ab88-1bd74f2484a1&amp;pf_rd_r=K22XK4M0NPBDZ5XZRB5E&amp;pd_rd_wg=P0TkT&amp;pd_rd_r=be39ae3f-29cf-4b24-b82c-9cecafa25f60&amp;ref_=pd_hp_d_btf_ci_mcx_mr_ca_id_hp_d</a></li>
+    </ul>
+    <p><strong>Participantes</strong></p>
+    <p>J&eacute;ssica Nathany (Software Developer&nbsp; e&nbsp; host)<br />LinkedIn: <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/</a></p>
+    <p>Weslley Fratini (Software Developer e co-host)<br />LinkedIn: <a href="https://www.linkedin.com/in/weslley-fratini/">https://www.linkedin.com/in/weslley-fratini/</a></p>
+    <p>Vinicios Cararine (Software Engineer na Splitcare)<br />Linkedin: <a href="https://www.linkedin.com/in/vinicios-cararine/">https://www.linkedin.com/in/vinicios-cararine/</a></p>
+    <p>Edi&ccedil;&atilde;o: Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/">https://www.linkedin.com/in/thi-agocarvalho/</a></p>
+    <p>D&uacute;vidas, sugest&otilde;es ou an&uacute;ncios envie para: debugcafe@gmail.com</p>', 
+    'Neste episódio técnico, mergulhamos nos conceitos fundamentais de Sistema Operacional que todo desenvolvedor deveria dominar. Com insights práticos e exemplos reais, discutimos sobre threads, paralelismo e alguns conceitos importantes para você que é desenvolvedor(a) sobre S.O. e o que isso impacta no desenvolvimento de sistemas. Tivemos a participação do Vinicios Cararine.', 
+    'https://omny.fm/shows/cafe-de-bug/167-threads-paralelismo-e-so-na-pr-tica-para-devs', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/sistemas-operacionais.jpg', 
+    '2025-07-14 01:00:00', '["sistemas operacionais", "threads", "paralelismo", "Vinicios Cararine"]', 1, 180, 32, 597, 383, '2025-07-14 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#181', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 181, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#168 Comunidade InterSystems com Rochael Ribeiro', 
+    '<p>Neste epis&oacute;dio, conversamos com Rochael Ribeiro, Gerente de Pr&eacute;-Vendas da InterSystems Brasil, sobre o ecossistema da Comunidade InterSystems para desenvolvedores. Uma conversa rica em insights sobre tecnologia, colabora&ccedil;&atilde;o e o papel das comunidades t&eacute;cnicas no crescimento profissional.<br /><br /></p>
+    <p><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <ul>
+    <li>Breve introdu&ccedil;&atilde;o sobre a InterSystems e seu papel no mercado</li>
+    <li>A trajet&oacute;ria do Rochael Ribeiro</li>
+    <li aria-level="1">O que &eacute; a Comunidade InterSystems e como ela funciona</li>
+    <li aria-level="1">Perfil dos profissionais que participam e o que &eacute; poss&iacute;vel encontrar por l&aacute;</li>
+    <li aria-level="1">Como a comunidade surgiu e qual seu principal objetivo</li>
+    <li aria-level="1">O impacto da plataforma Open Exchange para desenvolvedores</li>
+    <li aria-level="1">Recursos dispon&iacute;veis no Developer Community</li>
+    <li aria-level="1">Como a comunidade &eacute; mantida: modera&ccedil;&atilde;o, ferramentas e contribui&ccedil;&atilde;o dos membros</li>
+    <li aria-level="1">A experi&ecirc;ncia de gerenciar uma comunidade t&eacute;cnica e estrat&eacute;gias para atrair novos participantes</li>
+    <li aria-level="1">Principais desafios enfrentados</li>
+    <li aria-level="1">Dicas e sugest&otilde;es para quem quer se envolver mais</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">🌐 Site oficial InterSystems:<a href="https://www.intersystems.com/br/"> https://www.intersystems.com/br/</a></li>
+    <li aria-level="1">&nbsp;Comunidade InterSystems:<a href="https://pt.community.intersystems.com/"> https://pt.community.intersystems.com/</a></li>
+    </ul>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host<br /><a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/"> LinkedIn</a></li>
+    <li aria-level="1">Weslley Fratini &ndash; Software Developer e Co-host<br /><a href="https://www.linkedin.com/in/weslley-fratini/"> LinkedIn</a></li>
+    <li aria-level="1">Rochael Ribeiro &ndash; Gerente de Pr&eacute;-Vendas na InterSystems Brasil<br /><a href="https://www.linkedin.com/in/rochaelribeiro/?locale=pt_BR"> LinkedIn<br /><br /></a></li>
+    </ul>
+    <p>🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou quer anunciar com a gente?<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Neste episódio, conversamos com Rochael Ribeiro, Gerente de Pré-Vendas da InterSystems Brasil, sobre o ecossistema da Comunidade InterSystems para desenvolvedores. Uma conversa rica em insights sobre tecnologia, colaboração e o papel das comunidades técnicas no crescimento profissional.', 
+    'https://omny.fm/shows/cafe-de-bug/168-comunidade-intersystems-com', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/intersystems.jpg', 
+    '2025-07-28 01:00:00', '["tecnologia das empresas", "comunidade intersystems", "Rochael Ribeiro"]', 1, 181, 24, 1301, 670, '2025-07-28 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#182', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 182, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#169 APIs, Arquitetura de Soluções e Protocolos MCP e A2A', 
+    '<p>Neste epis&oacute;dio, conversamos com Fl&aacute;vio Lopes sobre protocolos MCP e A2A, a evolu&ccedil;&atilde;o das APIs no cen&aacute;rio corporativo e como a Arquitetura de Solu&ccedil;&otilde;es se adapta &agrave;s demandas modernas de integra&ccedil;&atilde;o entre sistemas.</p>
+    <p><strong>🧩&nbsp;</strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Breve introdu&ccedil;&atilde;o ao participante</strong></p>
+    <ul>
+    <li aria-level="1">Uma vis&atilde;o geral sobre a arquitetura de solu&ccedil;&otilde;es</li>
+    <li aria-level="1">Se a arquitetura de solu&ccedil;&otilde;es n&atilde;o envolve agents IA, n&atilde;o faz sentido usar MCP</li>
+    <li aria-level="1">O que &eacute; MCP (Message Communication Protocol) e onde ele &eacute; utilizado</li>
+    <li aria-level="1">Diferen&ccedil;as entre protocolos MCP e A2A (Application to Application)</li>
+    <li aria-level="1">A import&acirc;ncia das APIs na integra&ccedil;&atilde;o de sistemas legados e modernos</li>
+    <li aria-level="1">Arquitetura orientada a eventos vs arquitetura orientada a servi&ccedil;os</li>
+    <li aria-level="1">Desafios comuns na implementa&ccedil;&atilde;o de integra&ccedil;&otilde;es A2A</li>
+    <li aria-level="1">Como arquitetar solu&ccedil;&otilde;es escal&aacute;veis e resilientes usando APIs</li>
+    <li aria-level="1">O papel do arquiteto de solu&ccedil;&otilde;es em ambientes complexos</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">🌐 Artigo Google sobre Protocolo A2A: <a href="https://developers-googleblog-com.translate.goog/en/a2a-a-new-era-of-agent-interoperability/?_x_tr_sl=en&amp;_x_tr_tl=pt&amp;_x_tr_hl=pt&amp;_x_tr_pto=tc">Link</a></li>
+    <li aria-level="1">🌐 Artigo Bright data sobre protocolos MCP e A2A: <a href="https://brightdata.com.br/blog/ai/mcp-vs-a2a">Link</a></li>
+    <li aria-level="1">🌐 Agentic MCP and A2A Architecture: A Comprehensive Guide: <a href="https://medium.com/@anil.jain.baba/agentic-mcp-and-a2a-architecture-a-comprehensive-guide-0ddf4359e152">Link</a></li>
+    <li aria-level="1">🌐 Artigo Dynatrace The rise of agentic AI part 1: Understanding MCP, A2A, and the future of automation: <a href="https://www.dynatrace.com/news/blog/agentic-ai-how-mcp-and-ai-agents-drive-the-latest-automation-revolution/?utm_source=chatgpt.com">Link</a></li>
+    <li aria-level="1">🌐 Recursos para estudo Langchain: <a href="https://www.langchain.com/,">Link</a></li>
+    <li aria-level="1">🌐 Site Sensedia sobre IA: <a href="https://www.sensedia.com.br/solucoes/ai-gateway">Link&nbsp;</a></li>
+    <li aria-level="1">🌐 Plano de integra&ccedil;&atilde;o de IA Sensedia: <a href="https://www.sensedia.com.br/post/o-plano-de-integracao-de-ia-para-governanca-da-ia-com-mcp-e-gerenciamento-moderno-de-apis">Link&nbsp;</a></li>
+    </ul>
+    <p><strong>👥&nbsp;</strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host<br /><a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/"> LinkedIn</a></li>
+    <li aria-level="1">Fl&aacute;vio Lopes&nbsp; &ndash; Arquiteto de Solu&ccedil;&otilde;es da Sensedia</li>
+    <li aria-level="1"><a href="https://www.linkedin.com/in/flavionlopes/">LinkedIn</a></li>
+    <li aria-level="1"><a href="https://github.com/fnldesign">Github</a></li>
+    </ul>
+    <p>🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou quer anunciar com a gente?<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Neste episódio, conversamos com Flávio Lopes sobre protocolos MCP e A2A, a evolução das APIs no cenário corporativo e como a Arquitetura de Soluções se adapta às demandas modernas de integração entre sistemas.', 
+    'https://omny.fm/shows/cafe-de-bug/169-apis-arquitetura-de-solu-es-e-protocolos-mcp-e-a2a', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/protocolos-mcp-a2a.jpg', 
+    '2025-08-11 01:00:00', '["arquitetura de soluções", "API", "MCP", "A2A"]', 1, 182, 1, 607, 363, '2025-08-11 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#183', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 183, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#170 Entre Vibe Coding e Dependência: A linha tênue do uso da IA', 
+    '<p>Neste epis&oacute;dio, recebemos Reginaldo Barros e Tiago Aguiar, para discutir como a intelig&ecirc;ncia artificial est&aacute; transformando a forma como desenvolvedores aprendem e evoluem na carreira.Partimos da ideia de vibe coding e dos artigos The Junior Developer Extinction e Senior project legacy para refletir sobre quest&otilde;es importantes: at&eacute; que ponto a IA pode acelerar o aprendizado de um j&uacute;nior e em que momento ela pode atrapalhar? <br /><br /></p>
+    <p><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Introdu&ccedil;&atilde;o aos convidados</strong></p>
+    <ul>
+    <li aria-level="1">Introdu&ccedil;&atilde;o ao tema: artigo&nbsp;</li>
+    <li aria-level="1">O que &eacute; vibe coding?&nbsp;</li>
+    <li aria-level="1">Como o modelo generativo ajuda e como atrapalha: para aprendizado do Jr</li>
+    <li aria-level="1">Como n&atilde;o se tornar dependente da IA e evoluir na carreira (Jr/Senior)</li>
+    <li aria-level="1">Estrat&eacute;gias para n&atilde;o &ldquo;atrofiar&rdquo; o c&eacute;rebro&nbsp;</li>
+    <li aria-level="1">Como triturar requisitos e estruturar solu&ccedil;&otilde;es de forma consciente</li>
+    <li aria-level="1">O caminho para desenvolvedores full cycle - do neg&oacute;cio &agrave; arquitetura</li>
+    <li aria-level="1">Como utilizar a IA no dia a dia e como? (perguntas)</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li>🌐 King Host: <a href="https://king.host/server-n8n?utm_source=parceiros&amp;utm_medium=cafe-debug&amp;utm_campaign=cafe-debug-descricao-podcast-n8n-vps">Link</a></li>
+    <li aria-level="1">🌐 The Junior Developer Extinction: We&rsquo;re All Building the Next Programming Dark: <a href="https://generativeai.pub/the-junior-developer-extinction-were-all-building-the-next-programming-dark-age-f66711c09f25">Link</a></li>
+    <li aria-level="1">🌐The Senior Developer Ghetto: How We Created a Glass Ceiling Made of AI &amp; Legacy Code: <a href="https://generativeai.pub/the-senior-developer-ghetto-how-we-created-a-glass-ceiling-made-of-ai-legacy-code-ade09756c90f">Link</a></li>
+    <li aria-level="1">🌐Study suggests that to much AI use could increase cognitive decline: <a href="https://www.nextgov.com/artificial-intelligence/2025/07/new-mit-study-suggests-too-much-ai-use-could-increase-cognitive-decline/406521/">Link</a></li>
+    <li aria-level="1">🌐MIT revela que o uso excessivo de Ia pode estar desligando o seu c&eacute;rebro: <a href="https://futurodosnegocios.com.br/blog/mit-revela-que-uso-excessivo-de-ia-pode-estar-desligando-seu-cerebro">Link</a></li>
+    <li aria-level="1">🌐Reproduzir v&iacute;deos e &aacute;udios acelerados pode prejudicar o c&eacute;rebro: <a href="https://www.youtube.com/watch?v=YM82-Isita0">Link</a></li>
+    <li aria-level="1">🌐Artigo diz que Aza Raskin se arrepende de ter criado &ldquo;scroll infinito: <a href="https://lhsegalitarian.com/3784/features/is-the-invention-of-infinite-scroll-destroying-us/">Link</a></li>
+    </ul>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host<br /><a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/"> LinkedIn</a></li>
+    <li aria-level="1">Weslley Fratini &ndash; Software Developer e Co-host<br /><a href="https://www.linkedin.com/in/weslley-fratini/"> LinkedIn</a></li>
+    <li aria-level="1">Reginaldo Barros &ndash; Tech Lead na Builders <a href="https://www.linkedin.com/in/reginaldo-barros/">&nbsp;LinkedIn</a></li>
+    <li aria-level="1">Tiago Aguiar &ndash; Software Engineer na InfoJobs, criador de conte&uacute;do e MVP Microsoft&nbsp; <a href="https://beacons.ai/aguiardev">Site</a></li>
+    </ul>
+    <p>🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Neste episódio, recebemos Reginaldo Barros e Tiago Aguiar, para discutir como a inteligência artificial está transformando a forma como desenvolvedores aprendem e evoluem na carreira.Partimos da ideia de vibe coding e dos artigos The Junior Developer Extinction e Senior project legacy para refletir sobre questões importantes: até que ponto a IA pode acelerar o aprendizado de um júnior e em que momento ela pode atrapalhar?', 
+    'https://omny.fm/shows/cafe-de-bug/170-entre-vibe-coding-e-depend-ncia-a-linha-t-nue-do-uso-da-ia', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/vibe-coding.jpg', 
+    '2025-08-25 01:00:00', '["IA", "vibe coding", "Reginaldo Barros", "Tiago Aguiar"]', 1, 183, 28, 527, 321, '2025-08-25 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#184', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 184, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#171 Tudo Sobre a Rinha Backend com Francisco Zanfranceschi', 
+    '<p>Neste epis&oacute;dio, recebemos Francisco Zanfranceschi, para compartilhar com a gente como &eacute; organizar essa competi&ccedil;&atilde;o da Rinha Backend. Uma competi&ccedil;&atilde;o divertida que movimentou a comunidade t&eacute;cnica com intuito de compartilhar o conhecimento e descontrair um pouco.<br /><br /></p>
+    <p><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Quem &eacute; o Francisco Zanfranceschi e sua trajet&oacute;ria na &aacute;rea</strong></p>
+    <ul>
+    <li aria-level="1">Como surgiu ideia da Rinha Backend&nbsp; e dificuldades em criar um problema justo e divertido</li>
+    <li aria-level="1">Quais tecnologias e stacks mais chamaram aten&ccedil;&atilde;o nas submiss&otilde;es</li>
+    <li aria-level="1">Estrat&eacute;gias criativas que a galera usou para driblar instabilidades</li>
+    <li aria-level="1">O poder da comunidade t&eacute;cnica</li>
+    <li aria-level="1">Como a Rinha virou ponto de encontro e aprendizado</li>
+    <li aria-level="1">O papel da competi&ccedil;&atilde;o em valorizar performance e boas pr&aacute;ticas de engenharia</li>
+    <li aria-level="1">O que diferencia a Rinha de Backend dessas outras pr&aacute;ticas</li>
+    <li aria-level="1">Spoiler da Rinha 2026</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">🌐Github da Rinha 2025: <a href="https://github.com/zanfranceschi/rinha-de-backend-2025">Link</a></li>
+    <li aria-level="1">🌐Site da Rinha com os resultados: <a href="https://rinha2025.andersongomes.dev.br/">Link</a></li>
+    <li aria-level="1">🌐Discord: <a href="https://rinha2025.andersongomes.dev.br/">Link</a></li>
+    </ul>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host<br /><a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/"> LinkedIn</a></li>
+    <li aria-level="1">Francisco Zanfranceschi &ndash; Software Engineering Specialist <a href="https://linktr.ee/zanfranceschi">Link</a></li>
+    <li aria-level="1">📸 Instagram do Zan <a href="https://www.instagram.com/zanfranceschi/">Link</a></li>
+    <li aria-level="1">💻Github do Zan <a href="https://github.com/zanfranceschi">Link</a></li>
+    </ul>
+    <p>🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Neste episódio, recebemos Francisco Zanfranceschi, para compartilhar com a gente como é organizar essa competição da Rinha Backend. Uma competição divertida que movimentou a comunidade técnica com intuito de compartilhar o conhecimento e descontrair um pouco.', 
+    'https://omny.fm/shows/cafe-de-bug/171-tudo-sobre-a-rinha-backend-com-francisco-zanfranceschi', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/rinha-backend.jpg', 
+    '2025-09-08 01:00:00', '["projetos", "rinha backend", "", "Francisco Zanfranceschi"]', 1, 184, 29, 536, 326, '2023-08-21 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#185', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 185, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#172 Bug do Milênio com Rochael Ribeiro', 
+    '<p>Neste epis&oacute;dio, conversamos com Rochael Ribeiro, Gerente de Pr&eacute;-Vendas da InterSystems Brasil, especialista em tecnologia, sobre o famoso Bug do Mil&ecirc;nio (Y2K). Uma conversa fascinante que percorre desde os desafios da virada do s&eacute;culo at&eacute; as li&ccedil;&otilde;es que essa experi&ecirc;ncia deixou para a engenharia de software e a gest&atilde;o de riscos.</p>
+    <p><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Breve introdu&ccedil;&atilde;o ao participante</strong></p>
+    <ul>
+    <li aria-level="1">Internet 2.0</li>
+    <li aria-level="1">Guerra dos navegadores</li>
+    <li aria-level="1">Um pouco sobre a virada de 1999 para 2000</li>
+    <li aria-level="1">O medo: avi&otilde;es caindo, bancos quebrando e sistemas apagando</li>
+    <li aria-level="1">O que foi o (Y2K) Bug do Mil&ecirc;nio e como surgiu</li>
+    <li aria-level="1">Limita&ccedil;&otilde;es de hardware da &eacute;poca (mem&oacute;ria cara - economizava-se espa&ccedil;o)</li>
+    <li aria-level="1">O que foi feito para corrigir</li>
+    <li aria-level="1">A import&acirc;ncia da engenharia preventiva e manuten&ccedil;&atilde;o de sistemas legados</li>
+    <li aria-level="1">Gest&atilde;o de risco x p&acirc;nico coletivo</li>
+    <li aria-level="1">Li&ccedil;&otilde;es aprendida</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    </ul>
+    <ul>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    </ul>
+    <ul>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">🌐 G1 Bug do Mil&ecirc;nio not&iacute;cias <a href="https://g1.globo.com/tecnologia/noticia/2024/12/31/bug-do-milenio-completa-25-anos-por-que-o-caos-digital-na-virada-do-seculo-nunca-aconteceu.ghtml">Link&nbsp;</a></li>
+    <li aria-level="1">🌐 Y2k bug do mil&ecirc;nio <a href="https://education.nationalgeographic.org/resource/Y2K-bug/">Link&nbsp;</a></li>
+    <li aria-level="1">🌐 Bug do mil&ecirc;nio video BBC archive <a href="https://www.youtube.com/watch?v=n0O4CKaB4ls">Link&nbsp;</a></li>
+    <li aria-level="1">🌐 V&iacute;deo Fant&aacute;stico Bug do mil&ecirc;nio <a href="https://youtu.be/xQgqudtWJSs?si=25XO89S6rqGMRdYY">Link&nbsp;</a></li>
+    <li aria-level="1">🌐 Guerra dos Navegadores artigo <a href="https://dciber.org/a-guerra-dos-navegadores/">Link&nbsp;</a></li>
+    </ul>
+    <p><strong>👥&nbsp;</strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host<br /><a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/"> LinkedIn</a></li>
+    <li aria-level="1">Weslley Fratini &ndash; Software Developer e Co-host<br /><a href="https://www.linkedin.com/in/weslley-fratini/"> LinkedIn</a></li>
+    <li aria-level="1">Rochael Ribeiro &ndash; Gerente de Pr&eacute;-Vendas na InterSystems Brasil<br /><a href="https://www.linkedin.com/in/rochaelribeiro/?locale=pt_BR">&nbsp;LinkedIn</a></li>
+    </ul>
+    <p>🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou quer anunciar com a gente?<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Neste episódio, conversamos com Rochael Ribeiro, Gerente de Pré-Vendas da InterSystems Brasil, especialista em tecnologia, sobre o famoso Bug do Milênio (Y2K). Uma conversa fascinante que percorre desde os desafios da virada do século até as lições que essa experiência deixou para a engenharia de software e a gestão de riscos.', 
+    'https://omny.fm/shows/cafe-de-bug/172-o-que-foi-o-bug-do-mil-nio-com-rochael-ribeiro', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/bug-do-milenio.jpg', 
+    '2025-09-15 01:00:00', '["internet", "bug do milênio", "Y2K", "Rochael Ribeiro"]', 1, 185, 32, 530, 352, '2025-09-15 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#186', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 186, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#173 Carreira Dev Além Do Código', 
+    '<p>Neste epis&oacute;dio, recebemos Vin&iacute;cius Cararine para discutir alguns t&oacute;picos relacionados ao livro (Carreira Dev: H&aacute;bitos para evoluir na carreira de desenvolvimento de software al&eacute;m do c&oacute;digo). Assuntos relevantes que far&aacute; voc&ecirc; a repensar em estrat&eacute;gias para evoluir na carreira, tais como: habilidades soft skills, contribui&ccedil;&atilde;o com comunidade t&eacute;cnica e como abstrair o melhor dela, projetos desafiadores e muito mais<br /><br /></p>
+    <p><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Introdu&ccedil;&atilde;o ao convidado</strong></p>
+    <ul>
+    <li aria-level="1">Introdu&ccedil;&atilde;o ao tema: sobre o livro Carreira Dev</li>
+    <li aria-level="1">Diferen&ccedil;a entre um dev que "s&oacute; executa" e um que "questiona e refina requisitos"</li>
+    <li aria-level="1">Dev Fullcycle - Do System Design ao CICD (A import&acirc;ncia de entender o ciclo completo)</li>
+    <li aria-level="1">Discuss&atilde;o sobre T-shaped skills (profundidade em uma &aacute;rea, mas vis&atilde;o geral de v&aacute;rias)</li>
+    <li aria-level="1">Dom&iacute;nio em Algoritmos e Estrutura de Dados ainda &eacute; relevante?</li>
+    <li aria-level="1">H&aacute;bito 1: Crie projetos desafiadores e construa um excelente portf&oacute;lio</li>
+    <li aria-level="1">H&aacute;bito 6: Primeiro entenda os conceitos, depois consolide com a pr&aacute;tica</li>
+    <li aria-level="1">H&aacute;bito 7: Alinhe suas habilidades t&eacute;cnicas ao entendimento do neg&oacute;cio</li>
+    <li aria-level="1">LLMs &amp; AI - utilize na sua produtividade no desenvolvimento, estudos e melhorias nos projetos</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">🌐Cycle Developers at Netflix &mdash; Operate What You Build: <a href="https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249?gi=39453c6d26e9">Link</a></li>
+    <li aria-level="1">🌐Carreira em &ldquo;T&rdquo; &mdash; Mat&eacute;ria Exame: <a href="https://exame.com/carreira/por-que-a-carreira-em-t-e-a-aposta-certa-para-jovens-que-querem-se-destacar-no-mercado/">Link</a></li>
+    </ul>
+    <p><strong>👥&nbsp;</strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host<a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/"> LinkedIn</a></li>
+    <li aria-level="1">Vinicios Cararine &ndash; Software Engineer na Splitcare <a href="https://www.linkedin.com/in/vinicios-cararine/">&nbsp;LinkedIn</a></li>
+    </ul>
+    <p>🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Neste episódio, recebemos Vinícius Cararine para discutir alguns tópicos relacionados ao livro (Carreira Dev: Hábitos para evoluir na carreira de desenvolvimento de software além do código). Assuntos relevantes que fará você a repensar em estratégias para evoluir na carreira, tais como: habilidades soft skills, contribuição com comunidade técnica e como abstrair o melhor dela, projetos desafiadores e muito mais', 
+    'https://omny.fm/shows/cafe-de-bug/173-carreira-dev-al-m-do-c-digo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/carreira-dev.jpg', 
+    '2025-09-29 01:00:00', '["carreira"]', 1, 186, 4, 486, 289, '2025-09-29 01:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#187', 
-    '', 
-    'exxx', 
-    'https://omny.fm/shows/cafe-de-bug/124-real-digital-com-marcelo-queiroz', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/real-digital.jpg', 
-    '2023-08-21 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 187, 32, 1301, 670, '2023-08-21 01:00:00', null);
+    '#174 Como publicar Seu primeiro Livro Tech', 
+    '<p>J&aacute; pensou em publicar um livro tech? Neste programa conversamos com o Thiago Leite, autor de tr&ecirc;s livros t&eacute;cnicos, que compartilhou sua experi&ecirc;ncia pr&aacute;tica e os desafios de transformar conhecimento em conte&uacute;do publicado.<br /><br /></p>
+    <p><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Apresenta&ccedil;&atilde;o ao convidado&nbsp;</strong><strong>Como funciona o processo de publica&ccedil;&atilde;o de livros t&eacute;cnicos na editora</strong></p>
+    <ul>
+    <li aria-level="1">O que &eacute; necess&aacute;rio para se tornar autor e quais temas s&atilde;o aceitos</li>
+    <li aria-level="1">A import&acirc;ncia de uma boa comunica&ccedil;&atilde;o e divulga&ccedil;&atilde;o do livro</li>
+    <li aria-level="1">O impacto de publicar um livro na carreira e na comunidade tech</li>
+    <li aria-level="1">Incentivo a novos autores e a relev&acirc;ncia da leitura para desenvolvedores</li>
+    <li aria-level="1">Dicas pr&aacute;ticas para quem quer come&ccedil;ar a escrever um livro</li>
+    <li aria-level="1">Considera&ccedil;&otilde;es finais</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">📖 Livro Testes de Software por Thiago Leite e Jo&atilde;o Frederico Roldan Viana : <a href="https://www.casadocodigo.com.br/products/livro-testes-de-software-1?_pos=1&amp;_sid=cb00a761c&amp;_ss=r">Link</a></li>
+    <li aria-level="1">📖 Livro Orienta&ccedil;&atilde;o a Objetos por Thiago Leite : <a href="https://www.casadocodigo.com.br/products/livro-oo-conceitos?_pos=1&amp;_sid=80014a4d5&amp;_ss=r">Link</a></li>
+    <li aria-level="1">📖 Livro Estrutura de Dados por Thiago Leite : <a href="https://www.casadocodigo.com.br/products/livro-estruturas-de-dados?_pos=1&amp;_sid=fb9e7f475&amp;_ss=r">Link</a></li>
+    </ul>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">&nbsp;LinkedIn</a></li>
+    </ul>
+    <ul>
+    <li aria-level="1">Weslley Fratini &ndash; Software Developer e Co-host <a href="https://www.linkedin.com/in/weslley-fratini/">&nbsp;LinkedIn</a></li>
+    <li aria-level="1">Thiago Leite &ndash; Software Engineer na Serpro <a href="https://www.linkedin.com/in/thiago-leite-e-carvalho-1b337b127/">Link</a></li>
+    </ul>
+    <p>🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Já pensou em publicar um livro tech? Neste programa conversamos com o Thiago Leite, autor de três livros técnicos, que compartilhou sua experiência prática e os desafios de transformar conhecimento em conteúdo publicado.', 
+    'https://omny.fm/shows/cafe-de-bug/174-como-publicar-eu-primeiro-livro-tech', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/livros-tech.jpg', 
+    '2025-10-06 01:00:00', '["livro tech", "Thiago Leite", "Casa do Código"]', 1, 187, 22, 480, 293, '2025-10-06 01:00:00', null);
 
 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#175 Design e Fundamentos da Neurociencia', 
+    '<p>Neste epis&oacute;dio sobre Design com Neuroci&ecirc;ncia, conversamos com o Alex Soares para entender como os princ&iacute;pios da neuroci&ecirc;ncia se aplicam de fato na pr&aacute;tica do design. Um dos aspectos mais fascinantes dessa &aacute;rea &eacute; a capacidade de revelar como o c&eacute;rebro humano processa informa&ccedil;&otilde;es visuais, influenciando decis&otilde;es, percep&ccedil;&otilde;es e experi&ecirc;ncias do usu&aacute;rio. Trouxemos exemplos pr&aacute;ticos, insights valiosos e dicas que podem ajudar designers e desenvolvedores a criar produtos mais intuitivos e eficientes.</p>
+    <p><strong>🧩&nbsp;</strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <ul>
+    <li aria-level="1">Introdu&ccedil;&atilde;o ao convidado</li>
+    <li aria-level="1">O que &eacute; Design Neuroci&ecirc;ncia&nbsp;</li>
+    <li aria-level="1">Como a neuroci&ecirc;ncia pode ajudar a entender o comportamento humano</li>
+    <li aria-level="1">Exemplos pr&aacute;ticos no dia a dia do design de produtos</li>
+    <li aria-level="1">UX e UI: como o c&eacute;rebro processa informa&ccedil;&otilde;es visuais</li>
+    <li aria-level="1">Tomada de decis&atilde;o: cores, formas, textos e est&iacute;mulos que influenciam o usu&aacute;rio</li>
+    <li aria-level="1">Casos ou experi&ecirc;ncias que mostram resultados mensur&aacute;veis</li>
+    <li aria-level="1">Vantagens de aplicar princ&iacute;pios de neuroci&ecirc;ncia em design</li>
+    <li aria-level="1">Como o design aliado &agrave; neuroci&ecirc;ncia pode evoluir nos pr&oacute;ximos anos</li>
+    <li aria-level="1">Outras &aacute;reas que podem se beneficiar dessa integra&ccedil;&atilde;o (educa&ccedil;&atilde;o, sa&uacute;de, tecnologia etc.)</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">🌐Medium Alex Soares: <a href="http://medium.com/@alexsoaresdg">Link</a></li>
+    <li aria-level="1">📖Livro&nbsp; Alex Soares - Design e Fundamentos da Neurociencia: <a href="https://www.casadocodigo.com.br/products/livro-design-neurociencias">Link</a></li>
+    <li aria-level="1">🌐Artigo sobre Neuroci&ecirc;ncia: <a href="https://ied.edu.br/noticias/neurociencia-e-design-como-a-ciencia-pode-transformar-a-experiencia-do-usuario">Link</a></li>
+    </ul>
+    <p><strong>👥&nbsp;</strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">&nbsp;LinkedIn</a></li>
+    <li aria-level="1">Weslley Fratini &ndash; Software Developer e Co-Host <a href="https://www.linkedin.com/in/weslley-fratini/">&nbsp;LinkedIn</a></li>
+    <li aria-level="1">Alex Soares &ndash; Design Lead na TOTVs e Autor <a href="https://www.linkedin.com/in/alex-soares/">Link</a></li>
+    <li aria-level="1">📸 Instagram do Alex Soares <a href="https://www.instagram.com/thealexsoares/">Link</a></li>
+    </ul>
+    <p>🎧&nbsp;<strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Neste episódio sobre Design com Neurociência, conversamos com o Alex Soares para entender como os princípios da neurociência se aplicam de fato na prática do design. Um dos aspectos mais fascinantes dessa área é a capacidade de revelar como o cérebro humano processa informações visuais, influenciando decisões, percepções e experiências do usuário. Trouxemos exemplos práticos, insights valiosos e dicas que podem ajudar designers e desenvolvedores a criar produtos mais intuitivos e eficientes.', 
+    'https://omny.fm/shows/cafe-de-bug/design-neurociencia', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/design-neurociencia.jpg', 
+    '2025-10-13 01:00:00', '["design", "neurociência", "Alex Soares"]', 1, 188, 26, 600, 670, '2025-10-13 01:00:00', null);
 
 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#176 Do Log ao Insight: MLOps e DataOps na Infraestrutura Moderna', 
+    '<p>Neste epis&oacute;dio, recebemos o cientista de dados Paulo Francisco para uma conversa rica sobre os desafios e pr&aacute;ticas do ML Ops no cotidiano profissional. Ele tamb&eacute;m compartilhou uma vis&atilde;o abrangente sobre os conceitos de DevOps e DataOps, destacando suas interse&ccedil;&otilde;es com o mundo da ci&ecirc;ncia de dados.</p>
+    <p><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <ul>
+    <li aria-level="1">Introdu&ccedil;&atilde;o aos convidados</li>
+    <li aria-level="1">Sobre a System Frame</li>
+    <li aria-level="1">O papel dos dados na unifica&ccedil;&atilde;o de DEV e Infra e como se aplica a System Frame</li>
+    <li aria-level="1">Como a observabilidade e m&eacute;tricas de infraestrutura podem ser tratadas como dados</li>
+    <li aria-level="1">DevOps + DataOps: similaridades e diferen&ccedil;as</li>
+    <li aria-level="1">O que &eacute; MLOps</li>
+    <li aria-level="1">Casos pr&aacute;ticos de como dados de sistemas foram usados para tomada de decis&atilde;o</li>
+    <li aria-level="1">Como tratar dados de logs, monitoramento, uso de aplica&ccedil;&otilde;es</li>
+    <li aria-level="1">Insights preditivos para infraestrutura (ex: prever gargalos de rede, uso de CPU, custos em cloud)</li>
+    <li aria-level="1">Pr&oacute;ximos passos para empresas que querem come&ccedil;ar a unir dev, infra e dados</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">🌐Artigo sobre Data Ops: <a href="https://blog.dsacademy.com.br/o-que-e_dataops/">Link</a></li>
+    </ul>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">&nbsp;LinkedIn</a></li>
+    <li aria-level="1">Weslley Fratini &ndash; Software Developer e Co-Host <a href="https://www.linkedin.com/in/weslley-fratini/">&nbsp;LinkedIn</a></li>
+    <li aria-level="1">Paulo Henrique &ndash; Data Scientist na System Frame <a href="https://www.linkedin.com/in/paulosf/?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app">Link</a></li>
+    <li aria-level="1">📸 Instagram da System Frame <a href="https://www.instagram.com/thealexsoares/">Link</a></li>
+    </ul>
+    <p>🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho <a href="https://www.linkedin.com/in/thi-agocarvalho/">&nbsp;LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Neste episódio, recebemos o cientista de dados Paulo Francisco para uma conversa rica sobre os desafios e práticas do ML Ops no cotidiano profissional. Ele também compartilhou uma visão abrangente sobre os conceitos de DevOps e DataOps, destacando suas interseções com o mundo da ciência de dados.', 
+    'https://omny.fm/shows/cafe-de-bug/176-do-log-ao-insight-mlops-e-dataops-na-infraestrutura-moderna', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/mlops-dataops.jpg', 
+    '2025-11-03 01:00:00', '["MLOOps", "DataOps"]', 1, 189, 10, 403, 232, '2025-11-03 01:00:00', null);
 
 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#177 Arquitetura de Software com Propósito: Como as Decisões Técnicas Impactam o Negócio', 
+    '<p>Neste programa, tivemos uma conversa calorosa com o Rubens Rodrigues sobre como as decis&otilde;es de arquitetura impactam o neg&oacute;cio&nbsp; de aplica&ccedil;&otilde;es monol&iacute;ticas a microsservi&ccedil;os e como equilibrar complexidade t&eacute;cnica, custos e valor entregue.</p>
+    <p><strong>🧩&nbsp;</strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <ul>
+    <li aria-level="1">Apresenta&ccedil;&atilde;o aos convidados</li>
+    <li aria-level="1">O que &eacute; a School Guardian e os principais desafios enfrentados no produto</li>
+    <li aria-level="1">Por que falar de arquitetura importa para o neg&oacute;cio</li>
+    <li aria-level="1">Como as decis&otilde;es de arquitetura impactam custo, tempo e escalabilidade</li>
+    <li aria-level="1">A import&acirc;ncia de alinhar t&eacute;cnica e estrat&eacute;gia de produto</li>
+    <li aria-level="1">Quando uma aplica&ccedil;&atilde;o monol&iacute;tica &eacute; a melhor op&ccedil;&atilde;o (times pequenos, foco em entrega r&aacute;pida, menos complexidade de deploy)</li>
+    <li aria-level="1">Cuidados com acoplamento e pontos de gargalo</li>
+    <li aria-level="1">Quando a aplica&ccedil;&atilde;o chega no limite do mon&oacute;lito e exige desacoplamento</li>
+    <li aria-level="1">Estrat&eacute;gias para modernizar sem reescrever tudo: <em>Strangler Pattern</em>, migra&ccedil;&atilde;o gradual de dom&iacute;nios</li>
+    <li aria-level="1">Uso de <em>cache</em> (Redis, CDN, cache por dom&iacute;nio de neg&oacute;cio) para otimizar performance e custo</li>
+    <li aria-level="1">Custos ocultos: infraestrutura, observabilidade, times especializados</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">🌐 10 Microservices Architecture Challenges for System Design Interviews: <a href="https://dev.to/somadevtoo/10-microservices-architecture-challenges-for-system-design-interviews-6g0">Link</a></li>
+    <li aria-level="1">🌐 Major Challenges and Solutions of Microservices Architecture: <a href="https://www.geeksforgeeks.org/system-design/challenges-and-solutions-of-microservices-architecture/">Link</a></li>
+    <li aria-level="1">📖 Monolith to Microservices: Evolutionary Patterns to Transform Your Monolith: <a href="https://www.amazon.com.br/Monolith-Microservices-Evolutionary-Patterns-Transform/dp/B0BNCSV6DK?utm_source=chatgpt.com">Link</a></li>
+    <li aria-level="1">📖 Livro Arquitetura de Software partes dif&iacute;ceis : <a href="https://www.amazon.com.br/Arquitetura-Software-Trade-off-Arquiteturas-Distribu%C3%ADdas/dp/8550819840">Link</a></li>
+    <li aria-level="1">📖 School Guardian: <a href="https://schoolguardian.com/en/">Link</a>&nbsp;&nbsp;</li>
+    </ul>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">&nbsp;LinkedIn</a></li>
+    </ul>
+    <ul>
+    <li aria-level="1">Weslley Fratini &ndash; Software Developer e Co-host <a href="https://www.linkedin.com/in/weslley-fratini/">&nbsp;LinkedIn</a></li>
+    <li aria-level="1">Rubens Rodrigues &ndash; Fundador da School Guardian <a href="https://www.linkedin.com/in/jrubensrodrigues/">Link</a></li>
+    </ul>
+    <p><br />🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Neste programa, tivemos uma conversa calorosa com o Rubens Rodrigues sobre como as decisões de arquitetura impactam o negócio  de aplicações monolíticas a microsserviços e como equilibrar complexidade técnica, custos e valor entregue.', 
+    'https://omny.fm/shows/cafe-de-bug/177-arquitetura-de-software-com-prop-sito-como-as-decis-es-t-cnicas-impactam-o-neg-cio', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/aplicacoes-negocios.jpg', 
+    '2025-11-10 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 190, 32, 474, 262, '2025-11-10 01:00:00', null);
 
 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#178 Clean Architecture e Vertical Slice: Entendendo as Diferenças', 
+    '<p>Voc&ecirc; sabe a diferen&ccedil;a entre Clean Architecture e Vertical Slice? Sabe quando utilizar cada arquitetura? No programa de hoje trouxemos o Tiago Aguiar e o Luiz Motta, pra conversar e discutir alguns pontos de ambas as arquiteturas com a gente, qual e quando &eacute; a melhor decis&atilde;o a escolher, e como isso impacta positivamente os desenvolvedores e a manuten&ccedil;&atilde;o das aplica&ccedil;&otilde;es.</p>
+    <p><strong>🧩&nbsp;</strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Apresenta&ccedil;&atilde;o dos convidados</strong></p>
+    <ul>
+    <li aria-level="1">Introdu&ccedil;&atilde;o ao tema</li>
+    <li aria-level="1">Uma breve introdu&ccedil;&atilde;o sobre clean architecture e vertical slice</li>
+    <li aria-level="1">A import&acirc;ncia de escolher a arquitetura certa conforme o contexto do projeto e neg&oacute;cio</li>
+    <li aria-level="1">Quando a arquitetura deixa de ser s&oacute; um &ldquo;design pattern&rdquo; e passa a impactar o neg&oacute;cio</li>
+    <li aria-level="1">Conceitos do clean architecture: separa&ccedil;&atilde;o de camadas (Domain, Application, Infrastructure, Presentation), regras de depend&ecirc;ncia e invers&atilde;o de controle&hellip;</li>
+    <li aria-level="1">Conceitos da slice architecture: organiza&ccedil;&atilde;o por features ao inv&eacute;s de camadas, redu&ccedil;&atilde;o de complexidade e foco em entrega de valor&hellip;</li>
+    <li aria-level="1">Quando usar um e outro?</li>
+    <li aria-level="1">Finalia&ccedil;&atilde;o: dicas, recomenda&ccedil;&otilde;es e considera&ccedil;&otilde;es finais</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">🌐 Artigo do Milan Javonovic sobre Vertical Slice: <a href="https://www.milanjovanovic.tech/blog/vertical-slice-architecture">Link</a></li>
+    <li aria-level="1">🌐 Artigo: Why vertical slice wont evolve clean architecture: <a href="https://ricofritzsche.me/why-vertical-slices-wont-evolve-from-clean-architecture/">Link</a></li>
+    <li aria-level="1">🌐 Github:exemplo vertical slice dotnet: <a href="https://github.com/nadirbad/VerticalSliceArchitecture/tree/main/src">Link</a></li>
+    <li aria-level="1">🌐 Artigo: Sharpcorner - vertical slice: <a href="https://www.c-sharpcorner.com/article/a-detailed-guide-to-vertical-slice-architecture-with-code-examples-in-c-sharp-12/">Link</a></li>
+    <li aria-level="1">🌐 Artigo: Vertical slice dotnet example: <a href="https://blog.ndepend.com/vertical-slice-architecture-in-asp-net-core/">Link</a></li>
+    <li aria-level="1">🌐 Github Luiz Motta: <a href="https://github.com/lgcmotta">Link</a>&nbsp;</li>
+    </ul>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">&nbsp;LinkedIn</a></li>
+    </ul>
+    <ul>
+    <li aria-level="1">Weslley Fratini &ndash; Software Developer e Co-host <a href="https://www.linkedin.com/in/weslley-fratini/">&nbsp;LinkedIn</a></li>
+    </ul>
+    <ul>
+    <li aria-level="1">Luiz Motta &ndash; Solution Architecture na Ambev <a href="https://www.linkedin.com/in/luiz-motta/">Link</a></li>
+    <li aria-level="1">Tiago Aguiar &ndash; Desenvolvedor .NET na Infojobs <a href="https://beacons.ai/aguiardev">Link</a></li>
+    </ul>
+    <p><br />🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Você sabe a diferença entre Clean Architecture e Vertical Slice? Sabe quando utilizar cada arquitetura? No programa de hoje trouxemos o Tiago Aguiar e o Luiz Motta, pra conversar e discutir alguns pontos de ambas as arquiteturas com a gente, qual e quando é a melhor decisão a escolher, e como isso impacta positivamente os desenvolvedores e a manutenção das aplicações.', 
+    'https://omny.fm/shows/cafe-de-bug/178-clean-architecture-e-vertical-slice-entendendo-as-diferen-as', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/slice-architecture.jpg', 
+    '2025-11-24 01:00:00', '["arquitetura de software", "vertical slice", "clean arquitecture"]', 1, 191, 2, 474, 258, '2025-11-24 01:00:00', null);
 
 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#179 Dentro da Amazon: tecnologia, ultura e processo seletivo', 
+    '<p>J&aacute; se imaginou trabalhando em um dos maiores e-commerces do planeta? Neste epis&oacute;dio, conversamos com Bruno Tofollo, Principal Software Engineer na Amazon, que compartilhou insights valiosos sobre como se preparar para entrar na empresa, como funciona o processo seletivo, as tecnologias utilizadas no dia a dia e como a cultura Amaz&ocirc;nica molda o trabalho dos times.</p>
+    <p><br /><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Abertura e apresenta&ccedil;&atilde;o</strong></p>
+    <ul>
+    <li aria-level="1">Trajet&oacute;ria do Bruno at&eacute; se tornar Principal Software Engineer</li>
+    <li aria-level="1">Curiosidades sobre trabalhar em uma big tech</li>
+    <li aria-level="1">Como &eacute; trabalhar na Amazon: cultura, times e ideias</li>
+    <li aria-level="1">Tecnologias utilizadas na Amazon</li>
+    <li aria-level="1">Carreira t&eacute;cnica na Amazon: estrutura de n&iacute;veis (SDE I, II, Senior, Principal, etc.)</li>
+    <li aria-level="1">Diferen&ccedil;as entre carreira t&eacute;cnica e carreira de gest&atilde;o</li>
+    <li aria-level="1">O que &eacute; Bar Raiser</li>
+    <li aria-level="1">Entrevistas na Amazon: (behavior interview, system design, algorithm, data structure)</li>
+    <li aria-level="1">O que &eacute; preciso ter e focar para trabalhar na Amazon</li>
+    <li aria-level="1">Como se preparar para processos seletivos t&eacute;cnicos</li>
+    <li aria-level="1">Crescimento e desenvolvimento cont&iacute;nuo (como a Amazon incentiva a aprendizagem, ferramentas/cursos internos)</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">🌐 Site Amazon: <a href="https://www.amazon.com.br/">Link</a></li>
+    <li aria-level="1">🌐 Amazon Jobs: <a href="https://www.amazon.jobs/en/">Link</a></li>
+    <li aria-level="1">🌐 Article Amazon - Whats bar raiser: <a href="https://www.aboutamazon.eu/news/working-at-amazon/what-is-a-bar-raiser-at-amazon">Link</a></li>
+    </ul>
+    <p><strong>👥&nbsp;</strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host <a href="https://www.linkedin.com/in/jessica-nathany-carvalho-freitas-38260868/">&nbsp;LinkedIn</a></li>
+    </ul>
+    <ul>
+    <li aria-level="1">Weslley Fratini &ndash; Software Developer e Co-host <a href="https://www.linkedin.com/in/weslley-fratini/">&nbsp;LinkedIn</a></li>
+    </ul>
+    <ul>
+    <li aria-level="1">Bruno Tofollo &ndash; Principal Software Engineer na Amazon <a href="https://www.linkedin.com/in/brunotoffolo/">Link</a></li>
+    </ul>
+    <p><br />🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Já se imaginou trabalhando em um dos maiores e-commerces do planeta? Neste episódio, conversamos com Bruno Tofollo, Principal Software Engineer na Amazon, que compartilhou insights valiosos sobre como se preparar para entrar na empresa, como funciona o processo seletivo, as tecnologias utilizadas no dia a dia e como a cultura Amazônica molda o trabalho dos times.', 
+    'https://omny.fm/shows/cafe-de-bug/179-dentro-da-amazon-tecnologia-cultura-e-processo-seletivo', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/carreiratech-amazon.jpg', 
+    '2025-11-01 01:00:00', '["tecnologia das empresas", "Amazon"]', 1, 192, 24, 505, 246, '2025-11-01 01:00:00', null);
 
 
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#180 Arquitetura de Software além do código: papéis, decisões e carreira', 
+    '<p>Para aqueles que desejam seguir a carreira de Arquiteto(a) de Software, &eacute; importante saber alguns pontos importantes. Conversamos com Renato Groffe, que compartilhou sua experi&ecirc;ncia pr&aacute;tica, explicou os diferentes pap&eacute;is de arquitetura e trouxe dicas para quem deseja evoluir na carreira t&eacute;cnica. Um epis&oacute;dio essencial para desenvolvedores que querem ir al&eacute;m do c&oacute;digo.</p>
+    <p><br /><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Introdu&ccedil;&atilde;o do convidado</strong></p>
+    <ul>
+    <li aria-level="1">Trajet&oacute;ria de Dev s&ecirc;nior a arquiteto</li>
+    <li aria-level="1">O que faz um arquiteto de software: neg&oacute;cios, tecnologias, custos e escalabilidade</li>
+    <li aria-level="1">O que n&atilde;o faz um arquiteto de software</li>
+    <li aria-level="1">Pap&eacute;is de arquiteto: arquiteto de software, arquiteto de solu&ccedil;&otilde;es, arquiteto de cloud e arquiteto de seguran&ccedil;a</li>
+    <li aria-level="1">Habilidades essenciais para um(a) arquiteto(a) de software</li>
+    <li aria-level="1">Caminhos para se tornar um(a) arquiteto(a) de software</li>
+    <li aria-level="1">Ter um bom dom&iacute;nio do neg&oacute;cio &eacute; fundamental</li>
+    <li aria-level="1">Disciplinas importantes na vida de um arquiteto hoje: seguran&ccedil;a, DevOps, Cloud, Containers&hellip;</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">🌐 The evolving roles of the Software Architect: <a href="https://medium.com/draftkings-engineering/the-evolving-role-of-the-software-architect-b63c3d3104b3">Link</a></li>
+    <li aria-level="1">🌐 Software Architecture Guide - Martin Fowler: <a href="https://martinfowler.com/architecture/">Link</a></li>
+    <li aria-level="1">🌐 Software Architecture books recommendations: <a href="https://dev.to/somadevtoo/i-tried-20-books-on-software-architecture-here-are-my-top-7-recommendations-for-senior-developers-54n2">Link</a></li>
+    <li aria-level="1">🌐 From developer to architect guide transition: <a href="https://medium.com/@vemurivi/from-developer-to-architect-a-developers-guide-to-transitioning-to-architect-part-1-b58b381fb792">Link</a></li>
+    <li aria-level="1">🌐 DevShow podcast: <a href="https://devshow.com.br/">Link</a></li>
+    <li aria-level="1">🌐 Documenta&ccedil;&atilde;o Mearmaind: <a href="https://mermaid.js.org/intro/n00b-gettingStarted.html">Link</a></li>
+    <li aria-level="1">🌐 Canal dotNET: <a href="https://www.youtube.com/@CanalDotNET">Link</a></li>
+    </ul>
+    <p><strong><br />👥&nbsp;</strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host <a href="https://jessicanathany.github.io/">Github.io</a></li>
+    <li aria-level="1">Weslley Fratini &ndash; Software Developer e Co-host&nbsp;<a href="https://www.linkedin.com/in/weslley-fratini/"> LinkedIn</a></li>
+    <li aria-level="1">Renato Groffe &ndash; Solution Architect na Amil&nbsp;<a href="https://www.linkedin.com/in/renatogroffe/">Link</a></li>
+    </ul>
+    <p><br />🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Para aqueles que desejam seguir a carreira de Arquiteto(a) de Software, é importante saber alguns pontos importantes. Conversamos com Renato Groffe, que compartilhou sua experiência prática, explicou os diferentes papéis de arquitetura e trouxe dicas para quem deseja evoluir na carreira técnica. Um episódio essencial para desenvolvedores que querem ir além do código.', 
+    'https://omny.fm/shows/cafe-de-bug/180-arquitetura-de-software-al-m-do-c-digo-pap-is-decis-es-e-carreira', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/papeis-arquiteto-software.jpg', 
+    '2026-01-19 01:00:00', '["arquitetura de software", "Renato Groffe"]', 1, 193, 1, 301, 151, '2026-01-19 01:00:00', null);
 
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#181 Cache em Arquitetura de Software: Tipos, Estratégias e Impactos', 
+    '<p>No epis&oacute;dio de hoje, o assunto &eacute; cache! Conversamos com Reginaldo Barros para explicar o que &eacute; cache, seus principais tipos, estrat&eacute;gias de uso e por que &eacute; t&atilde;o importante pensar em cache no desenho da arquitetura das aplica&ccedil;&otilde;es.Este epis&oacute;dio &eacute; ideal para quem &eacute; desenvolvedor(a) ou quer evoluir para um papel de arquiteto(a) de software.</p>
+    <p><br /><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Introdu&ccedil;&atilde;o do convidado</strong></p>
+    <ul>
+    <li aria-level="1">Apresenta&ccedil;&atilde;o do tema: por que falar sobre cache &eacute; essencial para devs e arquitetos</li>
+    <li aria-level="1">O que &eacute; cache</li>
+    <li aria-level="1">Contextualiza&ccedil;&atilde;o: performance, escalabilidade e efici&ecirc;ncia de recursos</li>
+    <li aria-level="1">Cache CPU (Hardware): L1, L2, L3 objetivo de reduzir acesso &agrave; mem&oacute;ria RAM</li>
+    <li aria-level="1">Cache de aplica&ccedil;&otilde;es (software): cache em mem&oacute;ria, cache distribu&iacute;do, cache de usu&aacute;rios (CDN) e cache de resultados de consultas</li>
+    <li aria-level="1">Banco de dados como cache vale a pena?</li>
+    <li aria-level="1">Cache n&atilde;o &eacute; sobre tecnologia &eacute; sobre estrat&eacute;gia</li>
+    <li aria-level="1">Por que &eacute; importante pensar em estrat&eacute;gias de cache em design de sistemas?</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">🌐 Explica&ccedil;&atilde;o sobre cache - v&iacute;deo no youtube canal ByteByteGo : <a href="https://www.youtube.com/watch?v=dGAgxozNWFE">Link</a></li>
+    <li aria-level="1">🌐 Cache explicado - v&iacute;deo no youtube canal Augusto Galego: <a href="https://www.youtube.com/watch?v=r-tiD2MYnWE">Link</a></li>
+    <li aria-level="1">🌐 Cache System Design concepts: <a href="https://www.geeksforgeeks.org/system-design/caching-system-design-concept-for-beginners/">Link</a></li>
+    <li aria-level="1">🌐 Uso e tipos de cache: <a href="https://www.softplan.com.br/tech-writers/caching-o-que-e-e-como-funciona/">Link</a><br /><br /></li>
+    </ul>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host <a href="https://jessicanathany.github.io/">Github.io</a></li>
+    <li aria-level="1">Weslley Fratini &ndash; Software Developer e Co-host&nbsp;<a href="https://www.linkedin.com/in/weslley-fratini/"> LinkedIn</a></li>
+    <li aria-level="1">Reginaldo Barros &ndash; Tech Lead na Builders&nbsp;<a href="https://www.linkedin.com/in/reginaldo-barros/">Link</a></li>
+    </ul>
+    <p><br />🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'No episódio de hoje, o assunto é cache! Conversamos com Reginaldo Barros para explicar o que é cache, seus principais tipos, estratégias de uso e por que é tão importante pensar em cache no desenho da arquitetura das aplicações.Este episódio é ideal para quem é desenvolvedor(a) ou quer evoluir para um papel de arquiteto(a) de software.', 
+    'https://omny.fm/shows/cafe-de-bug/181-cache-em-arquitetura-de-software-tipos-estrat-gias-e-impactos', 
+    ' https://cafedebug-uploads.s3.us-east-2.amazonaws.com/cache.jpg', 
+    '2026-02-02 01:00:00', '["cache", "Reginaldo Barros"]', 1, 194, 1, 230, 26, '2026-02-02 01:00:00', null);
+
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#182 O Novo Diferencial do Engenheiro de Software na Era da IA', 
+    '<p><span style="font-weight: 400;">Engenharia de software de verdade envolve decis&otilde;es, responsabilidade, contexto, pessoas, neg&oacute;cio e impacto. Com a evolu&ccedil;&atilde;o acelerada dos modelos de IA generativa,&nbsp; capazes de produzir c&oacute;digo em escala, o papel do(a) engenheiro(a) muda. Codar continua sendo importante, mas n&atilde;o &eacute; mais o diferencial principal.</span> <span style="font-weight: 400;">Neste epis&oacute;dio, tivemos um bate-papo bem interessante com Angelo Belchior sobre engenharia al&eacute;m do c&oacute;digo.</span></p>
+    <p><span style="font-weight: 400;"><br /></span><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <ul>
+    <li aria-level="1"><span style="font-weight: 400;">Introdu&ccedil;&atilde;o do convidado</span></li>
+    </ul>
+    <ul>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Um pouco sobre a posi&ccedil;&atilde;o de Staff Software Engineer</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Em que momento voc&ecirc; percebe que um erro t&eacute;cnico vira um problema de neg&oacute;cio?</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Engenharia como tomada de decis&atilde;o, n&atilde;o apenas implementa&ccedil;&atilde;o</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Arquitetura de software como ferramenta para lidar com complexidade</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">An&aacute;lise, mitiga&ccedil;&atilde;o de riscos e investiga&ccedil;&atilde;o (Spike, Discovery e etc)</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Quanto mais escala, mais pessoas e mais impacto &rarr; menos o c&oacute;digo isolado importa</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A import&acirc;ncia de entender contexto, pessoas e produto</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Como evoluir de quem &ldquo;executa bem&rdquo; para quem &ldquo;decide bem&rdquo;</span></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Como se preparar para era da IA (saiba usar agents e continue evoluindo tecnicamente)</span></li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">💬 Nosso Discord:</span><a href="https://discord.com/invite/hGpFPsV2gB"> <span style="font-weight: 400;">https://discord.com/invite/hGpFPsV2gB</span></a></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">☕ Caf&eacute; Debug Global no Spotify:</span><a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> <span style="font-weight: 400;">Ou&ccedil;a aqui</span></a></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">📖 Livro </span><strong>Carreira Dev</strong><span style="font-weight: 400;"> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo </span><a href="https://www.casadocodigo.com.br/products/livro-carreira-dev"><span style="font-weight: 400;">Link</span></a></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">🌐 </span><span style="font-weight: 400;">Impact of AI on the 2025 Software Engineering Job Market: </span><a href="https://www.sundeepteki.org/advice/impact-of-ai-on-the-2025-software-engineering-job-market"><span style="font-weight: 400;">Link</span></a></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">🌐</span><span style="font-weight: 400;">Spec-kit</span><span style="font-weight: 400;">: </span><a href="https://github.com/github/spec-kit"><span style="font-weight: 400;">Link</span></a></li>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">🌐 </span><span style="font-weight: 400;">Artigo Angelo Belchior como criar compilador</span><span style="font-weight: 400;">: </span><a href="https://dev.to/angelobelchior/reinventando-a-roda-criando-um-compilador-em-csharp-parte-1-2gih"><span style="font-weight: 400;">Link</span></a></li>
+    </ul>
+    <p>&nbsp;</p>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">J&eacute;ssica Nathany &ndash; Software Developer e Host </span><a href="https://jessicanathany.github.io/"><span style="font-weight: 400;">Github.io</span></a></li>
+    </ul>
+    <ul>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Weslley Fratini &ndash; Software Developer e Co-host </span><a href="https://www.linkedin.com/in/weslley-fratini/"><span style="font-weight: 400;">&nbsp;</span><span style="font-weight: 400;">LinkedIn</span></a></li>
+    </ul>
+    <ul>
+    <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Angelo Belchior &ndash; Staff Software Engineer no Picpay </span><a href="https://www.linkedin.com/in/angelobelchior/"><span style="font-weight: 400;">Link</span></a></li>
+    </ul>
+    <p><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">🎧 </span><strong>Edi&ccedil;&atilde;o:</strong><span style="font-weight: 400;"> Thiago Carvalho</span><span style="font-weight: 400;"><br /></span><a href="https://www.linkedin.com/in/thi-agocarvalho/"> <span style="font-weight: 400;">LinkedIn</span></a></p>
+    <p><span style="font-weight: 400;">📬 D&uacute;vidas, sugest&otilde;es ou publicidade</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"> Mande um e-mail para: </span><strong>debugcafe@gmail.com</strong></p>', 
+    'Engenharia de software de verdade envolve decisões, responsabilidade, contexto, pessoas, negócio e impacto. Com a evolução acelerada dos modelos de IA generativa,  capazes de produzir código em escala, o papel do(a) engenheiro(a) muda. Codar continua sendo importante, mas não é mais o diferencial principal. Neste episódio, tivemos um bate-papo bem interessante com Angelo Belchior sobre engenharia além do código.', 
+    'https://omny.fm/shows/cafe-de-bug/182-o-novo-diferencial-do-engenheiro-de-software-na-era-da-ia', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/engenharia-software.jpg', 
+    '2026-02-16 01:00:00', '["carreira", "desenvolvedores de software" "engenharia de software", "Angelo Belchior"]', 1, 195, 4, 210, 87, '2026-02-16 01:00:00', null);
+
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#183 Quando Logs Viram Problema: O Custo Invisível da Observabilidade', 
+    '<p>Logs s&atilde;o fundamentais para observabilidade, diagn&oacute;stico e auditoria. Mas em algum ponto, mais logs n&atilde;o significam mais visibilidade, significam mais custo, mais ru&iacute;do, mais risco e mais decis&otilde;es ruins. Neste epis&oacute;dio, conversamos sobre quando o armazenamento de logs deixa de ser uma solu&ccedil;&atilde;o e passa a ser um problema. Tivemos a participa&ccedil;&atilde;o do Daniel Jesus e do Lucas Massena.</p>
+    <p><br /><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Introdu&ccedil;&atilde;o do convidado</strong></p>
+    <ul>
+    <li aria-level="1">Por que logging &eacute; essencial (e por que todo sistema come&ccedil;a logando &ldquo;demais)</li>
+    <li aria-level="1">Quando logs deixam de ajudar no diagn&oacute;stico e passam a gerar ru&iacute;do</li>
+    <li aria-level="1">Custo invis&iacute;vel de logs: armazenamento, ingest&atilde;o, indexa&ccedil;&atilde;o e consultas</li>
+    <li aria-level="1">Logs em escala: impacto financeiro em sistemas distribu&iacute;dos</li>
+    <li aria-level="1">Reten&ccedil;&atilde;o de logs: quanto tempo faz sentido guardar?</li>
+    <li aria-level="1">Logs vs m&eacute;tricas vcs traces: quando usar cada um</li>
+    <li aria-level="1">Problemas de performance causados por excesso de logging</li>
+    <li aria-level="1">Logs e seguran&ccedil;a: vazamento de dados sens&iacute;veis compliance (LGPD)</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">🌐 Logs &agrave; Excel&ecirc;ncia artigo: <a href="https://alvaroabreu.medium.com/logs-%C3%A0-excel%C3%AAncia-2616e1876f52">Link</a></li>
+    <li aria-level="1">🌐 Logs e LGPD responsabilidades do desenvolvedor: <a href="https://www.gft.com/br/pt/blog/logs-e-lgpd-responsabilidades-do-desenvolvedor">Link</a></li>
+    </ul>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host <a href="https://jessicanathany.github.io/">Github.io</a></li>
+    <li aria-level="1">Daniel Jesus &ndash;&nbsp; Engineer Manager no Banco Daycoval <a href="https://www.linkedin.com/in/djesusnet/">Link</a></li>
+    <li aria-level="1">Lucas Massena &ndash;&nbsp; Global Enterprise Architect @ Mars.com <a href="https://www.linkedin.com/in/lcmassena/">Link</a></li>
+    </ul>
+    <p><br />🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Logs são fundamentais para observabilidade, diagnóstico e auditoria. Mas em algum ponto, mais logs não significam mais visibilidade, significam mais custo, mais ruído, mais risco e mais decisões ruins. Neste episódio, conversamos sobre quando o armazenamento de logs deixa de ser uma solução e passa a ser um problema. Tivemos a participação do Daniel Jesus e do Lucas Massena.', 
+    'https://omny.fm/shows/cafe-de-bug/183-quando-logs-viram-problema-o-custo-invis-vel-da-observabilidade', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/logs.jpg', 
+    '2026-03-02 01:00:00', '["logs", "observabilidade"]', 1, 196, 32, 180, 65, '2026-03-02 01:00:00', null);
+
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#184  Carreira SRE: Papeis e Responsabilidades - Camila Martins', 
+    '<p>SRE n&atilde;o &eacute; apenas manter sistemas no ar. &Eacute; sobre assumir responsabilidades, tomar decis&otilde;es sob press&atilde;o, equilibrar riscos, custo e confiabilidade. Tudo isso em escala. Neste programa, tivemos uma conversa bem interessante com a Camila Martins, para falar sobre pap&eacute;is, carreira e maturidade em SRE. Conversamos sobre o que realmente diferencia um(a) SRE, como essa fun&ccedil;&atilde;o se conecta com produto e neg&oacute;cio, e como evoluir na carreira al&eacute;m de tarefas operacionais.</p>
+    <p><br /><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Introdu&ccedil;&atilde;o da convidada&nbsp;</strong></p>
+    <ul>
+    <li aria-level="1">O que &eacute; SRE (Site Reliability Engineering) na pr&aacute;tica</li>
+    <li aria-level="1">Diferen&ccedil;a entre SRE, DevOps e Engenharia de Plataforma</li>
+    <li aria-level="1">O papel do SRE na tomada de decis&otilde;es de gest&atilde;o de risco</li>
+    <li aria-level="1">Confiabilidade como produto: SLIs, SLOs e SLAs</li>
+    <li aria-level="1">Quando &ldquo;ficar no ar&rdquo; entra em conflito com velocidade de entrega</li>
+    <li aria-level="1">Incidentes, post-mortems e cultura do aprendizado</li>
+    <li aria-level="1">Doutorado, estudos e atualiza&ccedil;&atilde;o</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">🌐 Portf&oacute;lio Camila Martins: <a href="https://linktr.ee/punkdodevops?utm_source=ig&amp;utm_medium=social&amp;utm_content=link_in_bio&amp;fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnc8B7y7VTHjAiwyLfUNuUUurRrbXQw7m_jWyZaTwYt48-XRLPns48rHnjpso_aem_1XEsngt76a6U3e6kZfI0-g">Link</a></li>
+    <li aria-level="1">🌐 Instrutora do LinuxTip: <a href="https://linuxtips.io/instrutor/camilla-martins/">Link</a></li>
+    <li aria-level="1">🌐 Uma guia sobre carreira como SRE e Devops: <a href="https://linuxtips.io/um-guia-sobre-carreira-como-sre-e-devops/">Link</a></li>
+    </ul>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host <a href="https://jessicanathany.github.io/">Github.io</a></li>
+    <li aria-level="1">Camila Martins &ndash; Google Developer Expert e Senior Specialist SRE na Storyblock <a href="https://www.linkedin.com/in/camilla-martins-603344115/">Link</a></li>
+    </ul>
+    <p><br />🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'SRE não é apenas manter sistemas no ar. É sobre assumir responsabilidades, tomar decisões sob pressão, equilibrar riscos, custo e confiabilidade. Tudo isso em escala. Neste programa, tivemos uma conversa bem interessante com a Camila Martins, para falar sobre papéis, carreira e maturidade em SRE. Conversamos sobre o que realmente diferencia um(a) SRE, como essa função se conecta com produto e negócio, e como evoluir na carreira além de tarefas operacionais.', 
+    'https://omny.fm/shows/cafe-de-bug/184-carreira-sre-papeis-e-responsabilidades', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/carreira-sre.jpg', 
+    '2026-03-02 09:00:00', '["carreira", "SRE", "Camila Martins"]', 1, 197, 4, 182, 77, '2026-03-02 09:00:00', null);
+
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#185 Event Driven - conceitos, estratégias e soluções', 
+    '<p>Arquitetura Orientada a Eventos (EDA) &eacute; muito mais do que usar um broker ou publicar mensagens. &Eacute; uma forma de pensar sistemas distribu&iacute;dos com foco em desacoplamento, escalabilidade, resili&ecirc;ncia e evolu&ccedil;&atilde;o organizacional. Convidamos o Roberto Pican&ccedil;o , autor do livro Arquitetura Orientada a Eventos, para discutirmos a fundo sobre o assunto.</p>
+    <p><br /><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Introdu&ccedil;&atilde;o do convidado</strong></p>
+    <ul>
+    <li aria-level="1">Processo de publica&ccedil;&atilde;o do livro Arquitetura Orientada a Eventos</li>
+    <li aria-level="1">Fundamentos da arquitetura de software orientada a eventos (EDA)</li>
+    <li aria-level="1">Diferen&ccedil;a entre evento, mensagem e log</li>
+    <li aria-level="1">Broker, eventos e padr&otilde;es de comunica&ccedil;&atilde;o ass&iacute;ncrona</li>
+    <li aria-level="1">Desacoplamento temporal e consist&ecirc;ncia eventual</li>
+    <li aria-level="1">Observabilidade em sistemas orientados a eventos (logs, m&eacute;tricas, traces, etc)</li>
+    <li aria-level="1">Governan&ccedil;a e seguran&ccedil;a com OPA (Policy as Code)</li>
+    <li aria-level="1">Trade-offs, riscos e maturidade em sistemas distribu&iacute;dos</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">📖 Livro EDA Casa do C&oacute;digo: <a href="https://www.casadocodigo.com.br/products/livro-eda">Link</a></li>
+    </ul>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host <a href="https://jessicanathany.github.io/">Github.io</a></li>
+    <li aria-level="1">Weslley Fratini &ndash;&nbsp; Software Developer Fullstack <a href="https://www.linkedin.com/in/weslley-fratini/">Link</a></li>
+    <li aria-level="1">Roberto Pican&ccedil;o &ndash;&nbsp; Engenheiro de Software no Ifood <a href="https://www.linkedin.com/in/roberto-picanco/">Link</a></li>
+    </ul>
+    <p><br />🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Arquitetura Orientada a Eventos (EDA) é muito mais do que usar um broker ou publicar mensagens. É uma forma de pensar sistemas distribuídos com foco em desacoplamento, escalabilidade, resiliência e evolução organizacional. Convidamos o Roberto Picanço , autor do livro Arquitetura Orientada a Eventos, para discutirmos a fundo sobre o assunto.', 
+    'https://omny.fm/shows/cafe-de-bug/185-event-driven-conceitos-estrat-gias-e-solu-es', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/eda.jpg', 
+    '2026-03-23 01:00:00', '["event-driven", "EDA"]', 1, 198, 2, 140, 55, '2026-03-23 01:00:00', null);
+
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#186 System Design - Jogo SDPD com Lucas Andrade', 
+    '<p>System Design tem se tornado uma habilidade cada vez mais valorizada na carreira de desenvolvedores. Com a evolu&ccedil;&atilde;o dos sistemas distribu&iacute;dos, cloud e aplica&ccedil;&otilde;es em larga escala, saber apenas implementar c&oacute;digo j&aacute; n&atilde;o &eacute; suficiente. &Eacute; preciso entender como sistemas s&atilde;o pensados, estruturados e evoluem ao longo do tempo. Conversamos com Lucas Andrade, Senior Software Engineer e criador do <strong>SDPD</strong>, um jogo criado para ensinar conceitos de System Design de forma interativa e pr&aacute;tica.</p>
+    <p><br /><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Introdu&ccedil;&atilde;o do convidado</strong></p>
+    <ul>
+    <li aria-level="1">A ideia do jogo SDPD (System Design Playing Deck) e processo de- cria&ccedil;&atilde;o</li>
+    <li aria-level="1">Como o jogo ajuda desenvolvedores a praticarem racioc&iacute;nio arquitetural</li>
+    <li aria-level="1">A import&acirc;ncia do System Design cada vez mais na vida de desenvolvedores</li>
+    <li aria-level="1">Por que System Design aparece tanto em entrevistas t&eacute;cnicas</li>
+    <li aria-level="1">Diferen&ccedil;a entre escrever c&oacute;digo e pensar o design de um sistema</li>
+    <li aria-level="1">Conceitos importantes de System Design para desenvolvedores</li>
+    <li aria-level="1">A import&acirc;ncia de entender requisitos funcionais e n&atilde;o funcionais</li>
+    <li aria-level="1">Como estudar e evoluir em System Design</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links &uacute;teis</strong></p>
+    <ul>
+    <li aria-level="1">💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li aria-level="1">☕ Caf&eacute; Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ou&ccedil;a aqui</a></li>
+    <li aria-level="1">📖 Livro <strong>Carreira Dev</strong> - H&aacute;bitos para evoluir no desenvolvimento do software al&eacute;m do c&oacute;digo <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li aria-level="1">🌐 Jogo SDPD - System Design: <a href="https://sdpd.live/case/case-01">Link</a>&nbsp;&nbsp;</li>
+    <li aria-level="1">🌐 Jogo SQLDP - System Design: <a href="https://sqlpd.com/">Link</a>&nbsp;&nbsp;</li>
+    <li aria-level="1">🌐 Reposit&oacute;rio do Jogo SDPD: <a href="https://github.com/olucasandrade/sdpd">Link</a>&nbsp;</li>
+    <li aria-level="1">🌐 Reposit&oacute;rio do Jogo SQLDP: <a href="https://github.com/SQL-DP/SQL-DP">Link</a>&nbsp;</li>
+    <li aria-level="1">🌐 Blog do Lucas Andrade: <a href="https://www.olucasandrade.com/">Link</a>&nbsp;</li>
+    <li aria-level="1">🌐 Hello Interview: <a href="https://www.hellointerview.com/">Link</a>&nbsp;</li>
+    </ul>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li aria-level="1">J&eacute;ssica Nathany &ndash; Software Developer e Host <a href="https://jessicanathany.github.io/">Github.io</a></li>
+    <li aria-level="1">Lucas Andrade &ndash;&nbsp; Senior Software Engineer na Scalis <a href="https://www.linkedin.com/in/lucasandradesouza/">Link</a></li>
+    </ul>
+    <p><br />🎧 <strong>Edi&ccedil;&atilde;o:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 D&uacute;vidas, sugest&otilde;es ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'System Design tem se tornado uma habilidade cada vez mais valorizada na carreira de desenvolvedores. Com a evolução dos sistemas distribuídos, cloud e aplicações em larga escala, saber apenas implementar código já não é suficiente. É preciso entender como sistemas são pensados, estruturados e evoluem ao longo do tempo. Conversamos com Lucas Andrade, Senior Software Engineer e criador do SDPD, um jogo criado para ensinar conceitos de System Design de forma interativa e prática.', 
+    'https://omny.fm/shows/caf-debug-seu-podcast-de-tecnologia/186-system-design-jogo-sdpd-com-lucas-andrade', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/system-design.jpg', 
+    '2026-03-30 01:00:00', '["system design", "SDPD", "Lucas Andrade"]', 1, 199, 32, 122, 41, '2026-03-30 01:00:00', null);
+
+
+INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
+VALUES(
+    '#187 FinOps: Repensando a medição de custos', 
+    '<p>Cloud trouxe elasticidade, escala e velocidade. Mas também trouxe um novo desafio: entender exatamente quanto custa cada decisão técnica.Neste episódio, conversamos com Silvio Pereira sobre FinOps, a disciplina que conecta engenharia, produto e finanças para transformar custo em uma métrica estratégica, e não apenas uma conta no final do mês.</p>
+    <p><br /><strong>🧩 </strong><strong>Assuntos abordados</strong><strong>:</strong></p>
+    <p><strong>Introdução do convidado</strong></p>
+    <ul>
+    <li>FinOps: o que é e por que surgiu</li>
+    <li>A relação entre engenharia, cloud e responsabilidade financeira</li>
+    <li>Por que o modelo tradicional de controle de custos não escala</li>
+    <li>Tagging manual: por que virou gargalo</li>
+    <li>Limitações de alocação de custo baseada em estimativas</li>
+    <li>Cálculo de custo baseado no consumo real de workloads</li>
+    <li>Custo por transação, por serviço e por cliente</li>
+    <li>O impacto no dia a dia de times de DevOps e SRE</li>
+    <li>Como workloads de IA (GPU, inferência, treinamento) mudam a equação de custo</li>
+    </ul>
+    <p><strong>🔗</strong><strong>Links úteis</strong></p>
+    <ul>
+    <li>💬 Nosso Discord:<a href="https://discord.com/invite/hGpFPsV2gB"> https://discord.com/invite/hGpFPsV2gB</a></li>
+    <li>☕ Café Debug Global no Spotify:<a href="https://open.spotify.com/show/3S1OK2ecjZj7zoaZ34bFkP?si=ae09a6a1796a4587"> Ouça aqui</a></li>
+    <li>📖 Livro <strong>Carreira Dev</strong> - Hábitos para evoluir no desenvolvimento do software além do código <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev">Link</a></li>
+    <li>🌐 FindOps Foundation: <a href="https://www.finops.org/introduction/what-is-finops/">Link</a></li>
+    <li>🌐 Real Cloud Talks: <a href="https://www.finops.org/introduction/what-is-finops/">Link</a></li>
+    </ul>
+    <p><strong>👥 </strong><strong>Participantes</strong></p>
+    <ul>
+    <li>Jéssica Nathany – Software Developer e Host <a href="https://jessicanathany.github.io/">Github.io</a></li>
+    <li>Weslley Fratini –  Software Developer Fullstack <a href="https://www.linkedin.com/in/weslley-fratini/">Link</a></li>
+    <li>Silvio Pereira –  CEO na RealCloud <a href="https://www.linkedin.com/in/silviocesarpereira/">Link</a></li>
+    </ul>
+    <p>🎧 <strong>Edição:</strong> Thiago Carvalho<br /><a href="https://www.linkedin.com/in/thi-agocarvalho/"> LinkedIn</a></p>
+    <p>📬 Dúvidas, sugestões ou publicidade<br />Mande um e-mail para: <strong>debugcafe@gmail.com</strong></p>', 
+    'Cloud trouxe elasticidade, escala e velocidade. Mas também trouxe um novo desafio: entender exatamente quanto custa cada decisão técnica.Neste episódio, conversamos com Silvio Pereira sobre FinOps, a disciplina que conecta engenharia, produto e finanças para transformar custo em uma métrica estratégica, e não apenas uma conta no final do mês.', 
+    'https://omny.fm/shows/caf-debug-seu-podcast-de-tecnologia/187-finops-repensando-a-medi-o-de-custos', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/finops-updated.jpg', 
+    '2026-04-16 01:00:00', '["real digital", "Marcelo Queiroz"]', 1, 200, 32, 30, 14, '2026-04-16 01:00:00', null);
 
 -- Team ---
 INSERT INTO Team (Name, UrlGitHub, UrlInstagram, UrlLinkedin, UrlImage, Job)
