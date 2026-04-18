@@ -1,4 +1,4 @@
-# debug-automation
+# local-devstack
 The project is for automation, allowing you to run various projects in localy containers. You can configure any APIs and databases using shell scripts that run within the containers.
 
 ## Project information 📑
