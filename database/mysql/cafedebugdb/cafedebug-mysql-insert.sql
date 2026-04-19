@@ -2266,15 +2266,6 @@ VALUES(
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
-    '#120', 
-    '', 
-    'Nós começamos uma pequena série sobre Devs e Empreendedores, vamos entrevistar desenvolvedores que ainda programam e tem seu próprio negócio. Como gerenciam seu tempo? Como organizam suas empresas? Ainda da pra continuar codando?', 
-    'https://omny.fm/shows/cafe-de-bug/2-devs-e-empreendedores-com-alan-araujo', 
-    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/d3737fc8-0088-4c90-9f6c-15af46edca66modelo-capa-episodios-dev-empreendedor-2.jpg', 
-    '2022-10-31 00:00:00', '["devs e empreendedores", "Alan Araújo"]', 1, 120, 1, 1665, 727, '2022-10-31 00:00:00', null);
-
-INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
-VALUES(
     '#116 Mudança de Stack e o mercado de trabalho para os Devs', 
     '<p>Fizemos uma pesquisa recentemente para entender melhor sobre a mudan&ccedil;a de stack dos desenvolvedores, e saber um pouco mais qual a motiva&ccedil;&atilde;o para esta mudan&ccedil;a. Da nossa pesquisa, a penas 31 pessoas responderam, mas com isso ja nos gerou insumos para discutirmos aqui, sobre este assunto.</p>
     <p><strong><br />Assuntos abordados no tema</strong></p>
