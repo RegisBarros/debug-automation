@@ -1078,7 +1078,7 @@ VALUES(
     'Já pensou como é trabalhar no Mercado Bitcoin? Conversamos com o Rafael Reimberg que contou pra gente algumas tecnologias utilizadas no Mercado Bitcoin e como é a rotina e o trabalho de quem programa para esta grande exchange de criptomoedas.', 
     'https://omny.fm/shows/cafe-de-bug/75-vida-de-dev-no-mercado-bitcoin', 
     'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/411fb46c-69c1-4a5d-8063-9cb944b9bc96dev-mercadobitcoin.jpg', 
-    '2021-06-14 06:00:00', '["tecnologia das empresas", "mercado bitcoint"]', 1, 75, 24, 2894, 1147, '2021-06-14 06:00:00', null);
+    '2021-06-14 06:00:00', '["tecnologia das empresas", "mercado bitcoin"]', 1, 75, 24, 2894, 1147, '2021-06-14 06:00:00', null);
 
 INSERT INTO Episode (Title, Description, ShortDescription, Url, ImageUrl, PublishedAt, Tags, Active, `Number`, CategoryId, `View`, `Like`, CreatedBy, UpdatedBy) 
 VALUES(
