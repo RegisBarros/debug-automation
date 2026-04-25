@@ -54,7 +54,8 @@ CREATE TABLE IF NOT EXISTS Episode (
     INDEX IDX_Episodes_PublishedAt (PublishedAt),
     INDEX IDX_Episodes_Active (Active),
     INDEX IDX_Episodes_Category (CategoryId),
-    INDEX IDX_Episodes_Title (Title(191))
+    INDEX IDX_Episodes_Title (Title(191)),
+    FULLTEXT INDEX `ft_episode_title_description` (`Title`, `Description`)
 );
 
 CREATE TABLE IF NOT EXISTS TeamMember
