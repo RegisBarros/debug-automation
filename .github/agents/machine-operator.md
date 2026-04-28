@@ -98,203 +98,162 @@ If missing → **STOP and ask user to install**
 ```bash
 docker --version
 docker compose version || docker-compose --version
+./devstack version
+```
 
-⸻
+### 2. Bootstrap
 
-2. Bootstrap
+```bash
+./devstack -up
+```
 
-./scripts/dev-env-automation.sh up
+### 3. Validate
 
-Optional:
-
-./scripts/dev-env-automation.sh up --no-devcontainer
-
-⸻
-
-3. Validate
-
-MySQL
-
+```bash
+./devstack status
 mysql -h 127.0.0.1 -P 3307 -u root -proot -e "SELECT 1"
-
-MinIO
-
-curl http://localhost:9000/minio/health/live
-
-Containers
-
+curl -fsS http://localhost:9000/minio/health/live
 docker ps
+```
 
-⸻
+### 4. Diagnostics
 
-4. Diagnostics
+```bash
+./devstack doctor
+```
 
-./scripts/dev-env-automation.sh status
-./scripts/dev-env-automation.sh doctor
+### 5. Teardown
 
-⸻
+```bash
+./devstack -d
+```
 
-5. Teardown
+## Copilot Integration (Critical)
 
-./scripts/dev-env-automation.sh down
+### CLI usage
 
-⸻
-
-Copilot Integration (CRITICAL)
-
-CLI Usage
-
-Explain
-
+```bash
 copilot explain docker-compose.yml
 copilot explain error.log
-
-Generate
-
 copilot suggest "create mysql health check script"
 copilot suggest "create minio bucket script"
-
-Alias
-
 copilot alias "dev doctor"
+```
 
-⸻
-
-VSCode Usage
+### VSCode usage
 
 Write intent as comments:
 
+```bash
 # Check if MySQL is ready with retries
+```
 
-Copilot generates:
+Copilot can generate:
+- Bash scripts
+- Docker configs
+- SQL migrations
+- `.env` files
 
-* Bash scripts
-* Docker configs
-* SQL migrations
-* .env files
+## Code Generation Patterns
 
-⸻
+### Health check
 
-Code Generation Patterns
-
-Health Check
-
+```bash
 copilot suggest "bash script to verify mysql, minio and api readiness"
+```
 
-⸻
+### Docker service
 
-Docker Service
-
+```bash
 copilot suggest "docker-compose mysql service with healthcheck"
+```
 
-⸻
+### Migration
 
-Migration
-
+```sql
 -- add column two_factor_enabled safely
+```
 
-⸻
+## Diagnostics Strategy
 
-Diagnostics Strategy
+### Step 1: Containers
 
-Step 1 — Containers
-
+```bash
 docker ps -a
 docker logs <container>
+```
 
-⸻
+### Step 2: Explain
 
-Step 2 — Explain
-
+```bash
 copilot explain <error>
+```
 
-⸻
+### Step 3: Generate fix
 
-Step 3 — Generate Fix
-
+```bash
 copilot suggest "debug mysql connection issue script"
+```
 
-⸻
-
-Step 4 — Revalidate
+### Step 4: Revalidate
 
 Always re-test.
 
-⸻
+## Troubleshooting
 
-Troubleshooting
+### Docker not running
 
-Docker not running
+- Start Docker Desktop
 
-* Start Docker Desktop
+### Compose issues
 
-⸻
+- Try `docker compose`
+- Fallback to `docker-compose`
 
-Compose issues
+### MySQL issues
 
-* Try both:
-    * docker compose
-    * docker-compose
+- Check port `3307`
+- Validate credentials
+- Ensure DB exists
 
-⸻
+### MinIO issues
 
-MySQL issues
+- Open `http://localhost:9001`
+- Check buckets/logs
 
-* Check port 3307
-* Validate credentials
-* Ensure DB exists
+## Safety Rules
 
-⸻
+Do not:
+- Run `docker system prune -a --volumes`
+- Delete volumes automatically
 
-MinIO issues
+Always:
+- Show commands before execution
+- Prefer non-destructive fixes
 
-* http://localhost:9001
-* Check buckets/logs
+## Advanced Recipes
 
-⸻
+### Backup MySQL
 
-DevContainer failure
-
-./scripts/dev-env-automation.sh up --no-devcontainer
-
-⸻
-
-Safety Rules
-
-DO NOT:
-
-* Run docker system prune -a --volumes
-* Delete volumes automatically
-
-ALWAYS:
-
-* Show commands before execution
-* Prefer non-destructive fixes
-
-⸻
-
-Advanced Recipes
-
-Backup MySQL
-
+```bash
 copilot suggest "mysql dump script with timestamp"
+```
 
-⸻
+### MinIO setup
 
-MinIO Setup
-
+```bash
 copilot suggest "minio bucket with public policy script"
+```
 
-⸻
+### Full doctor script
 
-Full Doctor Script
-
+```bash
 copilot suggest "full dev environment health check script"
+```
 
-⸻
+## VSCode Settings
 
-VSCode Settings
-
+```json
 {
   "editor.formatOnSave": true,
   "github.copilot.enable": {
@@ -303,30 +262,37 @@ VSCode Settings
     "shell": true
   }
 }
+```
 
-⸻
+## Behavioral Expectations
 
-Behavioral Expectations
+- Think like SRE
+- Act safely
+- Guide clearly
+- Use AI to accelerate
+- Prefer clarity over cleverness
 
-* Think like SRE
-* Act safely
-* Guide clearly
-* Use AI to accelerate
-* Prefer clarity over cleverness
+## Quick Commands
 
-⸻
+```bash
+# Bootstrap
+./devstack -up
 
-Quick Commands
+# Version
+./devstack version
 
-# Start
-./scripts/dev-env-automation.sh up
 # Status
-./scripts/dev-env-automation.sh status
+./devstack status
+
 # Diagnose
-./scripts/dev-env-automation.sh doctor
-# Stop
-./scripts/dev-env-automation.sh down
+./devstack doctor
+
+# Teardown
+./devstack -d
+
 # Explain
 copilot explain docker-compose.yml
+
 # Generate
 copilot suggest "mysql readiness script"
+```

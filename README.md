@@ -19,6 +19,7 @@ To configure the database in a local environment, follow these steps. Note that 
 
 ```bash
 chmod +x scripts/run.sh
+chmod +x devstack
 ```
 
 ## Container Management 🐳
@@ -27,7 +28,7 @@ chmod +x scripts/run.sh
 To start all containers and set up the environment:
 
 ```bash
-./scripts/run.sh -up
+./devstack -up
 ```
 
 This command will:
@@ -39,13 +40,87 @@ This command will:
 To stop all containers and clean up the environment:
 
 ```bash
-./scripts/run.sh -d
+./devstack -d
 ```
 
 This command will:
 - Stop all running containers
 - Remove containers and associated resources
 - Clean up the environment
+
+### Environment Status
+To inspect current container/service status:
+
+```bash
+./devstack status
+```
+
+This command will:
+- Show Docker daemon availability
+- Show compose service status
+- Run quick MySQL and MinIO checks
+
+### Environment Doctor
+To run a full diagnostic suite:
+
+```bash
+./devstack doctor
+```
+
+This command will:
+- Validate Docker and Compose availability
+- Validate compose configuration
+- Verify core services are running
+- Execute MySQL and MinIO health checks
+
+### Devstack Version
+To show current `devstack` version from `.env`:
+
+```bash
+./devstack version
+```
+
+This command reads one of these keys from `.env`:
+- `DEVSTACK_VERSION`
+- `LOCAL_DEVSTACK_VERSION`
+- `VERSION`
+
+## Use `devstack` Without `./`
+
+The repository path is different for each user. Run the commands below from inside the repo root, so the current path is captured automatically.
+
+### zsh (macOS/Linux)
+
+```bash
+echo "alias devstack=\"$(pwd)/devstack\"" >> ~/.zshrc
+source ~/.zshrc
+```
+
+### bash (Linux/macOS)
+
+```bash
+echo "alias devstack=\"$(pwd)/devstack\"" >> ~/.bashrc
+source ~/.bashrc
+```
+
+If your system uses `~/.bash_profile` instead of `~/.bashrc`, add the same alias there.
+
+### PowerShell (Windows)
+
+This requires `bash` available in PowerShell (Git Bash or WSL in PATH).
+
+```powershell
+$repo = (Get-Location).Path
+if (!(Test-Path $PROFILE)) { New-Item -ItemType File -Path $PROFILE -Force | Out-Null }
+Add-Content $PROFILE "`nfunction devstack { bash '$repo/devstack' @args }"
+. $PROFILE
+```
+
+### Verify
+
+```bash
+devstack -h
+```
 
 
 For generate users data
@@ -69,4 +144,3 @@ For test you connection database in DBaver following this steps:
 - Port: 3307  (the door mapped in your docker-compose.yml)
 - Username: root (the door mapped in your docker-compose.yml)
 - Password: root (the door mapped in your docker-compose.yml)
-
