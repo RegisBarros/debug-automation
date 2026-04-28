@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS Episode (
     Tags JSON NULL,
     CreatedAt DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     UpdatedAt DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
-    Active TINYINT(1) NOT NULL DEFAULT 1, 
+    Status VARCHAR(20) NOT NULL DEFAULT 'Draft',
     Number INT NOT NULL DEFAULT 0,
     CategoryId INT NOT NULL,
     `View` BIGINT NOT NULL DEFAULT 0,
@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS Episode (
     UpdatedBy VARCHAR(50) NULL,
     CONSTRAINT FK_Episodes_Category FOREIGN KEY (CategoryId) REFERENCES Category(Id) ON UPDATE CASCADE ON DELETE RESTRICT,
     INDEX IDX_Episodes_PublishedAt (PublishedAt),
-    INDEX IDX_Episodes_Active (Active),
+    INDEX IDX_Episodes_Status (Status),
     INDEX IDX_Episodes_Category (CategoryId),
     INDEX IDX_Episodes_Title (Title(191)),
     FULLTEXT INDEX `ft_episode_title_description` (`Title`, `Description`)
