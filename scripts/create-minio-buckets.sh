@@ -25,13 +25,15 @@ elif [ -n "${MINIO_BUCKETS:-}" ]; then
      IFS=',' read -r -a BUCKETS <<< "${MINIO_BUCKETS}"
 else
      # default bucket for this project (changed per request)
-     BUCKETS=("cafedebug-uploads")
+     BUCKETS=("cafedebug-uploads" "cafedebug-images")
 fi
 
 MC_CMDS=("mc --insecure alias set myminio http://minio:9000 \${MINIO_ROOT_USER:-minioadmin} \${MINIO_ROOT_PASSWORD:-minioadmin}")
 for b in "${BUCKETS[@]}"; do
      # create the bucket only if it does not already exist (idempotent)
      MC_CMDS+=("mc --insecure ls myminio/${b} >/dev/null 2>&1 || mc --insecure mb myminio/${b}")
+     # local-dev default: make uploaded files publicly readable
+     MC_CMDS+=("mc --insecure anonymous set download myminio/${b}")
 done
 MC_CMDS+=("mc --insecure ls myminio")
 
