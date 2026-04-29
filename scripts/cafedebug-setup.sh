@@ -130,15 +130,15 @@ source "${SCRIPT_DIR}/functions.sh"
   fi
   
   # Ensure Minio buckets exist (delegates to scripts/create-minio-buckets.sh)
-	echo_info "Ensuring Minio buckets..."
-	DEFAULT_BUCKETS="cafedebug-uploads"
-	if [ -x "$PROJECT_ROOT_DIR/scripts/create-minio-buckets.sh" ]; then
-	  if [ -n "${MINIO_BUCKETS:-}" ]; then
-		IFS=',' read -r -a _buckets <<< "${MINIO_BUCKETS}"
-		"$PROJECT_ROOT_DIR/scripts/create-minio-buckets.sh" "${_buckets[@]}"
-	  else
-		"$PROJECT_ROOT_DIR/scripts/create-minio-buckets.sh" "$DEFAULT_BUCKETS"
-	  fi
-	else
-	  echo_warning "Warning: create-minio-buckets.sh not found or not executable at $PROJECT_ROOT_DIR/scripts/; skipping bucket creation"
-	fi
+  echo_info "Ensuring Minio buckets..."
+  DEFAULT_BUCKETS=("cafedebug-uploads" "cafedebug-images")
+  if [ -x "$PROJECT_ROOT_DIR/scripts/create-minio-buckets.sh" ]; then
+    if [ -n "${MINIO_BUCKETS:-}" ]; then
+      IFS=',' read -r -a _buckets <<< "${MINIO_BUCKETS}"
+      "$PROJECT_ROOT_DIR/scripts/create-minio-buckets.sh" "${_buckets[@]}"
+    else
+      "$PROJECT_ROOT_DIR/scripts/create-minio-buckets.sh" "${DEFAULT_BUCKETS[@]}"
+    fi
+  else
+    echo_warning "Warning: create-minio-buckets.sh not found or not executable at $PROJECT_ROOT_DIR/scripts/; skipping bucket creation"
+  fi
