@@ -153,7 +153,7 @@ source "${SCRIPT_DIR}/functions.sh"
   # Wait for CafeDebug API to be healthy
   API_PORT=$(grep -E '^CAFEDEBUG_API_PORT=' "$PROJECT_ROOT_DIR/.env" 2>/dev/null | cut -d'=' -f2 | tr -d '"' | xargs || echo "8080")
   API_PORT="${API_PORT:-8080}"
-  echo_info "Waiting for CafeDebug API on port $API_PORT..."
+  echo_info "Waiting for cafedebug-backend.api API on port $API_PORT..."
   API_MAX_WAIT=120
   API_WAITED=0
   until curl -fsS --max-time 3 "http://localhost:${API_PORT}/health" >/dev/null 2>&1; do
