@@ -112,13 +112,9 @@ is_service_running() {
 }
 
 detect_mysql_auth() {
-    if grep -q "MYSQL_ROOT_PASSWORD" "${COMPOSE_FILE}" 2>/dev/null; then
-        local mysql_root_password
-        mysql_root_password="$(grep "MYSQL_ROOT_PASSWORD:" "${COMPOSE_FILE}" | sed 's/.*MYSQL_ROOT_PASSWORD:[[:space:]]*["'\'']*\([^"'\'']*\)["'\'']*$/\1/' | tr -d '"' | xargs)"
-        echo "-uroot -p${mysql_root_password}"
-    else
-        echo "-uroot"
-    fi
+    local mysql_root_password
+    mysql_root_password="$(get_env_value "MYSQL_ROOT_PASSWORD" || echo "root")"
+    echo "-uroot -p${mysql_root_password}"
 }
 
 status_cmd() {
@@ -140,7 +136,7 @@ status_cmd() {
     compose ps || true
 
     subtitle "Core services"
-    for service in cafedebugdb minio minio-mc; do
+    for service in cafedebugdb minio minio-mc cafedebug-api; do
         if is_service_running "${service}"; then
             echo_ok "${service}: running"
         else
@@ -153,6 +149,14 @@ status_cmd() {
         echo_ok "MinIO health endpoint is reachable."
     else
         echo_warning "MinIO health endpoint is not reachable (http://localhost:9000/minio/health/live)."
+    fi
+
+    local api_port
+    api_port="$(get_env_value "CAFEDEBUG_API_PORT" || echo "8080")"
+    if curl -fsS --max-time 3 "http://localhost:${api_port}/health" >/dev/null 2>&1; then
+        echo_ok "CafeDebug API health endpoint is reachable (http://localhost:${api_port}/health)."
+    else
+        echo_warning "CafeDebug API health endpoint is not reachable (http://localhost:${api_port}/health)."
     fi
 
     if is_service_running "cafedebugdb"; then
@@ -206,7 +210,7 @@ doctor_cmd() {
     fi
 
     subtitle "Service runtime"
-    for service in cafedebugdb minio minio-mc; do
+    for service in cafedebugdb minio minio-mc cafedebug-api; do
         if is_service_running "${service}"; then
             echo_ok "${service}: running"
         else
@@ -234,6 +238,15 @@ doctor_cmd() {
         echo_ok "MinIO readiness check passed."
     else
         echo_error "MinIO readiness check failed (http://localhost:9000/minio/health/ready)."
+        failed=1
+    fi
+
+    local api_port
+    api_port="$(get_env_value "CAFEDEBUG_API_PORT" || echo "8080")"
+    if curl -fsS --max-time 5 "http://localhost:${api_port}/health" >/dev/null 2>&1; then
+        echo_ok "CafeDebug API readiness check passed (http://localhost:${api_port}/health)."
+    else
+        echo_error "CafeDebug API readiness check failed (http://localhost:${api_port}/health)."
         failed=1
     fi
 

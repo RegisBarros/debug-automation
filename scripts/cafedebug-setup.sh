@@ -27,11 +27,11 @@ source "${SCRIPT_DIR}/functions.sh"
 	  fi
 	done
 
-  # Start all services
-  echo "Starting services using compose files: ${COMPOSE_FILES[*]}"
+  # Start only core infra first (DB + MinIO), then start API after SQL seed.
+  echo "Starting core services using compose files: ${COMPOSE_FILES[*]}"
   docker-compose "${COMPOSE_FILES[@]}" down || true
-  docker-compose "${COMPOSE_FILES[@]}" up -d
-  echo_ok "Services started successfully"
+  docker-compose "${COMPOSE_FILES[@]}" up -d cafedebugdb minio minio-mc cafedebug-api
+  echo_ok "Core services started successfully"
 
   echo_info "Waiting for MySQL to complete initialization (this may take 1-2 minutes)..."
   
@@ -40,16 +40,11 @@ source "${SCRIPT_DIR}/functions.sh"
   WAITED=0
   echo "Checking MySQL readiness..."
   
-  # Set MySQL auth based on docker-compose.yml environment
-  # Check if MYSQL_ROOT_PASSWORD is set in docker-compose.yml
-  if grep -q "MYSQL_ROOT_PASSWORD" "$PROJECT_ROOT_DIR/docker-compose.yml"; then
-    MYSQL_ROOT_PASSWORD=$(grep "MYSQL_ROOT_PASSWORD:" "$PROJECT_ROOT_DIR/docker-compose.yml" | sed 's/.*MYSQL_ROOT_PASSWORD:[[:space:]]*["'\'']*\([^"'\'']*\)["'\'']*$/\1/' | tr -d '"' | xargs)
-    MYSQL_AUTH="-uroot -p${MYSQL_ROOT_PASSWORD}"
-    echo_info "Found MySQL root password in docker-compose.yml"
-  else
-    MYSQL_AUTH="-uroot"
-    echo_info "No MySQL root password found, using passwordless auth"
-  fi
+  # Set MySQL auth based on .env (single source of truth)
+  MYSQL_ROOT_PASSWORD=$(grep -E '^MYSQL_ROOT_PASSWORD=' "$PROJECT_ROOT_DIR/.env" 2>/dev/null | cut -d'=' -f2 | tr -d '"' | xargs || true)
+  MYSQL_ROOT_PASSWORD="${MYSQL_ROOT_PASSWORD:-root}"
+  MYSQL_AUTH="-uroot -p${MYSQL_ROOT_PASSWORD}"
+  echo_info "Using MySQL root password from .env"
   
   while true; do
     # Test the MySQL connection with the detected authentication
@@ -141,4 +136,35 @@ source "${SCRIPT_DIR}/functions.sh"
     fi
   else
     echo_warning "Warning: create-minio-buckets.sh not found or not executable at $PROJECT_ROOT_DIR/scripts/; skipping bucket creation"
+  fi
+
+  API_ENABLED=$(grep -E '^CAFEDEBUG_API_ENABLED=' "$PROJECT_ROOT_DIR/.env" 2>/dev/null | cut -d'=' -f2 | tr -d '"' | xargs || echo "true")
+  API_ENABLED="${API_ENABLED:-true}"
+  API_ENABLED_LOWER=$(echo "$API_ENABLED" | tr '[:upper:]' '[:lower:]')
+
+  if [ "$API_ENABLED_LOWER" = "false" ]; then
+    echo_info "CAFEDEBUG_API_ENABLED=false — skipping API startup."
+    exit 0
+  fi
+
+  echo_info "Starting CafeDebug API after DB seed..."
+  docker-compose "${COMPOSE_FILES[@]}" up -d cafedebug-api
+
+  # Wait for CafeDebug API to be healthy
+  API_PORT=$(grep -E '^CAFEDEBUG_API_PORT=' "$PROJECT_ROOT_DIR/.env" 2>/dev/null | cut -d'=' -f2 | tr -d '"' | xargs || echo "8080")
+  API_PORT="${API_PORT:-8080}"
+  echo_info "Waiting for CafeDebug API on port $API_PORT..."
+  API_MAX_WAIT=120
+  API_WAITED=0
+  until curl -fsS --max-time 3 "http://localhost:${API_PORT}/health" >/dev/null 2>&1; do
+    sleep 5
+    API_WAITED=$((API_WAITED + 5))
+    if [ "$API_WAITED" -ge "$API_MAX_WAIT" ]; then
+      echo_warning "CafeDebug API did not become healthy within ${API_MAX_WAIT}s — check logs: docker logs cafedebug-backend.api"
+      break
+    fi
+    echo_info "API not ready yet... ($API_WAITED/${API_MAX_WAIT}s)"
+  done
+  if curl -fsS --max-time 3 "http://localhost:${API_PORT}/health" >/dev/null 2>&1; then
+    echo_ok "CafeDebug API is healthy at http://localhost:${API_PORT}"
   fi

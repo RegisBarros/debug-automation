@@ -50,3 +50,43 @@ services:
     environment:
       MINIO_ROOT_USER: "minioadmin"
       MINIO_ROOT_PASSWORD: "minioadmin"
+
+  cafedebug-api:
+    container_name: cafedebug-backend.api
+    image: ${CAFEDEBUG_API_IMAGE_REPOSITORY:-jnathany/cafedebug-backend-api}:${CAFEDEBUG_API_IMAGE_TAG:-latest}
+    ports:
+      - "${CAFEDEBUG_API_PORT:-8080}:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__CafedebugConnectionStringMySQL: "Server=cafedebugdb;Port=3306;Database=${MYSQL_DATABASE:-cafedebug-mysql-local};User=root;Password=${MYSQL_ROOT_PASSWORD:-root};"
+      JwtSettings__Issuer: ${JWT_ISSUER:-https://api.cafedebug.com.br}
+      JwtSettings__Audience: ${JWT_AUDIENCE:-https://cafedebug.com.br}
+      JwtSettings__SigningKey: ${JWT_SIGNING_KEY:-change-this-local-dev-signing-key-min-32-chars}
+      JwtSettings__ValidForMinutes: ${JWT_VALID_FOR_MINUTES:-15}
+      JwtSettings__RefreshTokenValidForMinutes: ${JWT_REFRESH_VALID_FOR_MINUTES:-10080}
+      Storage__AWS__S3__ServiceUrl: http://minio:9000
+      Storage__AWS__S3__Bucket: cafedebug-uploads
+      Storage__AWS__S3__Region: us-east-1
+      Storage__AWS__S3__BaseUrl: http://localhost:${CAFEDEBUG_API_PORT:-8080}/cafedebug-uploads
+      Storage__AWS__S3__ForcePathStyle: "true"
+      Storage__AWS__S3__UseHttp: "true"
+      AWS_ACCESS_KEY_ID: ${MINIO_ROOT_USER:-minioadmin}
+      AWS_SECRET_KEY: ${MINIO_ROOT_PASSWORD:-minioadmin}
+      SMTP_SERVER: localhost
+      SMTP_PORT: 25
+      SMTP_USERNAME: dev
+      SMTP_PASSWORD: dev
+      SMTP_FROM_EMAIL: dev@localhost
+      SMTP_FROM_NAME: CafeDebug Dev
+    depends_on:
+      cafedebugdb:
+        condition: service_started
+      minio:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
