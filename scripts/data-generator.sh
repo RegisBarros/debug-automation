@@ -1,15 +1,16 @@
 #!/bin/bash
+set -euo pipefail
 
-# Define the root directory of the project (one level up from the script directory)
-PROJECT_ROOT_DIR="$(dirname "$0")/.."
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "${SCRIPT_DIR}/functions.sh"
+
+init_script_paths "${BASH_SOURCE[0]}"
 
 echo "..:: Do you want to generate test data? (Y/N) ::.."
-read -p "Answer: " -n 1 -r
+read -r -p "Answer: " -n 1 REPLY
 echo
 
-if [[ "$REPLY" =~ ^[Yy]$ ]]; then
-    
-    # generate data users
+if [[ "${REPLY}" =~ ^[Yy]$ ]]; then
     users=(
         '{
             "firstName": "John", 
@@ -53,22 +54,31 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
             "country": "BRA",
             "creditCardNumber": "7789-5678-1163-5890"
         }'
+        '{
+            "firstName": "Khaled",
+            "secondName": "Al jadaan",
+            "email": "Khaled.aljadaan@gmail.com", 
+            "age": 33,
+            "password": "TestPassword123!",
+            "phoneNumber": "+966567788990", 
+            "address": "Rua das Flores, 123", 
+            "city": "Riyadh", 
+            "state": "Riyadh", 
+            "zipCode": "11441", 
+            "country": "SAU",
+            "creditCardNumber": "1234-5678-1234-5678"
+        }'
     )
 
-    #directory to store json file
-    JSON_DIR="$PROJECT_ROOT_DIR/data/users"
+    JSON_DIR="${PROJECT_ROOT_DIR}/data/users"
+    mkdir -p "${JSON_DIR}"
 
-    #create directory if not exists
-    mkdir -p "$JSON_DIR"
-
-    # generate json file for each user
     for ((i=0; i<${#users[@]}; i++)); do
-        echo "${users[i]}" > "$JSON_DIR/user_$i.json"
-        echo "Generated: $JSON_DIR/user_$i.json"
+        printf '%s\n' "${users[i]}" > "${JSON_DIR}/user_${i}.json"
+        echo "Generated: ${JSON_DIR}/user_${i}.json"
     done
 
     echo "User data generation complete!"
 else
     echo "User opted not to generate data. Exiting."
 fi
-# deixar genérico incluir dados do cartão e banco para massa de dados para teste

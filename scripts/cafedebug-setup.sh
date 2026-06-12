@@ -1,170 +1,132 @@
-  #!/bin/bash
+#!/bin/bash
 set -euo pipefail
 
-# Source functions for colored output and utilities
-SCRIPT_DIR="$(dirname "$0")"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "${SCRIPT_DIR}/functions.sh"
 
-# Define the root directory of the project (one level up from the script directory)
-  PROJECT_ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+init_script_paths "${BASH_SOURCE[0]}"
+resolve_compose_cmd || exit 1
+build_compose_files
 
-  # Read MySQL version from docker-compose.yml
-  MySQL_VERSION=$(grep -o 'mysql:[0-9]\+\.[0-9]\+' "$PROJECT_ROOT_DIR/docker-compose.yml" | cut -d':' -f2 || echo "8.0")
-  
-  echo_info "Using MySQL version $MySQL_VERSION from docker-compose.yml"
-  
-  ## Build list of compose files to use (root + optional api/ and svc/ fragments)
-  COMPOSE_FILES=("-f" "$PROJECT_ROOT_DIR/docker-compose.yml")
-  
-  # include svc/* docker-compose.yml fragments (e.g. svc/minio/docker-compose.yml)
-	for svc_file in "$PROJECT_ROOT_DIR"/svc/*/minio.yml; do
-	  if [ -f "$svc_file" ] && grep -q "^services:\|^services\s*:\s*$" "$svc_file"; then
-		COMPOSE_FILES+=("-f" "$svc_file")
-	  else
-		if [ -f "$svc_file" ]; then
-		  echo_info "Note: $svc_file exists but does not contain 'services:' — skipping inclusion"
-		fi
-	  fi
-	done
+MySQL_VERSION=$(grep -o 'mysql:[0-9]\+\.[0-9]\+' "${PROJECT_ROOT_DIR}/docker-compose.yml" | cut -d':' -f2 || echo "8.0")
+echo_info "Using MySQL version ${MySQL_VERSION} from docker-compose.yml"
 
-  # Start only core infra first (DB + MinIO), then start API after SQL seed.
-  echo "Starting core services using compose files: ${COMPOSE_FILES[*]}"
-  docker-compose "${COMPOSE_FILES[@]}" down || true
-  docker-compose "${COMPOSE_FILES[@]}" up -d cafedebugdb minio minio-mc cafedebug-api
-  echo_ok "Core services started successfully"
+echo "Starting core services using compose files: ${COMPOSE_FILES[*]}"
+compose down || true
+compose up -d cafedebugdb minio minio-mc
+echo_ok "Core services started successfully"
 
-  echo_info "Waiting for MySQL to complete initialization (this may take 1-2 minutes)..."
-  
-  # Wait for MySQL to be completely ready - not just ping-able
-  MAX_WAIT=180  # Increased timeout for full initialization
-  WAITED=0
-  echo "Checking MySQL readiness..."
-  
-  # Set MySQL auth based on .env (single source of truth)
-  MYSQL_ROOT_PASSWORD=$(grep -E '^MYSQL_ROOT_PASSWORD=' "$PROJECT_ROOT_DIR/.env" 2>/dev/null | cut -d'=' -f2 | tr -d '"' | xargs || true)
-  MYSQL_ROOT_PASSWORD="${MYSQL_ROOT_PASSWORD:-root}"
-  MYSQL_AUTH="-uroot -p${MYSQL_ROOT_PASSWORD}"
-  echo_info "Using MySQL root password from .env"
-  
-  while true; do
-    # Test the MySQL connection with the detected authentication
-    if docker-compose "${COMPOSE_FILES[@]}" exec -T cafedebugdb mysql $MYSQL_AUTH -e "SELECT 1" >/dev/null 2>&1; then
-      echo_ok "MySQL is ready and accessible."
-      break
+echo_info "Waiting for MySQL to complete initialization (this may take 1-2 minutes)..."
+
+MAX_WAIT=180
+WAITED=0
+echo "Checking MySQL readiness..."
+
+MYSQL_ROOT_PASSWORD="$(get_env_value "MYSQL_ROOT_PASSWORD" || echo "root")"
+MYSQL_AUTH="-uroot -p${MYSQL_ROOT_PASSWORD}"
+echo_info "Using MySQL root password from .env"
+
+while true; do
+    if compose exec -T cafedebugdb mysql ${MYSQL_AUTH} -e "SELECT 1" >/dev/null 2>&1; then
+        echo_ok "MySQL is ready and accessible."
+        break
     fi
-    
-    # Check if MySQL is still initializing by looking for the "ready for connections" message
+
     if docker logs cafedebugdb 2>&1 | tail -10 | grep -q "ready for connections.*port: 3306"; then
-      echo_info "MySQL reports ready, but connection test failed. Waiting a bit more..."
-      sleep 5
+        echo_info "MySQL reports ready, but connection test failed. Waiting a bit more..."
+        sleep 5
     else
-      echo_info "MySQL still initializing... ($WAITED/$MAX_WAIT seconds)"
+        echo_info "MySQL still initializing... (${WAITED}/${MAX_WAIT} seconds)"
     fi
-    
+
     sleep 5
-    WAITED=$((WAITED+5))
-    if [ "$WAITED" -ge "$MAX_WAIT" ]; then
-      echo_error "Timed out waiting for MySQL to become ready. Logs:"
-      docker logs cafedebugdb --tail=50
-      echo_error "Attempted MySQL auth: $MYSQL_AUTH"
-      exit 1
+    WAITED=$((WAITED + 5))
+    if [ "${WAITED}" -ge "${MAX_WAIT}" ]; then
+        echo_error "Timed out waiting for MySQL to become ready. Logs:"
+        docker logs cafedebugdb --tail=50
+        echo_error "Attempted MySQL auth: ${MYSQL_AUTH}"
+        exit 1
     fi
-  done
-  
-  # Give MySQL a few more seconds to fully stabilize
-  echo_info "MySQL is ready. Waiting additional 10 seconds for full stabilization..."
-  sleep 10
+done
 
-  # Resolve the container id for the service (use docker-compose ps -q)
-  CID=$(docker-compose "${COMPOSE_FILES[@]}" ps -q cafedebugdb || true)
-  if [ -z "${CID:-}" ]; then
-    echo_warning "Warning: could not determine container id for cafedebugdb; falling back to service name"
-    CID="cafedebugdb"
-  fi
+echo_info "MySQL is ready. Waiting additional 10 seconds for full stabilization..."
+sleep 10
 
-  # Helper functions for MySQL operations using detected auth
-  run_mysql_cmd() {
-    # $1 is the SQL statement to run non-interactively
-    docker exec "${CID}" /usr/bin/mysql ${MYSQL_AUTH} -e "$1"
-  }
+# Use docker compose exec (not docker exec with /usr/bin/mysql) so Git Bash on
+# Windows does not rewrite container paths to C:/Program Files/Git/...
+run_mysql_cmd() {
+    compose exec -T cafedebugdb mysql ${MYSQL_AUTH} -e "$1"
+}
 
-  run_mysql_stdin() {
-    # pipes stdin into mysql for the target database passed as first arg
+run_mysql_stdin() {
     local target_db="${1:-}"
-    docker exec -i "${CID}" /usr/bin/mysql ${MYSQL_AUTH} "${target_db}"
-  }
+    compose exec -T cafedebugdb mysql ${MYSQL_AUTH} "${target_db}"
+}
 
-  # Ensure the target database exists
-  echo_info "Ensuring target database exists (cafedebug-mysql-local)..."
-  CREATE_DB_SQL='CREATE DATABASE IF NOT EXISTS `cafedebug-mysql-local` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;'
+echo_info "Ensuring target database exists (cafedebug-mysql-local)..."
+CREATE_DB_SQL='CREATE DATABASE IF NOT EXISTS `cafedebug-mysql-local` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;'
+run_mysql_cmd "${CREATE_DB_SQL}"
+echo_ok "Database ensured."
 
-  run_mysql_cmd "$CREATE_DB_SQL"
-  echo_ok "Database ensured."
+SQL_CREATE_PATH="${PROJECT_ROOT_DIR}/database/mysql/cafedebugdb/cafedebug-mysql-create-table.sql"
+SQL_INSERT_PATH="${PROJECT_ROOT_DIR}/database/mysql/cafedebugdb/cafedebug-mysql-insert.sql"
 
-  # Paths to the SQL files from the project root
-  SQL_CREATE_PATH="$PROJECT_ROOT_DIR/database/mysql/cafedebugdb/cafedebug-mysql-create-table.sql"
-  SQL_INSERT_PATH="$PROJECT_ROOT_DIR/database/mysql/cafedebugdb/cafedebug-mysql-insert.sql"
-
-  # Execute the create and insert scripts
-  echo_info "Applying SQL create script..."
-  if [ -f "$SQL_CREATE_PATH" ]; then
-    cat "$SQL_CREATE_PATH" | run_mysql_stdin cafedebug-mysql-local
+echo_info "Applying SQL create script..."
+if [ -f "${SQL_CREATE_PATH}" ]; then
+    cat "${SQL_CREATE_PATH}" | run_mysql_stdin cafedebug-mysql-local
     echo_ok "Create script applied successfully"
-  else
-    echo_error "Create script not found at $SQL_CREATE_PATH"
+else
+    echo_error "Create script not found at ${SQL_CREATE_PATH}"
     exit 1
-  fi
+fi
 
-  echo_info "Applying SQL insert script..."
-  if [ -f "$SQL_INSERT_PATH" ]; then
-    cat "$SQL_INSERT_PATH" | run_mysql_stdin cafedebug-mysql-local
+echo_info "Applying SQL insert script..."
+if [ -f "${SQL_INSERT_PATH}" ]; then
+    cat "${SQL_INSERT_PATH}" | run_mysql_stdin cafedebug-mysql-local
     echo_ok "Insert script applied successfully"
-  else
-    echo_error "Insert script not found at $SQL_INSERT_PATH"
+else
+    echo_error "Insert script not found at ${SQL_INSERT_PATH}"
     exit 1
-  fi
-  
-  # Ensure Minio buckets exist (delegates to scripts/create-minio-buckets.sh)
-  echo_info "Ensuring Minio buckets..."
-  DEFAULT_BUCKETS=("cafedebug-uploads" "cafedebug-images")
-  if [ -x "$PROJECT_ROOT_DIR/scripts/create-minio-buckets.sh" ]; then
+fi
+
+echo_info "Ensuring Minio buckets..."
+DEFAULT_BUCKETS=("cafedebug-uploads" "cafedebug-images")
+MINIO_BUCKETS_SCRIPT="${PROJECT_ROOT_DIR}/scripts/create-minio-buckets.sh"
+if [ -f "${MINIO_BUCKETS_SCRIPT}" ]; then
     if [ -n "${MINIO_BUCKETS:-}" ]; then
-      IFS=',' read -r -a _buckets <<< "${MINIO_BUCKETS}"
-      "$PROJECT_ROOT_DIR/scripts/create-minio-buckets.sh" "${_buckets[@]}"
+        IFS=',' read -r -a _buckets <<< "${MINIO_BUCKETS}"
+        bash "${MINIO_BUCKETS_SCRIPT}" "${_buckets[@]}"
     else
-      "$PROJECT_ROOT_DIR/scripts/create-minio-buckets.sh" "${DEFAULT_BUCKETS[@]}"
+        bash "${MINIO_BUCKETS_SCRIPT}" "${DEFAULT_BUCKETS[@]}"
     fi
-  else
-    echo_warning "Warning: create-minio-buckets.sh not found or not executable at $PROJECT_ROOT_DIR/scripts/; skipping bucket creation"
-  fi
+else
+    echo_warning "Warning: create-minio-buckets.sh not found at ${MINIO_BUCKETS_SCRIPT}; skipping bucket creation"
+fi
 
-  API_ENABLED=$(grep -E '^CAFEDEBUG_API_ENABLED=' "$PROJECT_ROOT_DIR/.env" 2>/dev/null | cut -d'=' -f2 | tr -d '"' | xargs || echo "true")
-  API_ENABLED="${API_ENABLED:-true}"
-  API_ENABLED_LOWER=$(echo "$API_ENABLED" | tr '[:upper:]' '[:lower:]')
+API_ENABLED="$(get_env_value "CAFEDEBUG_API_ENABLED" || echo "true")"
+API_ENABLED_LOWER="$(printf '%s' "${API_ENABLED}" | tr '[:upper:]' '[:lower:]')"
 
-  if [ "$API_ENABLED_LOWER" = "false" ]; then
+if [ "${API_ENABLED_LOWER}" = "false" ]; then
     echo_info "CAFEDEBUG_API_ENABLED=false — skipping API startup."
     exit 0
-  fi
+fi
 
-  echo_info "Starting CafeDebug API after DB seed..."
-  docker-compose "${COMPOSE_FILES[@]}" up -d cafedebug-api
+echo_info "Starting CafeDebug API after DB seed..."
+compose up -d cafedebug-api
 
-  # Wait for CafeDebug API to be healthy
-  API_PORT=$(grep -E '^CAFEDEBUG_API_PORT=' "$PROJECT_ROOT_DIR/.env" 2>/dev/null | cut -d'=' -f2 | tr -d '"' | xargs || echo "8080")
-  API_PORT="${API_PORT:-8080}"
-  echo_info "Waiting for cafedebug-backend.api API on port $API_PORT..."
-  API_MAX_WAIT=120
-  API_WAITED=0
-  until curl -fsS --max-time 3 "http://localhost:${API_PORT}/health" >/dev/null 2>&1; do
+API_PORT="$(get_env_value "CAFEDEBUG_API_PORT" || echo "8080")"
+echo_info "Waiting for cafedebug-backend.api API on port ${API_PORT}..."
+API_MAX_WAIT=120
+API_WAITED=0
+until curl -fsS --max-time 3 "http://localhost:${API_PORT}/health" >/dev/null 2>&1; do
     sleep 5
     API_WAITED=$((API_WAITED + 5))
-    if [ "$API_WAITED" -ge "$API_MAX_WAIT" ]; then
-      echo_warning "CafeDebug API did not become healthy within ${API_MAX_WAIT}s — check logs: docker logs cafedebug-backend.api"
-      break
+    if [ "${API_WAITED}" -ge "${API_MAX_WAIT}" ]; then
+        echo_warning "CafeDebug API did not become healthy within ${API_MAX_WAIT}s — check logs: docker logs cafedebug-backend.api"
+        break
     fi
-    echo_info "API not ready yet... ($API_WAITED/${API_MAX_WAIT}s)"
-  done
-  if curl -fsS --max-time 3 "http://localhost:${API_PORT}/health" >/dev/null 2>&1; then
+    echo_info "API not ready yet... (${API_WAITED}/${API_MAX_WAIT}s)"
+done
+if curl -fsS --max-time 3 "http://localhost:${API_PORT}/health" >/dev/null 2>&1; then
     echo_ok "CafeDebug API is healthy at http://localhost:${API_PORT}"
-  fi
+fi

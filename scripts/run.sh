@@ -111,6 +111,51 @@ is_service_running() {
     [ "${status}" = "running" ]
 }
 
+# Report long-running services as running; minio-mc is a one-shot job (exited 0 = OK).
+check_core_service() {
+    local service="$1"
+    local strict="${2:-0}"
+    local cid status exit_code
+
+    cid="$(compose ps -aq "${service}" 2>/dev/null | head -n 1 || true)"
+    if [ -z "${cid}" ]; then
+        if [ "${strict}" -eq 1 ]; then
+            echo_error "${service}: not started"
+            return 1
+        fi
+        echo_warning "${service}: not running"
+        return 1
+    fi
+
+    status="$(docker inspect -f '{{.State.Status}}' "${cid}" 2>/dev/null || true)"
+
+    if [ "${status}" = "running" ]; then
+        echo_ok "${service}: running"
+        return 0
+    fi
+
+    if [ "${service}" = "minio-mc" ] && [ "${status}" = "exited" ]; then
+        exit_code="$(docker inspect -f '{{.State.ExitCode}}' "${cid}" 2>/dev/null || echo 1)"
+        if [ "${exit_code}" = "0" ]; then
+            echo_ok "${service}: completed (one-shot)"
+            return 0
+        fi
+        if [ "${strict}" -eq 1 ]; then
+            echo_error "${service}: exited with code ${exit_code}"
+            return 1
+        fi
+        echo_warning "${service}: exited with code ${exit_code}"
+        return 1
+    fi
+
+    if [ "${strict}" -eq 1 ]; then
+        echo_error "${service}: ${status}"
+        return 1
+    fi
+    echo_warning "${service}: ${status}"
+    return 1
+}
+
 detect_mysql_auth() {
     local mysql_root_password
     mysql_root_password="$(get_env_value "MYSQL_ROOT_PASSWORD" || echo "root")"
@@ -137,11 +182,7 @@ status_cmd() {
 
     subtitle "Core services"
     for service in cafedebugdb minio minio-mc cafedebug-api; do
-        if is_service_running "${service}"; then
-            echo_ok "${service}: running"
-        else
-            echo_warning "${service}: not running"
-        fi
+        check_core_service "${service}" 0 || true
     done
 
     subtitle "Quick checks"
@@ -211,10 +252,7 @@ doctor_cmd() {
 
     subtitle "Service runtime"
     for service in cafedebugdb minio minio-mc cafedebug-api; do
-        if is_service_running "${service}"; then
-            echo_ok "${service}: running"
-        else
-            echo_error "${service}: not running"
+        if ! check_core_service "${service}" 1; then
             failed=1
         fi
     done
