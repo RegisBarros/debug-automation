@@ -5061,6 +5061,20 @@ VALUES(
     '2024-01-01 00:00:00',
     '2024-01-01 00:00:00');
 
+INSERT INTO TeamMember (Name, Email, Bio, PodcastRole, GithubUrl, LinkedInUrl, ProfilePhotoUrl, JobTitle, IsActive, CreatedAt, UpdatedAt)
+VALUES(
+    'Thiago Carvalho',
+    'thiago@test.com',
+    'Jornalista de formação e pós-graduando em Marketing pela USP ESALQ. Construí uma trajetória profissional sólida na interseção entre comunicação, produção de conteúdo estratégico, de impacto e performance, marketing e estratégia digital.',
+    'Editor de podcast',
+    null, 
+    'https://www.linkedin.com/in/thi-agocarvalho', 
+    'https://cafedebug-uploads.s3.us-east-2.amazonaws.com/23e57272-f7bd-419d-afb6-94b7d907bff8thiago.jpg', 
+    'Analista de Marketing, produtor e Editor de áudio',
+    1,
+    '2026-09-13 00:00:00',
+    '2026-09-13 00:00:00');
+
 -- Insert user admin
 INSERT INTO UserAdmin (Name, Email, HashedPassword) 
 VALUES(
