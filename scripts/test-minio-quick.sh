@@ -17,4 +17,4 @@ fi
 echo
 # quick attempt to list buckets using mc inside a transient container
 echo "Listing buckets via minio/mc (may create alias)..."
-docker run --rm --network $(basename $(pwd))_default --entrypoint /bin/sh minio/mc -c "mc --insecure alias set myminio http://minio:9000 minioadmin minioadmin && mc --insecure ls myminio" || echo "Failed to list buckets via mc"
+docker run --rm --network $(basename $(pwd))_default --entrypoint /bin/sh quay.io/minio/mc:latest -c "mc --insecure alias set myminio http://minio:9000 minioadmin minioadmin && mc --insecure ls myminio" || echo "Failed to list buckets via mc"
