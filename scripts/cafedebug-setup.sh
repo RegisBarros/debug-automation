@@ -13,6 +13,8 @@ echo_info "Using MySQL version ${MySQL_VERSION} from docker-compose.yml"
 
 echo "Starting core services using compose files: ${COMPOSE_FILES[*]}"
 compose down || true
+echo_info "Pulling core service images from Docker Hub..."
+compose pull cafedebugdb minio minio-mc
 compose up -d cafedebugdb minio minio-mc
 echo_ok "Core services started successfully"
 
@@ -112,6 +114,8 @@ if [ "${API_ENABLED_LOWER}" = "false" ]; then
 fi
 
 echo_info "Starting CafeDebug API after DB seed..."
+echo_info "Pulling CafeDebug API image from Docker Hub..."
+compose pull cafedebug-api
 compose up -d cafedebug-api
 
 API_PORT="$(get_env_value "CAFEDEBUG_API_PORT" || echo "8080")"

@@ -3,7 +3,7 @@ version: '3.8'
 services:
   minio:
     container_name: minio
-    image: minio/minio:latest
+    image: quay.io/minio/minio:latest
     command: server /data --console-address ":9001"
     environment:
       MINIO_ROOT_USER: "minioadmin"
@@ -20,7 +20,7 @@ services:
       retries: 8
 
   minio-mc:
-    image: minio/mc
+    image: quay.io/minio/mc:latest
     depends_on:
       - minio
     entrypoint: ["/bin/sh", "-c"]
